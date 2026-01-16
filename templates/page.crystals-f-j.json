@@ -1,0 +1,478 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-2789993d": {
+      "type": "pf-2789993d",
+      "disabled": true,
+      "settings": {}
+    },
+    "page_richtext_section_cULCgB": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_jib63U": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h5><strong>✧ Each crystal holds a power and energetic makeup of its very own ✧</strong></h5><p>Browse our crystals below and their meanings to find the perfect one for you.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_jib63U"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title-t": "Crystals F - J",
+        "title": "Discover other crystals:\n<br>\n<a href=\"/pages/discovercrystals\">&gt; Crystals A - E</a>\n<br>\n<a href=\"/pages/crystals-k-p\">&gt; Crystals K - P</a>\n<br>\n<a href=\"/pages/discover-q-z\">&gt; Crystals Q - Z</a>",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary"
+      }
+    },
+    "right_image_text_ttXXEy": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_Qtkqmh": {
+          "type": "richtext",
+          "settings": {
+            "title": "Fire Quartz",
+            "richtext": "<p>Transformation ✧ Vitality ✧ Protection<em><br/></em></p><p>A powerful healing crystal for both the physical and emotional body, Fire Quartz is an excellent stone to assist with strength and finding new opportunities.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "It is also attributed with the power to allow a deeper connection and appreciation between lovers.\n\n<h5>Fire Quartz will help you find a new path or idea toward realising your goals.\n</h5>\nThis crystal helps to find the way to those deep desires you have been manifesting! Being associated with the base chakra, Fire Quartz can help to clear blocks or realign balance in this area. When we are out of balance in the base chakra, we feel erratic, anxious and aimless. Fire Quartz is very good at helping to promote physical vitality and strength, and would be of benefit to athletes or for those whom physical power is very important.",
+            "image": "shopify://shop_images/pf-d65a084a--CHAKRAS09_0d2059a7-666d-4c40-ae98-40d4b1f09958.webp",
+            "text-tc": "<p><strong>Origin:</strong> Madagascar<br/><strong>Colours: </strong>Scarlet<br/><strong>Helps with:</strong> Communication, connection, physical strength, realignment, balancing emotions, empathy.<br/><strong>Usage tip:</strong> Place a large piece of Fire Quartz in the south area of your home to promote deeper understanding and communication with your lover. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Qtkqmh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-4f601157--MEANING-PHOTOS14.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "right_image_text_AiBrgb": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_qD4LJP": {
+          "type": "richtext",
+          "settings": {
+            "title": "Flower Agate",
+            "richtext": "<p>Nurture ✧ Release ✧ Motivate</p><p>The beautiful pink and white colours along with blooms of flower like patterns make Flower Agate a stunning addition to any crystal collection.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "As an added benefit, this stone’s powerful connection to the feminine emits a nurturing and comforting energy. Acting through the heart and root chakras, Flower Agate helps connect our emotional selves to our current reality. When this is done, we have the freedom to release from emotional pain and past trauma, emerging into greater ease and allowing love to once again fill our inner selves. In this, Flower Agate is a powerful stone to use in your spiritual and emotional journey toward greater love of self.\n\n<h5>Flower Agate helps us heal past hurts, accept ourselves and move forward into a place of light and love. </h5>\n\nThis stone will allow you to leave behind your limitations, balance your energy, reach your highest potential and nurture your dreams into reality. Put simply, Flower Agate ignites your passion and zest for life, leaving behind any pain which has held you in a place of stagnation",
+            "image": "shopify://shop_images/flower-agate-1659672927521.webp",
+            "text-tc": "<p><strong>Origin:</strong> Madagascar<br/><strong>Colours:</strong> Pink and white.<br/><strong>Works with:</strong> Selenite, Quartz.<br/><strong>Helps with:</strong> Self-love, healing, comfort, emotional support, grounding, growth, inner peace, balance, self-discovery, nurturing, relaxing, manifesting realities, love, passion, motivation, inspiration.<br/><strong>Usage tip:</strong> Place Flower Agate directly over your heart during meditation to release emotional pain and assist in healing.Carry a piece of Flower Agate with you to remind you of your purpose.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_qD4LJP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0015_layer-3-1632784884362.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_TyEeCU": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ReVMaa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Fluorite",
+            "richtext": "<p>Clarity ✧ Empowerment ✧ Harmony<br/></p><p>Known for its assistance with the mind for clarity and mental enrichment, part of the versatility of Fluorite can be seen in its wide range of colours, from light green to the deepest of purples.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Rainbow Fluorite is the most versatile of all, with its bands of green, purple, pink, blue and aqua working with several chakras and embodying many different healing properties. Rainbow Fluorite facilitates energy flow between your chakras and helps to promote clear thinking and decision making.\n\n<h5>Excellent for clearing energy blocks and encouraging balance within your mind and body, Fluorite is a very useful crystal for the indecisive, those learning new subjects or embarking on daunting projects. </h5>\n\nIt's a relatively soft mineral, so care needs to be taken to ensure it remains pristine: fluorite scratches very easily.",
+            "image": "shopify://shop_images/pf-0960af6a--CHAKRAS17.webp",
+            "text-tc": "<p><strong>Origin: </strong>Australia, Brazil, China, United States.<br/><strong>Energy:</strong> Absorbs.<br/><strong>Colours:</strong> Aqua, blue, clear, green, pink, purple, rainbow, yellow.<br/><strong>Works with:</strong> Clear Quartz, Amethyst, Sodalite.<br/><strong>Helps with:</strong> Balancing and stabilising energies, decision making, clearing negativity, enhancing the body-mind-spirit connection, facilitating intuition and communication with the Divine, calming, enhancing creativity.<br/><strong>Usage tip:</strong> Hold Fluorite while meditating to focus on balancing energies and clearing your channels with the Divine. Place a piece of Fluorite near your work station to focus your mind. Store carefully away from other crystals to reduce the risk of scratches. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ReVMaa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0020_stockimage9252726s2015-1632796968112.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_V6gerF": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_bwrYBz": {
+          "type": "richtext",
+          "settings": {
+            "title": "Fuchsite",
+            "richtext": "<p>Compassion ✧ Clarity ✧ Healing</p><p>This protective stone is a beautiful addition to your crystal collection, being a sparkling green stone embedded with mica and sometimes, ruby.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "A powerful healing stone, Fuchsite is excellent for emotional, energetic and physical wellness. This crystal is considered to be very effective in promoting deep compassion and love, not only for others, but for yourself. Fuchsite will help you gain mental clarity, clear emotional blocks and help understand what you need to let go of to achieve true inner peace.\n\n<h5>A true problem solver, this crystal helps lift your vibration, balances and can boost your immune system. </h5>",
+            "image": "shopify://shop_images/pf-4a2878c6--CHAKRAS05.webp",
+            "text-tc": "<p><strong>Origin: </strong>Brazil, India, Russia.<br/><strong>Energy:</strong> Absorbs.<br/><strong>Colours:</strong> Green.<br/><strong>Works with: </strong>Ruby.<br/><strong>Helps with:</strong> Healing of emotional/physical/energetic issues, prosperity, regeneration, revitalisation, balance, love, enhancing energy of other crystals<br/><strong>Usage tip: </strong>A soft crystal, care must be taken to ensure your Fuchsite piece is not dented: store carefully. Carry with you daily to promote inner peace and clarity while opening up opportunities and divine inspiration. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bwrYBz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0014_stockimage49075337s2015-1632796961006.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_MqmR3J": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_LjqW4F": {
+          "type": "richtext",
+          "settings": {
+            "title": "Garnet",
+            "richtext": "<p>Endurance ✧ Creativity ✧ Strength</p><p>A fiery stone that acts with great speed, Garnet has been used for millennia to protect, invigorate and enhance creative powers.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "In its first uses during the Bronze Age, this beautiful red crystal was used as a talisman to ensure the completion of essential daily tasks like gathering food and creating tools.\n\n<h5>It’s effects on creativity and endurance in our physical world ever since is incredible! </h5>\n\nGarnets are also very grounding stones and are excellent for enhancing your ability to manifest your dreams and goals, and the endurance to bring those dreams to fruition. Wearing Garnet also produces a red shield charged with positive vibrations, strengthening the aura and repelling negative energies. Lastly, vibrations of devotion and commitment within this crystal make it an excellent stone for love and relationships.",
+            "image": "shopify://shop_images/flower-agate-1659672927521_23730cf7-58f2-4605-aba4-2eba653f80a2.webp",
+            "text-tc": "<p><strong>Origin: </strong>Sri Lanka, Afghanistan, Brazil, Austria, and India.<br/><strong>Energy:</strong> Amplify.<br/><strong>Colours:</strong> Red, blood red.<br/><strong>Works with:</strong> Rose Quartz.<br/><strong>Helps with:</strong> Strength, verve, vigour, grounding, protection, manifestation, relationships, creativity.<br/><strong>Usage tip: </strong>Wearing garnet boosts your vitality and attractiveness.Carry Garnet in your wallet or purse to attract abundance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_LjqW4F"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0014_layer-4-1632784884357.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_zkCAWH": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_HhWaRC": {
+          "type": "richtext",
+          "settings": {
+            "title": "Golden Quartz",
+            "richtext": "<p>Peace ✧ Harmony ✧ Positivity </p><p>Away with the fairies? Stuck in negativity? Golden Quartz will help root your thoughts to the physical world in a way that dispels negative energy, enhances joy and increases your focus.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "A combination of Quartz and Hematite, this pretty golden stone will clear unhelpful energies, and transmute those into tranquillity, clarity and positivity. Drawing internal chaos and negativity all the way from the Crown down to the Root Chakra out to the ground,\n\n<h5>Golden Quartz helps dissolve imbalances in the chakras and promote harmony throughout your energy body.</h5>\n\nThis calming stone for the mind is a wonderful memory enhancer and an aid to clarity of thought and control of stress.",
+            "image": "shopify://shop_images/root-1659672997749.webp",
+            "text-tc": "<p><strong>Energy:</strong> Amplify and Balancing.<br/><strong>Colours:</strong> Yellow and gold.<br/><strong>Works with:</strong> Zebra stone.<br/><strong>Helps with: </strong>Positivity, clearing negativity, clarity, manifestation, focus, concentration, balance, ease, memory, harmony. <br/><strong>Usage tip:</strong> Keep Golden Quartz by your work or study desk to enhance focus and concentration. Meditate with Golden Quartz on or near your Root Chakra to clear negativity and stress from your energy body.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HhWaRC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0017_golden-quartz-1659244535385.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_tjgJFq": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_KqcR88": {
+          "type": "richtext",
+          "settings": {
+            "title": "Golden Subsidian",
+            "richtext": "<p>Protection ✧ Higher-self ✧ Clarity </p><p>Golden Obsidian is a powerful stone which protects its users against negativity, and helps to reclaim the self from anxiety and depression. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Meditation with this crystal helps to release energetic blocks and place us back in the drivers’ seat of our personal power: only then can we achieve our full potential. \n\n<h5>Golden Obsidian is also useful for those healing from abusive relationships, activating the higher self and manifesting desires.</h5>\n\nThis beautiful crystal can help to open the door to inner thought during manifestation, awakening your creative thought and then helping to drive the action needed to bring those ideas into reality. In this way, Citrine is a stone which can bring great joy and abundance as your positive thoughts become tangible things. Also known as the ‘Merchant’s Stone’, Citrine will bring wealth and abundance to wherever it’s warming energy is directed.\nThis crystal is also associated with boosting the immunity, stamina and digestive orders, especially with its connections to the lower chakras. Citrine can also help clear energy blocks around feelings of lack and doubt.",
+            "image": "shopify://shop_images/golden-obsidian-1670194348411.webp",
+            "text-tc": "<p><strong>Origin: </strong>Mexico<br/><strong>Colours:</strong> Black, golden and yellow.<br/><strong>Helps with: </strong>Anxiety, negativity, protection, self-belief, higher realms, clearing, balancing.<br/><strong>Usage tip:</strong> Place Golden Obsidian on your work desk to repel negativity and help focus you on the task at hand. Meditate with Golden Obsidian placed over your Sacral chakra to clear energetic blocks and regain your personal power.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KqcR88"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/screenshot-20221205-at-7_0005_golden-obsidian-1670194362198.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_8KEqFE": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_Kj6JW3": {
+          "type": "richtext",
+          "settings": {
+            "title": "Grape Agate ",
+            "richtext": "<p>Intuition ✧ Higher realms ✧ Calming</p><p>This extremely rare and valuable stone is suited to those looking to expand or are already well established in their spiritual and emotional healing journey. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Used extensively for interdimensional work, Grape Agate is calming, will soothe the mind and allow for greater intuition and easier transitions into the higher realms. Once here, we connect to our higher self, the most pure and loving form of who we truly are. As such, Grape Agate is perfect for energy healers such as reiki practitioners, massage therapists, mediums, scribes etc. \n\n<h5> It is also extremely helpful for those with psychic abilities or anyone experiencing vivid dreams: with practice, this powerful stone will help you unravel and interpret these messages from the higher realms. </h5>\n\nFor those who love the beauty of Grape Agate it will impart a sense of deep relaxation and calm to anyone within its sphere of influence.Found only in Indonesia, Grape Agate is rare and valuable with many dyed counterfeit pieces making their way to market. The Shiny Storm team goes to great lengths to ensure the authenticity of all stones, especially Grape Agate. Please beware when purchasing this beautiful and extraordinary stone.",
+            "image": "shopify://shop_images/grape-agate-1670194473987.webp",
+            "text-tc": "<p><strong>Origin:</strong> Indonesia<br/><strong>Colours:</strong> Dark purple, light purple and violet.<br/>Works with: Angelite and Selenite.<br/><strong>Helps with: </strong>Intuition, interpretation, clarity, calming, relaxation, insight, psychic abilities, inspiration, wisdom, inner self, high realms, dreamwork, healing, expanded awareness, dreams, transition, transformation.<br/><strong>Usage tip: </strong>Place Grape Agate by your bedside and allow the powerful energies of this stone work while you sleep. As your mind becomes stronger with its help, you will have more control in your dreams and images, and your understanding of them will become clearer. Gift Grape Agate to any loved ones who tend to overwork or spread themselves too thinly across multiple areas.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Kj6JW3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/screenshot-20221205-at-7_0007_grape-agate-1670194459720.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_wjAWAk": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ERxD3Q": {
+          "type": "richtext",
+          "settings": {
+            "title": "Green Fluorite",
+            "richtext": "<p>Clarity ✧ Clearing ✧ Positivity<br/></p><p>This calcium crystal focuses on the heart chakra as a basis of facilitating clear energy flow through all the chakras.  As such, it strengthens the heart and mind connection, bringing that sought after balance between emotion and thought.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "For those who struggle with the feelings of the heart and the pragmatism of the mind, Green Fluorite is an excellent tool to help negotiate difficult decisions.\n\n<h5>Used in healing, this stone helps those suffering from emotional trauma to recover, and become more aware of the needs of the heart.</h5>\n\nGreen Fluorite is also associated with family, ancestors and community. Show your love for others and allow love in, clear negative energy and let this bright stone remind you of the beauty of this life.As a fluorite, this stone will also aid with clarity, calm and focus. Ultimately, Green Fluorite will add colour, energy and joy to your life.",
+            "image": "shopify://shop_images/heart-1659672849887_ff75e892-02ef-4d41-8157-1e62775e272d.webp",
+            "text-tc": "<p><strong>Origin:</strong> South Africa, China, Mexico, the United Kingdom, the United States, Canada, Tanzania, Rwanda, and Argentina.<br/><strong>Energy:</strong> Activation.<br/><strong>Colours: </strong>Green.<br/><strong>Works with:</strong> Emerald, Rose Quartz and Pink Tourmaline<br/>Helps with: Clearing energy blocks, expressing love, clarity, connection with family, Chakra clearing, balance, love, tranquillity, decision-making.<br/><strong>Usage tip:</strong> Place Green Fluorite in the East area of a room or your home to keep positive energy flowing there. Meditate with Green Fluorite before sleeping to encourage peaceful dreams and a positive outlook upon waking.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ERxD3Q"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0013_layer-5-1632784884345.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_WkqPAp": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_djQTJV": {
+          "type": "richtext",
+          "settings": {
+            "title": "Green Jade",
+            "richtext": "<p>Harmony ✧ Rejuvenating ✧ Healing</p><p>In the hierarchy of super stones, this is amongst the most regal.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "With a beautiful green lustre, Green Jade is used to bring balance and love to your heart, promote abundance and prosperity, strengthen the body, protect the soul and ground you in the divine wisdom of Mother Earth. Intensely aligned to the heart chakra like no other stone, TBH, there’s not much Green Jade can’t do. \n\n<h5>Green Jade brings the mind and body into harmony and promotes a balanced personality. The stone itself has an energetic structure which seeks to heal, rejuvenate, and nurture, providing physical, emotional and spiritual balance. When one uses Green Jade, one is experiencing a direct connection to pure love, from the heart of the stone to the heart of the user. Ask for prosperity, health and longevity and Green Jade will answer.  Green Jade also has a very deep connection with Mother Earth, helping to ground and connect the user joyfully with nature and its loving, nurturing energy. </h5>\n\nGreen Jade brings the mind and body into harmony and promotes a balanced personality. The stone itself has an energetic structure which seeks to heal, rejuvenate, and nurture, providing physical, emotional and spiritual balance. When one uses Green Jade, one is experiencing a direct connection to pure love, from the heart of the stone to the heart of the user. Ask for prosperity, health and longevity and Green Jade will answer.  Green Jade also has a very deep connection with Mother Earth, helping to ground and connect the user joyfully with nature and its loving, nurturing energy.",
+            "image": "shopify://shop_images/heart-1659672849887_b664d8fa-5276-43b1-9254-29deeecb468e.webp",
+            "text-tc": "<p><strong>Origin:</strong> New Zealand, Australia, Russia, Taiwan, Zimbabwe, Japan, North America and South America<br/><strong>Colours:</strong> Green and olive green.<br/><strong>Helps with:</strong> Love, calming, nurturing, prosperity, protection, emotional and spiritual balance,  wisdom, abundance, grounding, inner peace, confidence, truth, healing, longevity, luck, detoxification.<br/><strong>Usage tip:</strong> Place Jade nearby when recovering from physical injuries to assist in healing. Wear Jade to protect yourself from harm and promote inner peace.  Carry Jade if you are prone to general overwhelm, or know you will be facing a difficult situation.  Give Jade to children to protect them, bring serenity and abundance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_djQTJV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0020_green-jade-1659244535411.jpg",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_HDYGU6": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_dzJTix": {
+          "type": "richtext",
+          "settings": {
+            "title": "Green Jasper",
+            "richtext": "<p>Cleansing ✧ Healing ✧ Balance</p><p>Balance is key to a healthy, harmonious life. In essence, this stone helps stabilise vibrations in the body that have become erratic and out of equilibrium, bringing balance to your emotions and all aspects of life. Use this stone to prevent burn out at work, have the courage to speak out, and trust your personal independence and self-worth. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Balance is key to a healthy, harmonious life. In essence, this stone helps stabilise vibrations in the body that have become erratic and out of equilibrium, bringing balance to your emotions and all aspects of life.\n\n<h5>Use this stone to prevent burn out at work, have the courage to speak out, and trust your personal independence and self-worth.</h5>\n\nA healing stone in the physical realm too, Green Jasper works to detoxify organs and reduce inflammation.",
+            "image": "shopify://shop_images/heart-1659672849887_af35ee9a-f390-4fb4-b368-b8ec634cabf8.webp",
+            "text-tc": "<p><strong>Origin:</strong> Uruguay, Egypt, Kazakhstan, Brazil, Australia, Indonesia, Russia, Venezuela, United States, Madagascar and India.<br/><strong>Colours: </strong>Deep to light green.<br/><strong>Helps with: </strong>Dis-ease, purification, dispelling anxiety, clearing negativity, cleansing chakras, balance, healing, courage, harmony, stability, emotional health.<br/><strong>Usage tip:</strong>  Wear Green Jasper at your heart to help regulate your emotions throughout the day. Place Green Jasper in your living room, kitchen or anywhere the household gathers to invite harmonious balance in.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dzJTix"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0015_green-jasper-1659244535378.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_RkgCM3": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_H8Hdbr": {
+          "type": "richtext",
+          "settings": {
+            "title": "Halite",
+            "richtext": "<p>Cleansing ✧ Wellbeing ✧ Beauty</p><p>Halite is a powerful stone with a number of specific uses, namely in removing negativity and encouraging wellbeing.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Useful for detaching spiritual entities or those from a higher plane, in turn Halite will help with more positive spiritual development. \n\n<h5>This is beautiful, nurturing stone will promote feelings of love.</h5>\n\nBe careful though, as a salt mineral, Halite will dissolved if placed in water.",
+            "image": "shopify://shop_images/pf-b97cc542--CHAKRAS09_5318e4a6-bdfc-462c-a6b1-441691111270.webp",
+            "text-tc": "<p><strong>Origin:</strong> United States.<br/><strong>Colours: </strong>Pink.<br/><strong>Helps with: </strong>Dispelling negativity, detaching entities, spiritual knowledge, love, wellbeing.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_H8Hdbr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-b30682f6--MEANING-PHOTOS32.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_bVYXQm": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_cq3fkF": {
+          "type": "richtext",
+          "settings": {
+            "title": "Hematite",
+            "richtext": "<p>Grounding ✧ Strength ✧ Protection</p><p>This is the most powerful grounding stone available to us, something humans have known intuitively since the dawn of our time.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Archaeologists have found Hematite artefacts in South Africa dating to over 160,000 years ago. When ground, this iron oxide crystal turns red, and has been found on cave wall drawings and in ancient descriptions of battle wear.\n\n<h5>Simply, Hematite, or the ‘blood stone’, is a strengthening stone of the ages, and one powerful enough to help achieve your desires.\n</h5>\n\nAs a grounding stone associated with the Root chakra, Hematite will connect your body and mind with the Earth, clarifying your desires and pathways to achieve them. This crystal will help to balance your energy, and is a wonderful ‘mind cleanser’, aiding you with greater clarity and memory. Also known as a nurturing stone, Hematite is excellent for deep diving into the soul and past trauma with care, slowly and gently so that you can let go of limitations and begin to really thrive. Most helpful of all, Hematite is a great stone to help absorb negative energy around and within you.",
+            "image": "shopify://shop_images/root-1659672997749_b601f5e9-d130-4006-9706-4d462b8732fa.webp",
+            "text-tc": "<p><strong>Origin:</strong> Africa, Brazil, Switzerland, United Kingdom<br/><strong>Lattice:</strong> Hexagonal<br/><strong>Energy: </strong>Grounding, absorbs.<br/><strong>Colours:</strong> Metallic, grey.<br/><strong>Works with:</strong> Lapis lazuli, Malachite.<br/><strong>Helps with:</strong> Grounding, protection, strength, clarity, centering, calming, balance, focus.<br/><strong>Usage tip:</strong><br/>Hematite absorbs a lot of negative energy, which means it often breaks. If this occurs, simply return the stone to Mother Earth respectfully, and get a new Hematite.Wear or carry Hematite to enhance your mental processes, including mathematical skills, clarity and memory. Hematite absorbs a lot of negative energy, which means it often breaks. If this occurs, simply return the stone to Mother Earth respectfully, and get a new Hematite.Wear or carry Hematite to enhance your mental processes, including mathematical skills, clarity and memory.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_cq3fkF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/hemalite-1632781388728.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_BpAYXk": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_8zkWzi": {
+          "type": "richtext",
+          "settings": {
+            "title": "Howlite",
+            "richtext": "<p>Purity ✧ Divine ✧ Calm</p><p>Howlite is best used in linking to the divine, divine inspiration and healing.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Being white, grey or colourless, this crystal can be easily dyed. Unfortunately, some vendors participate in this practice, dying Howlite blue to then sell it as Turquoise, something Shiny Storm is strenuously against.\n\n\n<h5>Those using Howlite will understand its power as an excellent connector to the Divine, resonating deeply with both the Crown and Root chakras. </h5>\n\nA calming stone, this will enable you to open up the channels to divine inspiration within you, imparting a sense of confidence and strength within yourself and your own capabilities.\nIn particular, Howlite is very beneficial in helping to heal emotional damage and blocks, grounding the entirety of the user’s energy and allowing the mind to regain a sense of clarity.",
+            "image": "shopify://shop_images/pf-62402178--CHAKRAS08.webp",
+            "text-tc": "<p><strong>Origin:</strong> United States.<br/><strong>Energy:</strong> Absorbs.<br/><strong>Colours: </strong>White, grey, colourless.<br/><strong>Works with: </strong>Turquoise, amethyst, sodalite.<br/><strong>Helps with: </strong>Connecting to the Divine and higher truth, calming, reducing anxiety and stress, easing extreme emotions such as fury and misery.<br/><strong>Usage tip:</strong> Carry Howlite or wear it in jewellery during deeply distressing or stressful times. Meditate with Howlite to open your channels to the Divine. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_8zkWzi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0000_stockimage337226390s2015-1632796959934.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_jVg6fk": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_r6gEy6": {
+          "type": "richtext",
+          "settings": {
+            "title": "Iolite",
+            "richtext": "<p>Self-acceptance ✧ Higher communication ✧ Transformation</p><p>It soothes and promotes positivity and hope through its use in meditation. Iolite will help you decide which way to move forward from problems and trauma, restoring balance and happiness to your life. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "It soothes and promotes positivity and hope through its use in meditation. Iolite will help you decide which way to move forward from problems and trauma, restoring balance and happiness to your life. \n\n<h5>Activating and clearing the Third Eye chakra, this stone supports powerful and clear meditations, with visions and communication with higher dimensions possible.</h5>\n\nWe all possess psychic abilities, and Iolite will help you experience these abilities successfully through calming the mind during meditation for clearer vision. This provides comfort, intuition and confidence in your subsequent decisions. Iolite is also very helpful in assisting with recovery from both mental and physical addictions. This stone is highly recommended for those struggling with alcoholism, as it supports detoxification and restoration of the liver. Iolite can also relieve headaches and migraines.",
+            "image": "shopify://shop_images/third-eye-1659250091456.webp",
+            "text-tc": "<p><strong>Origin:</strong> Burma, India and Madagascar. <br/><strong>Colours: </strong>Blue and violet.<br/><strong>Works with:</strong> Peridot, Citrine, Hematite, Jet, Garnet and Black Tourmaline.  <br/><strong>Helps with: </strong>Dreams, meditation, inner work, higher self, self-healing, cleansing, restoration, detoxify, transformation, communication, calming, perception, focus.<br/><strong>Usage tip:</strong> Meditate with Iolite at every opportunity to benefit fully from it. Place Iolite in your office to enhance your leadership qualities.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_r6gEy6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0001_iolite-1659244535303.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_L6gb8H": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_iLw3Ur": {
+          "type": "richtext",
+          "settings": {
+            "title": "Jasper",
+            "richtext": "<p>Nurturing ✧ Grounding ✧ Joy</p><p>Coming in a variety of opaque colours, each associated with its corresponding chakra and powers, Jasper is a manifestation and grounding stone used to absorb and balance energies.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Its nurturing properties exude incredible warmth and pleasure, promoting abundant joy within the user and those around them. This is a wonderful crystal to have in your collection.\n\n<h5>Using Jasper leads to awareness of the self and others as well as providing love and support for physical manifestation. It also stabilizes and cleanses the aura and aligns the chakras.  </h5>\n\nJasper is a powerful ally in bringing balance to the physical, emotional and mental bodies. It can also help with astral travel.\n\nRed or black- root. Orange- sacral. Yellow or brown- solar plexus. Green- heart. Blue- throat or third eye.",
+            "image": "shopify://shop_images/pf-6944f4b5--CHAKRAS18.webp",
+            "text-tc": "<p><strong>Origin: </strong>All over the world.<br/><strong>Energy: </strong>Absorbs.<br/><strong>Colours: </strong>Black, blue, brown, green, red, orange, yellow.<br/><strong>Works with:</strong> All other coloured Jaspers, Black Tourmaline.<br/><strong>Helps with: </strong>Manifestation, balancing energies, stability, grounding, joy, balance.<br/><strong>Usage tip:</strong> Wear Jasper to improve mental processes and promotes better thinking. Place a piece of Jasper at your work station to prevent burnout. If you’re feeling lonely, place Jasper next to your bed at night for comfort. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_iLw3Ur"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0019_stockimage15472313xl2015-1632796968110.webp",
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "pf-2789993d",
+    "page_richtext_section_cULCgB",
+    "right_image_text_ttXXEy",
+    "right_image_text_AiBrgb",
+    "image_tab_section_TyEeCU",
+    "left_image_tab_section_V6gerF",
+    "image_tab_section_MqmR3J",
+    "left_image_tab_section_zkCAWH",
+    "image_tab_section_tjgJFq",
+    "left_image_tab_section_8KEqFE",
+    "image_tab_section_wjAWAk",
+    "left_image_tab_section_WkqPAp",
+    "image_tab_section_HDYGU6",
+    "left_image_tab_section_RkgCM3",
+    "image_tab_section_bVYXQm",
+    "left_image_tab_section_BpAYXk",
+    "image_tab_section_jVg6fk",
+    "left_image_tab_section_L6gb8H"
+  ]
+}

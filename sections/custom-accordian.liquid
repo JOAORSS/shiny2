@@ -1,0 +1,224 @@
+<section class="richtext section-with-padding color--{{ section_color }}-text bg--{{ section_color }}-background" data-section-type="richtext" data-section-id="{{ section.id }}">
+  <div class="max-site-width lg--up--px3">
+<div class="custom-tabs-row">
+  <!-- FAQ Accordin Start -->
+  <div class="faqpage powerfaq">
+          {% for block in section.blocks %}
+    <div class="power-faq">
+      {% if block.settings.title != blank %}
+        <div class="faq-box">
+          <div class="faq" id="section-{{ forloop.index }}">
+            <h2>
+              {{ block.settings.title | escape }}
+              <span></span>
+            </h2>
+          </div>
+          <div class="content">
+            {{ block.settings.richtext }}
+          </div>
+          
+        </div>
+          {% endif %}
+    </div>
+      {% endfor %}  
+  </div>
+        
+  <!-- FAQ Accordin Start -->
+</div>
+  </div>
+</section>
+
+<style>
+
+  /********************review*****************/
+  .accordion {
+  	margin: 0;
+  	padding: inherit;
+  	text-decoration: none;
+  	font-size: 10px;
+  	position: relative;
+  	text-align: left;
+  	padding: 10px 0px;
+  }
+
+  .accordion-open {
+  	color: #fff;
+  }
+
+  .accordion-open span:after {
+  	content: "-";
+  	font-family: FontAwesome;
+  	font-size: 26px;
+  	color: #000;
+  }
+
+  .accordion-open span {
+  	display: inline-block;
+  	position: relative;
+  	right: 0;
+  	top: 1px;
+  	padding-right: 0;
+  }
+
+  .accordion-close span {
+  	display: inline-block;
+  	position: relative;
+  	right: 0;
+  	top: 1px;
+  	padding-right: 0;
+  }
+
+.accordion-close span:after {
+    content: "+";
+    font-family: FontAwesome;
+    font-size: 24px;
+    color: #666;
+}
+  .faqpage div.container {
+  	padding: 0;
+  	margin: 0;
+  }
+
+  .faqpage div.container {
+  	max-width: 100%;
+  	padding: 5px 0;
+  }
+
+  .faqpage div.content {
+  	margin: 0;
+  	padding: 10px 0;
+  	line-height: 1.5em;
+  	overflow: hidden;
+  	text-align: left;
+  }
+
+  .faqpage div.content ul {
+  	padding: 0;
+  	margin: 0;
+  	padding: 3px;
+  }
+
+  .faqpage div.content p {
+  	padding: 0;
+  	padding: 0;
+  }
+
+  .faqpage div.content ul li {
+  	list-style-position: inside;
+  	line-height: 25px;
+  }
+
+  .faq {
+  	background: #fff;
+  	padding: 0;
+  	font-size: 18px;
+  	position: relative;
+  }
+
+  .faq h5 {
+  	margin-bottom: 0;
+  }
+
+  .faq-box {
+  	margin-bottom: 0;
+  	border-bottom: 1px solid #d8d9d8;
+  }
+
+  faq span {
+  	width: 16px;
+  	height: 16px;
+  	display: inline-flex;
+  	align-items: center;
+  	justify-content: center;
+  	font-weight: bold;
+  }
+
+  .faq span:after {
+  	font-weight: bold;
+  }
+
+  .faq-box {
+  	margin-bottom: 5px;
+  }
+.faq h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1.25px;
+    padding: 11px 0;
+    width: auto;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+  .faqpage.powerfaq {
+  	margin-top: 20px;
+  }
+
+body .faq h2 span {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+
+  body .accordion-open span {
+  	top: 3px !important;
+  }
+</style>
+{% schema %}
+{
+  "name": "Page Accordian",
+  "class": "custom-page-aco",
+  "settings": [
+
+    {
+      "type":      "header",
+      "content":   "Color"
+    },
+    {
+       "type": "select",
+       "id": "color_scheme",
+       "label": "Color scheme",
+       "options": [
+          { "value": "primary", "label": "Primary"},
+          { "value": "secondary", "label": "Secondary"},
+          { "value": "tertiary", "label": "Tertiary"}
+       ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "richtext",
+      "name": "Rich text",
+      "limit": 50,
+      "settings": [
+            {
+      "id": "title",
+      "type": "text",
+      "label": "Heading",
+      "default": "Title"
+    },
+        {
+          "id": "richtext",
+          "type": "richtext",
+          "label": "Text",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page Accordian",
+      "category": "Text",
+      "blocks": [
+        {
+          "type": "richtext"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

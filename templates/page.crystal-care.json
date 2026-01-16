@@ -1,0 +1,450 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-2789993d": {
+      "type": "pf-2789993d",
+      "disabled": true,
+      "settings": {}
+    },
+    "page_image_banner_JhEmAr": {
+      "type": "page-image-banner",
+      "settings": {
+        "color_icons_bg": "",
+        "image": "shopify://shop_images/shutterstock1698381982.png",
+        "mobile-image": "shopify://shop_images/shutterstock1698381982.png",
+        "b_link": ""
+      }
+    },
+    "page_richtext_section_zVDeiF": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_HH9V4Q": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Some crystals will heal and soothe our emotions, while others will open us to the divine, connecting us to universal energies. They are incredible, cooperative and loving minerals, but they are not something to be exploited or ‘put to’ work. Rather their power should be nurtured, allowing them to become co-creators in your wellbeing journey to health and joy. Remember to trust your intuition when you are using your crystals. So often when I am speaking with my clients, they are uncertain, almost fearful of how to use their crystals: they don’t have the confidence to trust their instincts and really connect with their inner being. This is where we find the most joy, and crystals can help us get there.</p><p>Throughout my childhood, the earth would quite literally offer up its precious stones to me. I loved each and every one deeply and differently, but I had no idea that in return for the clarity, love or safety I was receiving from them, that I would need to care for my crystals as well. Through cleaning and honouring your crystals, you are recognising the vast journey it has undergone to get to you in this moment. This involves clearing or cleaning them.</p><h5>✧ Cleansing your crystals is an act of love, and when you love your crystals, you are loving yourself ✧</h5>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HH9V4Q"
+      ],
+      "settings": {
+        "title-t": "Crystal care",
+        "title": "Why do I need to carefor my crystals?",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "primary"
+      }
+    },
+    "page_cascade_section_8eTRUm": {
+      "type": "page-cascade-section",
+      "blocks": {
+        "richtext_Rg99CT": {
+          "type": "richtext",
+          "settings": {
+            "title": "",
+            "richtext": "<p>All of us at Shiny Storm know from experience how important it is to look after our crystals. Each crystal holds a power and energetic makeup of its very own. Just like our own physical body, if we don’t nourish and care for ourselves properly, we lose touch with our inner happiness, can become anxious, tired and even physically sick. In a similar manner, crystals also need certain nourishment and cleansing to allow their energy to flourish. Once you begin to do this for your crystals, they will turn their healing power to you; when we care for our crystals, we are engaging in our own self-care.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Rg99CT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-3d286f94--crystal-care16-Edited.webp",
+        "color_scheme": "tertiary"
+      }
+    },
+    "full_width_richtext_XirPwU": {
+      "type": "full-width-richtext",
+      "blocks": {
+        "richtext_9HrceP": {
+          "type": "richtext",
+          "settings": {
+            "title": "By looking after your crystals, you create a connection between the mineral and the human,",
+            "richtext": "<p>a relationship of pure energy, joy and love which allows blocked, unhelpful and unhealthy emotions to release. Through cleansing and clearing your crystals, you experience a therapeutic moment, where feelings which don’t serve you anymore can be cleared from your body and your mind. This is the magic of crystals! They create a channel and space for you to connect to your own wellbeing, to trust in your inner being, helping to increase your health and happiness. Caring for your crystals simply magnifies the efficacy of this channel. </p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_9HrceP"
+      ],
+      "settings": {
+        "color_scheme": "primary"
+      }
+    },
+    "right_image_text_MWdLBr": {
+      "type": "right-image-text",
+      "blocks": {
+        "richtext_3qjFFg": {
+          "type": "richtext",
+          "settings": {
+            "title": "Crystals have an important function in maintainingour spiritual, physical and emotional health.",
+            "richtext": "<p>Each one may be set with specific intentions or used for a variety of purposes as a means of healing and maintaining wellbeing. In this manner, crystals transform the necessary energy and vibrations to carry out our intentions and clear blocked emotions. Afterwards however, it is time to cleanse your crystals of the negative energy they have just absorbed. This is an essential responsibility in the care and usage of your healing crystals.<br/>Crystal care is actually quite simple and easy and when done on a regular basis. It allows for a deeper connection with your crystals to develop which in turn, opens up a greater range of healing benefits. </p><h5>✧</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_3qjFFg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-54185b11--meditation2.webp",
+        "color_scheme": "tertiary"
+      }
+    },
+    "page_richtext_section_n6Wz49": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_ndfX4B": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h2>When I begin using a Crystal,<br/>I always set a particular intention.</h2><p><br/>For me, it might be to create a greater sense of awareness or perhaps to raise positive energy within my home. Setting an intention helps the crystal to direct its energy to the place you need it most. Trust yourself in this: only you know what you truly need to heal. Once you have used the crystal though, it is time to clear or clean them.</p><p></p><h5>Clearing crystals is the act of intentionally removing any negative energy that may have gathered in that crystal from previous use.</h5><p>Once the unwanted energy is removed, absorbed or altered, the crystal may be used again for a different intention or healing process. Clearing a crystal also ensures that the collected and absorbed energy does not unintentionally affect the user. This maintains the ability of each stone to heal or serve the intentions you set each time effectively, without interference from previous uses.<br/>Put simply, clearing crystals neutralises the energetic overload they have experienced by creating a fresh start for any future intentions and healing.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ndfX4B"
+      ],
+      "settings": {
+        "title-t": "",
+        "title": "What is Crystal Clearing?",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "primary"
+      }
+    },
+    "page_richtext_section_xt8Uiz": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_UqkUy9": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>There are many different methods you can use to clear your crystals, depending on which feels right for you and which is best for your crystal. Some methods will appeal to you more than others: follow this attraction, as it is your intuition (and your crystal!) guiding you to the right one. </p><h5>Below is a list of methods commonly used to clear crystals:</h5>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_UqkUy9"
+      ],
+      "settings": {
+        "title-t": "",
+        "title": "How to Clear Crystals",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary"
+      }
+    },
+    "custom_accordian_D3thzH": {
+      "type": "custom-accordian",
+      "blocks": {
+        "richtext_Ep8LmW": {
+          "type": "richtext",
+          "settings": {
+            "title": "Water ≈",
+            "richtext": "<p>This is perhaps one of the easiest ways to clear your crystals, since their relationship with water is so interwoven with their creation in the Earth. Using pure spring water, river or ocean water is ideal here.<br/><br/>1. Hold your crystal underwater.<br/>2. Visualize the water washing over the crystal, cleansing away any disruption or absorbed energy from its natural state.<br/>3. Using sea salt, lightly brush over the stone with the water, gently cleansing the salt away.<br/><br/><strong>Note: Not all crystals can be submerged in water without serious physical damage occurring. Please consult the list below before submerging your crystals.</strong></p>"
+          }
+        },
+        "richtext_PVbwAX": {
+          "type": "richtext",
+          "settings": {
+            "title": "Moon ☽",
+            "richtext": "<p>The moon, as pure feminine energy, can help with spiritual and emotional healing and is undoubtedly the most purifying method toclear crystals. Not only this, but the moon can be used to program any crystal for extra vitality.<br/><br/>1. Place crystals directly under moonlight, on a windowsill.<br/>2. If your crystal can withstand water, consider placing it in a safe place outside for maximum clearing.<br/>3. Full and new moons have the most powerful energy.</p>"
+          }
+        },
+        "richtext_PdmXjf": {
+          "type": "richtext",
+          "settings": {
+            "title": "Sun ☼",
+            "richtext": "<p>The sun is another supercharging cleanser when it comes to clearing your crystals. Solar energies tend to be more ‘masculine’, and are better suited to programming, super-charging your crystal to give it drive and focus rather than healing.<br/><br/>1. Place your crystals in direct sunlight, or on a windowsill.<br/>2. Leave them here for a short time only.<br/>3. Clouds will not disrupt the clearing process.<br/><br/>Note: Not all crystals can withstand high or direct heat and will crack, whilst others will lose their colour if left for prolonged periods in the sun. Please consult the list below before placing any crystals in sunlight.</p>"
+          }
+        },
+        "richtext_RweAkt": {
+          "type": "richtext",
+          "settings": {
+            "title": "Snow ❄",
+            "richtext": "<p>If you are fortunate enough to have access to freshly fallen snow, this is a quick and powerful way to clear your crystals.<br/><br/>1. Place in clean, dry snow.</p>"
+          }
+        },
+        "richtext_P3LjKa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Earth ✾",
+            "richtext": "<p>This element remains very powerful as an effective way of cleansing your crystals: the Earth is their birthing place!<br/><br/>1. Bury your crystals in your yard or in an indoor house plant.<br/>2. Depending on the depth of cleansing you feel is required, leave in soil for three, seven or eleven days.<br/>3 Alternate the areas and plants you use to clear your crystals, to preserve the individual energies of those plants.</p>"
+          }
+        },
+        "richtext_cMkbnT": {
+          "type": "richtext",
+          "settings": {
+            "title": "Smoke",
+            "richtext": "<p>I love to use smoke as a way of cleaning my crystals! I like to use Palo Santo, not only because it is a wood native to South America and reminds me of home, but because of its beautiful energetic clearing effects. It’s been used for centuries to clear negative energies; I love it! You may use smudging already to clear your home of negative energies with sage, lavender, cedar, sweetgrass or incense: the same principle is used to clear your crystals. Using smoke as a clearing method is especially helpful for jewellery susceptible to corrosion underwater.<br/><br/><strong>Hold the crystals over the burning smudge stick.</strong>1. Allow the smoke to envelope your crystals for a short time, a minute perhaps. Longer depending on the depth<br/>of clearing you feel is required.<br/>2. Use a feather or fan to waft the smoke over your crystals, if need be.<br/>3. Ensure a door or window is open to allow the smoke (and the energy it has cleared from your crystals) to leave the room.<br/>4. Extinguish your smudge stick thoroughly.</p>"
+          }
+        },
+        "richtext_THYYJi": {
+          "type": "richtext",
+          "settings": {
+            "title": "Sound ♪",
+            "richtext": "<p>Acoustic vibrations are very effective in clearing crystals through sound, removing negative or unwanted energy in the crystals.<br/>There are numerous melodic methods to try:<br/><br/>1. Tuning forks: can be used by tapping the crystal gently against the fork. Move the fork around the crystals until it stops vibrating. Repeat this action until you feel the crystal is cleared.<br/>2. Singing bowl: place the crystals around the bowl. Feel the vibrations once you move the mallet around the outer edges of the bowl. Continue until you feel the crystals have been cleared.<br/>3. Bells: place the bell over your crystals and begin ringing. The vibration will cleanse your crystals very effectively!<br/><br/><strong>Super Power Crystals</strong>Some crystals can actually cleanse other stones, with selenite, quartz, carnelian, amethyst and kyanite amongst these super-powered crystals.<br/><br/>1. Place a selenite slab under your crystals to clear and charge your crystals.<br/>2. Place smaller crystals on an amethyst cluster to neutralise and clear them.</p>"
+          }
+        },
+        "richtext_Tz4Rfk": {
+          "type": "richtext",
+          "settings": {
+            "title": "Salt",
+            "richtext": "<p>This is another easy, effective and readily available method with which to clear your crystals.<br/>Use whichever of the following methods feels best for you:<br/><br/>1. Natural salt water (i.e. sea water) is best, though using store-bought sea salt is also fine.<br/>2. Place your crystals in a bowl of salt and bury them in it overnight. (You can use uncooked rice as an alternative.)<br/>3. If you want to avoid the crystals physically touching the salt, place them in a bowl inside another bowl of salt. (A good idea for any pieces containing metal.)<br/>4. Soak crystals in a bowl of salt water overnight or up to 48 hours. This will allow the energy to be drawn out of the crystals.<br/>5. Dispose of the remains of the rice or salt back to the Earth: it has absorbed negative energy during the cleansing and should not be eaten or used.<br/><br/><strong>Note: Not all crystals can be submerged in water and especially salt water without serious physical damage occurring. Please consult the list below before submerging any crystals.</strong></p>"
+          }
+        },
+        "richtext_nNhRha": {
+          "type": "richtext",
+          "settings": {
+            "title": "Reiki",
+            "richtext": "<p>Reiki is a modern healing modality which uses life force energy to cleanse and heal.<br/>You can use Reiki to clear your crystals, though for the greatest effectiveness, some training in Reiki is needed.<br/><br/>1. Place one hand over the crystal and feel its vibrations.<br/>2. Ask the universal life force that the crystal be cleansed of any absorbed and negative energy no longer serving it.<br/>3. Hold your hand over the crystal until you feel it has reverted to its original energetic state.</p>"
+          }
+        },
+        "richtext_iRJCXY": {
+          "type": "richtext",
+          "settings": {
+            "title": "Intention and Visualization",
+            "richtext": "<p>Clearing crystals through visualization allows you to clear them from anywhere, a great option if your usual tools are unavailable.<br/><br/>1. Hold your crystal in your hand and visualise white light washing over the stone.<br/>2. Imagine a beam of white light emitting from your hand or your Third Eye.<br/>3. Visualise all negativity and absorbed energy being washed out and away from your crystals. </p>"
+          }
+        },
+        "richtext_3qL4nG": {
+          "type": "richtext",
+          "settings": {
+            "title": "Pendulums",
+            "richtext": "<p>Pendulums are another tool used to help release energy from crystals.<br/><br/>1. Hold the pendulum over the crystals.<br/>2. The pendulum will begin to rotate in the pattern normally equated with meaning ‘no’ as negative energy is cleared.<br/>3. Once cleared, the pendulum will rotate in the opposite direction.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Ep8LmW",
+        "richtext_PVbwAX",
+        "richtext_PdmXjf",
+        "richtext_RweAkt",
+        "richtext_P3LjKa",
+        "richtext_cMkbnT",
+        "richtext_THYYJi",
+        "richtext_Tz4Rfk",
+        "richtext_nNhRha",
+        "richtext_iRJCXY",
+        "richtext_3qL4nG"
+      ],
+      "settings": {
+        "color_scheme": "tertiary"
+      }
+    },
+    "full_width_richtext_T7D493": {
+      "type": "full-width-richtext",
+      "blocks": {
+        "richtext_Rmi6pt": {
+          "type": "richtext",
+          "settings": {
+            "title": "Pendulums are another tool used to help release energy from crystals.",
+            "richtext": "<p>1. Hold the pendulum over the crystals.<br/>2. The pendulum will begin to rotate in the pattern normally equated with meaning ‘no’ as negative energy is cleared.<br/>3. Once cleared, the pendulum will rotate in the opposite direction.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Rmi6pt"
+      ],
+      "settings": {
+        "color_scheme": "primary"
+      }
+    },
+    "page_richtext_section_AjGVNj": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_TREjnx": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Handling, burying or leaving crystals in our bags and other regular uses can cause some residual build up on them. If your crystals are hard (like quartz):<br/><br/>1. Soak them in warm water with a little soap to loosen any dirt or grime.<br/>2. Using a soft toothbrush, remove any persistent debris.<br/>3. Soak the stones some more before rinsing.<br/>4. Polish with a soft cloth.<br/><br/>To clean soft crystals, such as amber and selenite:<br/><br/>1. Use a soft cloth (like microfiber) to polish and clean crystals.<br/>2. A clean makeup brush is also effective.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_TREjnx"
+      ],
+      "settings": {
+        "title-t": "",
+        "title": "How to Physically Clean Crystals",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary"
+      }
+    },
+    "page_richtext_section_EHAhWp": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_ynGFDn": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>When you receive your crystals from Shiny Storm, it is important to clear them so that you have welcomed them and they feel embraced into both your physical and energetic space. This crystal has travelled a long way to reach you: show it love and honour its arrival through some beautiful clearing and cleansing methods.</p><p></p><h5>Once the crystals have been cleared upon arrival, there is no specific guide to when you should clear them again: rather, follow your intuition for what feels most effective. You will know, trust yourself!</h5><h5></h5><p>A crystal will absorb energy as it works with you to heal, set intentions and clear energy. Each has its own purpose and like us, needs a rest and a recharge from time to time. You may notice your crystal feeling particularly weighty, dull in colour or you may receive a message that it needs love and cherishing.<br/>If you are attempting to address any kind of significant difficulties like a fight, illness or trauma, for instance, your crystals will serve you best if they are cleared before being used.</p><h5>Over time, you will develop a loving relationship with your crystals. Listen to them, they will guide you best on how to harness their power.</h5>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ynGFDn"
+      ],
+      "settings": {
+        "title-t": "",
+        "title": "When to Clear Crystals",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "primary"
+      }
+    },
+    "page_richtext_section_DerVNW": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_ngxEBp": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Whilst crystals are amazing healing minerals, just like Superman and kryptonite, each can be damaged if exposed to certain environments or other base elements.</p><h5>Some cannot be left in water: they’ll dissolve into sand!</h5><p>Others will crack if left in direct sunlight. Each crystal has its own needs and ‘feels’ better in certain environments, just like us! Caring for your stones and understanding which crystals can be exposed to which elements, will not only improve the efficacy of the healing energy within your stone, it will ensure they last longer within your home.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ngxEBp"
+      ],
+      "settings": {
+        "title-t": "",
+        "title": "⇾ Kryptonite and your Crystals",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary"
+      }
+    },
+    "page_richtext_section_GaTxwa": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_WEzDFy": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Not all crystals like water, and will be damaged by water. This may result in small cracks, while others may dissolve completely. Keep the following away from water and they will last a lot longer in your care.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_WEzDFy"
+      ],
+      "settings": {
+        "title-t": "",
+        "title": "⇾ Damaged by water",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "primary"
+      }
+    },
+    "full_width_richtext_irMGRb": {
+      "type": "full-width-richtext",
+      "blocks": {
+        "richtext_FUdrKW": {
+          "type": "richtext",
+          "settings": {
+            "title": "",
+            "richtext": "<p><strong>Kyanite / Angelite / Selenite / Desert Rose / Calcite / Celestite / Scolecite / Vanadinite / Barite / Azurite / Aragonite / Hemimorphite / Dolomite / any other stones that appear brittle or porous. <br/></strong></p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_FUdrKW"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "tertiary"
+      }
+    },
+    "page_richtext_section_47Vmda": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_787ewE": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Some crystals should never be used when making crystal elixirs, massage oils or anything else you are consuming. Some are completely toxic or become toxic over time and others may be harmful to those with already existing illnesses, such as metal poisoning. Don’t be afraid or nervous to get in contact with me or anyone at Shiny Storm on this: <br/></p><h5>we are experts in deciphering which crystals will best help you on your journey to health, self-love and happiness.</h5><p>However, as a general rule, it is always best to use crystals indirectly, do not ingest your crystals.</p><p>*We will be writing more about toxic crystals and their safe uses soon*</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_787ewE"
+      ],
+      "settings": {
+        "title-t": "",
+        "title": "⇾ Crystals which may be harmful with direct use",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "primary"
+      }
+    },
+    "page_richtext_section_AaQyxT": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_Vahq7Q": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Charging and clearing crystals are technically the same ideas and concepts, though there are some subtle differences worth exploring. When you decide to charge a crystal, your intent is not just to cleanse it of absorbed or negative energy, but to recharge or amplify the existing energy of the crystal. In doing so, the crystals are purified, energized and ready to be programmed. This occurs when you are clearing crystals in general.</p><h5>Ultimately, the action of cleansing crystals also charges them, particularly when healing stones are placed in the sunlight, moonlight or on top of other crystals.<br/></h5>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Vahq7Q"
+      ],
+      "settings": {
+        "title-t": "",
+        "title": "⇾ Clearing vs charging",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary"
+      }
+    }
+  },
+  "order": [
+    "pf-2789993d",
+    "page_image_banner_JhEmAr",
+    "page_richtext_section_zVDeiF",
+    "page_cascade_section_8eTRUm",
+    "full_width_richtext_XirPwU",
+    "right_image_text_MWdLBr",
+    "page_richtext_section_n6Wz49",
+    "page_richtext_section_xt8Uiz",
+    "custom_accordian_D3thzH",
+    "full_width_richtext_T7D493",
+    "page_richtext_section_AjGVNj",
+    "page_richtext_section_EHAhWp",
+    "page_richtext_section_DerVNW",
+    "page_richtext_section_GaTxwa",
+    "full_width_richtext_irMGRb",
+    "page_richtext_section_47Vmda",
+    "page_richtext_section_AaQyxT"
+  ]
+}

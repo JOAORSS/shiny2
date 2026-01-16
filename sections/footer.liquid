@@ -1,0 +1,400 @@
+{%- assign section_color = section.settings.color_combination -%}
+
+{%- assign locale_selector = false -%}
+{%- assign currency_selector = false -%}
+
+{%- if section.settings.show_currency_selector and shop.enabled_currencies.size > 1 -%}
+  {%- assign currency_selector = true -%}
+{%- endif -%}
+
+{%- if section.settings.show_locale_selector and shop.published_locales.size > 1 -%}
+  {%- assign locale_selector = true -%}
+{%- endif -%}
+
+<footer class="section-with-padding color--{{ section_color }}-text bg--{{ section_color }}-background"
+  data-section-id="{{ section.id }}"
+  data-section-type="footer">
+  <div class="max-site-width lg--up--px3">
+    <div class="flex-grid-bottom ">
+      <div class="footer-block logo-df">
+              <div class="grid__item one-third lg--up--one-whole">
+            <a href="{{ routes.root_url }}" class="font-size--xl f--heading color--{{ section_color }}-text">
+              {% assign logo_max_width = 250 %}
+              {% if section.settings.logo != blank %}
+                {% capture image_size %}{{ logo_max_width }}x{% endcapture %}
+                <img src="{{ section.settings.logo | img_url: image_size }}"
+                     srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+                     alt="{{ section.settings.logo.alt | default: shop.name }}"
+                     >
+              {% else %}
+                {{ shop.name }}
+              {% endif %}
+            </a>
+            <div class="rte-texx">
+               {{ section.settings.text }}
+            </div>
+                    {%- assign social_accounts = 'Facebook, Twitter, Pinterest, Instagram, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
+            <ul class="list--reset p0 m0 mxn1">
+              {% for social in social_accounts %}
+                {%- assign social_handle = social | handleize -%}
+                {% capture social_link %}social_{{ social_handle }}_link{% endcapture %}
+                {% capture social_icon %}icon-{{ social_handle }}{% endcapture %}
+
+                {% if settings[social_link] != blank %}
+                  <li class="inline-block">
+                    <a class="color--{{ section_color }}-text px1 font-size--xxs mb1 block" href="{{ settings[social_link] }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}">
+                      {%- case social_handle -%}
+                      {%- when 'facebook' -%}
+                        {%- render 'icon-facebook' -%}
+                      {%- when 'twitter' -%}
+                        {%- render 'icon-twitter' -%}
+                      {%- when 'pinterest' -%}
+                        {%- render 'icon-pinterest' -%}
+                      {%- when 'instagram' -%}
+                        {%- render 'icon-instagram' -%}
+                      {%- when 'snapchat' -%}
+                        {%- render 'icon-snapchat' -%}
+                      {%- when 'tumblr' -%}
+                        {%- render 'icon-tumblr' -%}
+                      {%- when 'youtube' -%}
+                        {%- render 'icon-youtube' -%}
+                      {%- when 'vimeo' -%}
+                        {%- render 'icon-vimeo' -%}
+                      {%- endcase -%}
+                      <span class="icon-fallback-text">{{ social }}</span>
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+      </div>
+     
+      <div class="footer-block menues-outer">
+        <div class="grid-full">
+
+        {% case section.blocks.size %}
+          {% when 1 %}
+            {% assign footer_grid_width = 'md--up--one-whole lg--up--one-whole' %}
+          {% when 2 %}
+            {% assign footer_grid_width = 'md--up--one-half lg--up--one-half' %}
+          {% when 3 %}
+            {% assign footer_grid_width = 'md--up--one-whole lg--up--one-third' %}
+          {% else %}
+            {% assign footer_grid_width = 'md--up--one-whole lg--up--one-whole' %}
+        {% endcase %}
+
+          {% for block in section.blocks %}
+          <div class="grid__item-33 font-size__basic {{ footer_grid_width }} mb3 lg-up--mb0">
+
+            {% if block.type == 'menus' %}
+
+              {% assign single_linklist = false %}
+
+              {% if block.settings.main_linklist == blank and block.settings.secondary_linklist != blank %}
+                {% assign single_linklist = true %}
+              {% endif %}
+
+              {% if block.settings.main_linklist != blank and block.settings.secondary_linklist == blank %}
+                {% assign single_linklist = true %}
+              {% endif %}
+
+              <div class="grid">
+                 <h2 class="menu-title">{{ block.settings.menu-title }}</h2>
+                {% if block.settings.main_linklist  != blank %}
+                  {% assign link_list = block.settings.main_linklist %}
+                  {%- render 'footer__linklist',
+                            link_list: link_list,
+                            single_linklist: single_linklist,
+                            section_color: section_color
+                  -%}
+                {% endif %}
+                {% if block.settings.secondary_linklist  != blank %}
+                  {% assign link_list = block.settings.secondary_linklist %}
+                  {%- render 'footer__linklist',
+                            link_list: link_list,
+                            single_linklist: single_linklist,
+                            section_color: section_color
+                  -%}
+                {% endif %}
+              </div>
+            {% endif %}
+
+            {% if block.type == 'richtext' %}
+              <div class="three-quarters lg--up--one-whole richtext">
+                {{ block.settings.text }}
+              </div>
+              {% endif %}
+
+            {% if block.type == 'newsletter' %}
+              {% if block.settings.text != blank %}
+                  <div class="line-height--3 font-size__basic">
+                    {{ block.settings.text}}
+                  </div>
+                {% endif %}
+                {% form 'customer' %}
+                  {{ form.errors | default_errors }}
+                  {% if form.posted_successfully? %}
+                    <p class="form--success f--main">{{ 'general.newsletter_form.confirmation' | t }}</p>
+                  {% else %}
+                    <div class="input-group">
+                      <input type="hidden" name="contact[tags]" value="newsletter">
+                      <label for="Email" class="hide">{{ 'general.newsletter_form.newsletter_email' | t }}</label>
+                      <input type="email"
+                        name="contact[email]"
+                        id="Email"
+                        class="input-group-field px2 py1 bg--transparent border--{{ section_color }}-text color--{{ section_color }}-text font-size--s"
+                        value="{% if customer %}{{ customer.email }}{% endif %}"
+                        placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}"
+                        autocorrect="off"
+                        autocapitalize="off">
+                      <span class="input-group-btn">
+                        <button type="submit" class="btn border--none newsletter__submit px2 py1 font-size--s bg--{{ section_color }}-text border--{{ section_color }}-text color--{{ section_color }}-text--overlay hover-bg-border--{{ section_color }}" name="commit" id="Subscribe">
+                          <span class="newsletter__submit">{{ 'general.newsletter_form.submit' | t }}</span>
+                        </button>
+                      </span>
+                    </div>
+                  {% endif %}
+                {% endform %}
+            {% endif %}
+
+          </div>
+          {% endfor %}
+
+
+        </div>
+      </div>
+    </div>
+
+    {%- assign payment_icons = false -%}
+    {%- if section.settings.show_payment_icons and shop.enabled_payment_types != empty -%}
+      {%- assign payment_icons = true -%}
+    {%- endif -%}
+
+    <div class="lg--up--flex flex--row-reverse px2 mt2 lg--up--px0">
+
+      {%- if payment_icons or currency_selector or locale_selector -%}
+      <div class="flex--1-basis-0 mb3 lg--up--mb0">
+        {%- if payment_icons -%}
+        <div class="text-align--left lg--up--text-align--right">
+          <span class="visually-hidden">{{ 'layout.footer.payment_methods' | t }}</span>
+          <ul class="payment-icons m0 p0 list--reset font-size--xl">
+            <li class="inline-block">
+              <span class="after-paylogo">
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="30" height="30" rx="15" fill="#B2FCE4"></rect><path d="M21.9558 10.9361L17.2124 8.27495C15.8201 7.49382 14.0796 8.46994 14.0796 10.0333V10.3063C14.0796 10.553 14.2153 10.7812 14.4348 10.9039L15.3304 11.4063C15.5935 11.5543 15.9215 11.3696 15.9215 11.0749V10.3958C15.9215 10.0563 16.2991 9.84409 16.6012 10.0138L20.7097 12.3194C21.0118 12.4891 21.0118 12.9135 20.7097 13.0822L16.6012 15.3877C16.2991 15.5575 15.9215 15.3453 15.9215 15.0057V14.6444C15.9215 13.081 14.1811 12.1037 12.7876 12.886L8.04425 15.5471C6.65192 16.3283 6.65192 18.2828 8.04425 19.0639L12.7876 21.7251C14.1799 22.5062 15.9215 21.5301 15.9215 19.9667V19.6937C15.9215 19.447 15.7858 19.2199 15.5664 19.0961L14.6708 18.5925C14.4077 18.4445 14.0796 18.6292 14.0796 18.924V19.603C14.0796 19.9426 13.7021 20.1548 13.4 19.985L9.29144 17.6795C8.98938 17.5097 8.98938 17.0853 9.29144 16.9155L13.4 14.61C13.7021 14.4402 14.0796 14.6524 14.0796 14.992V15.3533C14.0796 16.9167 15.8201 17.894 17.2124 17.1117L21.9558 14.4506C23.3481 13.6717 23.3481 11.7172 21.9558 10.9361Z" fill="black"></path></svg>
+              </span>    
+          </li>
+            {% for type in shop.enabled_payment_types %}
+              <li class="inline-block">
+                {{ type | payment_type_svg_tag: class:'payment-icon' }}
+              </li>
+              
+            {%- endfor -%}
+            
+          </ul>
+        </div>
+        {%- endif -%}
+
+        {%- if currency_selector or locale_selector-%}
+        {%- capture disclosure__toggle_classes -%}bg--transparent border--{{ section_color }}-text color--{{ section_color }}-text p1 block full--w font-size--sm text-align--left mt1{%- endcapture -%}
+        {%- capture disclosure__list_classes -%}bg--{{ section_color }}-background border--{{ section_color }}-text color--{{ section_color }}-text p2 block font-size--sm mt1{%- endcapture -%}
+
+        <div class="locale-selectors">
+          {%- form 'localization', class: 'selectors-form mxn1 flex flex--wrap justify--start lg--up--justify--end' -%}
+            {%- if locale_selector -%}
+              <div class="selectors-form__item mx1">
+                <h2 class="visually-hidden" id="lang-heading">
+                  {{ 'general.language.dropdown_label' | t }}
+                </h2>
+
+                <div class="disclosure" data-disclosure-locale>
+                  <button type="button"
+                    class="disclosure__toggle {{ disclosure__toggle_classes }}"
+                    aria-expanded="false"
+                    aria-controls="lang-list"
+                    aria-describedby="lang-heading"
+                    data-disclosure-toggle>
+                    {{ form.current_locale.endonym_name }}
+                    <span class="disclosure__chevron-down font-size--xxxs inline-block ml1">{% render 'icon-chevron-down' %}</span>
+                    <span class="disclosure__chevron-up font-size--xxxs inline-block ml1">{% render 'icon-chevron-up' %}</span>
+                  </button>
+                  <ul id="lang-list" class="disclosure-list {{ disclosure__list_classes }}" data-disclosure-list>
+                    {% for locale in form.available_locales %}
+                      <li class="disclosure-list__item {% unless forloop.last %}mb1{% endunless %} {% if locale.iso_code == form.current_locale.iso_code %}disclosure-list__item--current{% endif %}">
+                        <a class="disclosure-list__option" href="#" lang="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %}aria-current="true"{% endif %} data-value="{{ locale.iso_code }}" data-disclosure-option>
+                          <div class="disclosure__link-wrapper">
+                            {{ locale.endonym_name }}
+                          </div>
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                  <input type="hidden" name="locale_code" id="LocaleSelector" value="{{ form.current_locale.iso_code }}" data-disclosure-input/>
+                </div>
+              </div>
+            {%- endif -%}
+
+            {%- if currency_selector -%}
+              <div class="selectors-form__item mx1">
+                <h2 class="visually-hidden" id="currency-heading">
+                  {{ 'general.currency.dropdown_label' | t }}
+                </h2>
+
+                <div class="disclosure" data-disclosure-currency>
+                  <button type="button"
+                    class="disclosure__toggle {{ disclosure__toggle_classes }}"
+                    aria-expanded="false"
+                    aria-controls="currency-list"
+                    aria-describedby="currency-heading"
+                    data-disclosure-toggle>
+                    {{ form.current_currency.iso_code }} {%- if form.current_currency.symbol -%}{{ form.current_currency.symbol }}{%- endif -%}
+                    <span class="disclosure__chevron-down font-size--xxxs inline-block ml1">{% render 'icon-chevron-down' %}</span>
+                    <span class="disclosure__chevron-up font-size--xxxs inline-block ml1">{% render 'icon-chevron-up' %}</span>
+                  </button>
+                  <ul id="currency-list" class="disclosure-list {{ disclosure__list_classes }}" data-disclosure-list>
+                    {% for currency in form.available_currencies %}
+                      <li class="disclosure-list__item {% unless forloop.last %}mb1{% endunless %} {% if currency.iso_code == form.current_currency.iso_code %}disclosure-list__item--current{% endif %}">
+                        <a class="disclosure-list__option" href="#" {% if currency.iso_code == form.current_currency.iso_code %}aria-current="true"{% endif %} data-value="{{ currency.iso_code }}" data-disclosure-option>
+                          <div class="disclosure__link-wrapper">
+                            {{ currency.iso_code }} {%- if currency.symbol -%}{{ currency.symbol }}{%- endif -%}
+                          </div>
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                  <input type="hidden" name="currency_code" id="CurrencySelector" value="{{ form.current_currency.iso_code }}" data-disclosure-input/>
+                </div>
+              </div>
+            {%- endif -%}
+          {%- endform -%}
+
+        </div><!-- /.locale-selectors -->
+        {%- endif -%}
+      </div>
+      {% endif %}
+
+      <div class="flex--1-basis-0 flex">
+        <div class="footer__credit mt--auto">
+          <p class="mb1">&copy; {{ 'now' | date: "%Y" }} <a href="{{ routes.root_url }}" class=" color--{{ section_color }}-text">{{ shop.name }}</a></p>
+      
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+  {
+    "name": "Footer",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo image"
+      },
+      {
+            "id": "text",
+            "type": "richtext",
+            "label": "Info",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_payment_icons",
+        "label": "Show payment icons",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "Language Selector",
+        "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_locale_selector",
+        "label": "Show language selector",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Currency Selector",
+        "info": "To add a currency, go to your [currency settings.](/admin/settings/payments)"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_currency_selector",
+        "label": "Show currency selector",
+        "default": true
+      },
+      {
+        "type":      "header",
+        "content":   "Color"
+      },
+      {
+         "type": "select",
+         "id": "color_combination",
+         "label": "Combination",
+         "options": [
+            { "value": "primary", "label": "Primary"},
+            { "value": "secondary", "label": "Secondary"},
+            { "value": "tertiary", "label": "Tertiary"}
+         ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "menus",
+        "name": "Menus",
+        "limit": 3,
+        "settings": [
+          {
+            "id": "menu-title",
+            "type": "text",
+            "label": "Menu Heading"
+          },
+          
+          {
+            "type": "link_list",
+            "id": "main_linklist",
+            "label": "Menu",
+            "default": "footer",
+            "info": "This menu won't show dropdown items"
+          },
+          {
+            "type": "link_list",
+            "id": "secondary_linklist",
+            "label": "Secondary Menu",
+            "info": "This menu won't show dropdown items"
+          }
+        ]
+      },
+      {
+        "type": "richtext",
+        "name": "Rich text",
+        "limit": 1,
+        "settings": [
+          {
+            "id": "text",
+            "type": "richtext",
+            "label": "Text",
+            "default": "<p>Use this to add additional information about your store, e.g. address / contact details.</p>"
+          }
+        ]
+      },
+      {
+        "type": "newsletter",
+        "name": "Newsletter",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Receive special offers and first look at new products.</p>"
+          }
+        ]
+      }
+    ]
+  }
+
+{% endschema %}

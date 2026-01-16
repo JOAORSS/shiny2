@@ -1,0 +1,231 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-2789993d": {
+      "type": "pf-2789993d",
+      "disabled": true,
+      "settings": {}
+    },
+    "page_image_banner_JhEmAr": {
+      "type": "page-image-banner",
+      "settings": {
+        "color_icons_bg": "",
+        "image": "shopify://shop_images/screen-shot-20221028-at-22347-pm-copy-1666931222664.webp",
+        "mobile-image": "shopify://shop_images/screen-shot-20221028-at-22347-pm-copy-1666931222664.webp",
+        "b_link": ""
+      }
+    },
+    "full_width_richtext_nEHDUH": {
+      "type": "full-width-richtext",
+      "blocks": {
+        "richtext_jUKcnr": {
+          "type": "richtext",
+          "settings": {
+            "title": "About us",
+            "richtext": "<p>In 2017, Shiny Storm was established as a small family business based at local markets on the Sunshine Coast of Queensland. This first small market range consisted of carefully curated Amethysts, Clear Quartz, Tourmalines and Citrines, hand-picked for four distinct qualities: authenticity, accessibility, affordability and beauty. The popularity of the Shiny Storm stalls proved that even those living in the most beautiful place on Earth need a little crystal love! <br/></p><h5>The Shiny Storm passion for crystals and their abilities to heal, connect and bring joy and love into people’s lives is obvious. <br/></h5><p>The quality of each crystal is critiqued before it reaches the Shiny Storm warehouse. The team is constantly assessing international suppliers to ensure the crystals are authentic and ethically sourced; ensuring the stones are not the product of human trafficking or slavery is of the utmost concern. All members of the Shiny Storm family have an outstanding knowledge of the healing powers of each stone, something they take great care to impart to each client. Underpinning every interaction with clients is the need to assist those who seek greater health and happiness to connect with their own powerful, healing crystals. It is because of this attention to detail and genuine love and care given to products and clients that Shiny Storm has expanded to several bricks and mortar shopfronts, an online store and more markets.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_jUKcnr"
+      ],
+      "settings": {
+        "color_scheme": "primary"
+      }
+    },
+    "image_slide_section_z8AWgc": {
+      "type": "image-slide-section",
+      "blocks": {
+        "text_MrJGPw": {
+          "type": "text",
+          "settings": {
+            "icon_img": "shopify://shop_images/eumundi-oct-22-portrait_0123__dsc0142-1666932243102.webp"
+          }
+        },
+        "text_NjVyzt": {
+          "type": "text",
+          "settings": {
+            "icon_img": "shopify://shop_images/noosa-store-oct-22_0080__dsc0089-1666932312871.webp"
+          }
+        },
+        "text_7kXJFD": {
+          "type": "text",
+          "settings": {
+            "icon_img": "shopify://shop_images/noosa-store-oct-22_0002__dsc0007-1666932390765.webp"
+          }
+        },
+        "text_KaDyzy": {
+          "type": "text",
+          "settings": {
+            "icon_img": "shopify://shop_images/eumundi-oct-22-portrait_0149__dsc0168-1666932800215.webp"
+          }
+        }
+      },
+      "block_order": [
+        "text_MrJGPw",
+        "text_NjVyzt",
+        "text_7kXJFD",
+        "text_KaDyzy"
+      ],
+      "settings": {
+        "background-color": "none",
+        "heading": ""
+      }
+    },
+    "full_width_richtext_RcAVn4": {
+      "type": "full-width-richtext",
+      "blocks": {
+        "richtext_ycDkEP": {
+          "type": "richtext",
+          "settings": {
+            "title": "",
+            "richtext": "<p>Ana and Felipe, the business founders, have fallen in love with the beaches and stunning natural landscapes of the Sunshine Coast, and through Shiny Storm, have created a tight knit community here. Each member of the team is a family member, connected by love and a common purpose to deliver happiness and joy through the healing powers of crystals. It is this passion, openness and genuine care for others that has allowed this family business to thrive.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ycDkEP"
+      ],
+      "settings": {
+        "color_scheme": "tertiary"
+      }
+    },
+    "page_cascade_section_6Yb3Kg": {
+      "type": "page-cascade-section",
+      "blocks": {
+        "richtext_7jCRHp": {
+          "type": "richtext",
+          "settings": {
+            "title": "Meet Ana",
+            "richtext": "<p>Blending a passion for crystals and an innate drive to help others led Ana to found Shiny Storm on the Sunshine Coast. From her childhood in Brazil, to a thriving business in Australia, crystals have always held a special place in her heart.</p><p><em><strong>“I am always so amazed with the Earth: she is constantly giving us beautiful shiny crystals. From deep underground, they will find their way to the surface, to us. I think we, all of us, must need them.” </strong></em></p><p>Ana’s love for these precious stones is not steeped in shady, incensed cloaked mythology. With a degree in Psychology and extensive experience in the industry, her knowledge is resolute: crystals offer outstanding benefits to our general wellbeing. Ana has an encyclopaedic knowledge of crystals, is adept at spotting fraudulent stones and is passionate about utilising the Earth’s treasures sustainably. </p>",
+            "richtext-b": "",
+            "title-m": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_7jCRHp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/noosa-store-oct-22_0115__dsc00342-1666931562667.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "page_image_banner_xxHfwj": {
+      "type": "page-image-banner",
+      "settings": {
+        "color_icons_bg": "",
+        "image": "shopify://shop_images/noosa-store-oct-22_0119__dsc00392-1666931835406.webp",
+        "mobile-image": "shopify://shop_images/noosa-store-oct-22_0119__dsc00392-1666931835406.webp",
+        "b_link": ""
+      }
+    },
+    "full_width_richtext_jXnLQY": {
+      "type": "full-width-richtext",
+      "blocks": {
+        "richtext_VKQakw": {
+          "type": "richtext",
+          "settings": {
+            "title": "",
+            "richtext": "<p><em>“I didn’t create Shiny Storm to just sell crystals. We are all here on this planet, and if I can inspire and help as many people as possible on their healing journey, to share love and information and different natural ways to support their lives in this moment, then there is nothing more beautiful than that.” </em></p><p>You will often find the always smiling, effervescent Ana in one of the Shiny Storm shopfronts or market stalls assisting clients find their perfect crystal, sipping a coffee or on the sand at beautiful Sunshine Beach. </p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_VKQakw"
+      ],
+      "settings": {
+        "color_scheme": "tertiary"
+      }
+    },
+    "right_image_text_JpYxqd": {
+      "type": "right-image-text",
+      "blocks": {
+        "richtext_BTU4ab": {
+          "type": "richtext",
+          "settings": {
+            "title": "Meet Felipe",
+            "richtext": "<p>Beyond product selection, Felipe is known for creating a welcoming atmosphere in Shiny Storm's stores. Whether you're a seasoned crystal enthusiast or a curious newcomer, Felipe's approachable nature and passion for crystal healing make every visit enlightening. His dedication to customer education and well-being has helped establish Shiny Storm as a trusted name in the community. </p>",
+            "richtext-b": "",
+            "title-m": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_BTU4ab"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DSC0219.jpg",
+        "color_scheme": "primary"
+      }
+    },
+    "page_image_banner_Ab9X6R": {
+      "type": "page-image-banner",
+      "settings": {
+        "color_icons_bg": "",
+        "image": "shopify://shop_images/eumundi-oct-22-portrait_0140__dsc0170-1666932184783.webp",
+        "mobile-image": "shopify://shop_images/eumundi-oct-22-portrait_0140__dsc0170-1666932184783.webp",
+        "b_link": ""
+      }
+    },
+    "full_width_richtext_jVj9Bi": {
+      "type": "full-width-richtext",
+      "blocks": {
+        "richtext_9ByFnn": {
+          "type": "richtext",
+          "settings": {
+            "title": "",
+            "richtext": "<p>Now, Felipe uses his business background to serve Shiny Storm, and is just as comfortable assisting clients at a market stall or wellbeing expo, as he is proficient in front of a computer with spreadsheets and international orders. Passionate and hardworking, he is clearly proud of the thriving local family business he and co-founder Ana have built.  </p><p>A keen sun worshipper and surfer, Felipe goes out surfing in any condition.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_9ByFnn"
+      ],
+      "settings": {
+        "color_scheme": "tertiary"
+      }
+    },
+    "custom_AaBw6x": {
+      "type": "custom",
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "cta_url": "",
+        "cta_text": "Shop Now",
+        "custom_html": "<h2 style=\"    text-align: center;\">“Let the light shine!”</h2>",
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "pf-2789993d",
+    "page_image_banner_JhEmAr",
+    "full_width_richtext_nEHDUH",
+    "image_slide_section_z8AWgc",
+    "full_width_richtext_RcAVn4",
+    "page_cascade_section_6Yb3Kg",
+    "page_image_banner_xxHfwj",
+    "full_width_richtext_jXnLQY",
+    "right_image_text_JpYxqd",
+    "page_image_banner_Ab9X6R",
+    "full_width_richtext_jVj9Bi",
+    "custom_AaBw6x"
+  ]
+}

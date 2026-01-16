@@ -1,0 +1,668 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-2789993d": {
+      "type": "pf-2789993d",
+      "disabled": true,
+      "settings": {}
+    },
+    "page_richtext_section_cULCgB": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_jib63U": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h5>✧ Each crystal holds a power and energetic makeup<br/>of its very own ✧</h5><p>Browse our crystals below and their meanings to find the perfect one for you.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_jib63U"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title-t": "Crystals K - P",
+        "title": "Discover other crystals\n<br>\n<a href=\"/pages/discovercrystals\">&gt; Crystals A - E</a>\n<br>\n<a href=\"/pages/crystals-f-j\">&gt; Crystals F - J </a>\n<br>\n<a href=\"/pages/discover-q-z\">&gt; Crystals Q - Z</a>",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary"
+      }
+    },
+    "right_image_text_ttXXEy": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_Qtkqmh": {
+          "type": "richtext",
+          "settings": {
+            "title": "Kyanite",
+            "richtext": "<p>Meditation ✧ Dreams ✧ Attunement<br/></p><p>Often blue in colour, Kyanite does not absorb or amplify energy, but rather moves it around. This makes it extremely useful in attuning energies and meditation.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "With a wide range of colours on offer each variety of Kyanite offers particular benefits, though in general, its strong vibrations assist in opening the psychic channels and stimulating mind centres, helping to cut a purposeful path through your life. \n\n<h5>This crystal will also enhance the process of lucid dreaming and for advanced users, astral travel.</h5>\n\nKyanite is also helpful in downloading messages and ideas from the higher planes.\nKyanite does not require cleaning, is a wonderful mediator between other crystals and fosters loyalty, tranquility and honesty.\n<br>\nBlack or grey- root. Orange- sacral. Yellow- solar plexus. Green- heart. Blue- throat or third eye. Write- crown.",
+            "image": "shopify://shop_images/all-chakras-1659672718297.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil.<br/><strong>Energy:</strong> None.<br/><strong>Colours:</strong> Black, blue, grey, green, orange, yellow, white.<br/><strong>Works with:</strong> All Kyanite colours, facilitates movement of energy between any two crystals.<br/><strong>Helps with:</strong> Creating smooth transitions, clearing blockages, breaking habits, clear communication, memory, grounding, balance, harmony.<br/><strong>Usage tip:</strong> Use Kyanite between other crystals in a grid to allow better flow of energy. Place Kyanite under your pillow to improve your ability to recollect dreams. Carry Kyanite to help with Chakra alignment in your energetic body.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Qtkqmh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0023_stockimage2304903s2015-1632796968118.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "right_image_text_AiBrgb": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_qD4LJP": {
+          "type": "richtext",
+          "settings": {
+            "title": "Labradorite",
+            "richtext": "<p>Transformation ✧ Expansion ✧ Attunement</p><p>An ordinary stone before being cut and polished, the stunning beauty lying beneath is a wonderful metaphor for the power of Labradorite, which holds the connection between the Atonement physical plane we inhabit and unseen realms. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Labradorite is a stone of self-discovery and protection on magical journeys. It is best for those intent on seeking higher awareness, those wanting to discover their magical abilities or to expand those innate gifts. This crystal can be used to help uncover new possibilities or solutions.\n<br>\n<h5>This crystal is also often associated with having a sharper mind, and is very good in clearing mental confusion and indecision. </h5>",
+            "image": "shopify://shop_images/all-chakras-1659672718297.webp",
+            "text-tc": "<p><strong>Origin:</strong> Canada, Finland, Italy.<br/><strong>Energy:</strong> Amplifies.<br/><strong>Colours:</strong> Blue or grey with multiple flashes of colour.<br/><strong>Works with:</strong> Clear Quartz, Sodalite, Amethyst.<br/><strong>Helps with:</strong> Uncovering magical qualities, negativity, detoxifying negative thoughts and addictive substances, trusting intuition, calming an impulse or recklessness, clear thought, decision making.<br/><strong>Usage tip:</strong> Hold a piece of Labradorite to connect more easily and powerfully to the higher realms during meditation. Wear Labradorite to enhance your creativity and intuition. Sleep with a piece of Labradorite under your pillow to clear the blocks in your decision making. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_qD4LJP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0016_stockimage40473967s2015-1632796961010.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_TyEeCU": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ReVMaa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Lapis Lazuli",
+            "richtext": "<p>Communication ✧ Wisdom ✧ Truth<br/>Lapis Lazuli is not actually a crystal, but a metamorphic rock. However, its beauty and magical properties have been sought after for centuries, particularly by the Ancient Egyptians.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Highly prized as a stone for royalty, this powerful stone can help to awaken the inner power and majesty in all of us. Lapis Lazuli will greatly aid in uncovering hard truths, both within yourself and the motivations that drive your habits and behaviours. Thus, this powerful communication stone helps to shine a light on those blockages hindering the flow of positive energy through you, especially those buried deep within you.\n\n<h5>Acknowledging and speaking your truth are far easier with Lapis Lazuli, as is any kind of speaking or public performance.</h5>\n\nAssociated with the third eye, this stone is also a wonderful channel to new ideas, greater intellect and knowledge. Whether on a higher plane or simply in high school, Lapis Lazuli is an excellent nurturer of the love of learning.",
+            "image": "shopify://shop_images/pf-badcf766--CHAKRAS12.webp",
+            "text-tc": "<p><strong>Origin:</strong> Chile, Egypt, Middle East, United States.<br/><strong>Energy:</strong> Absorbs<br/><strong>Colours:</strong> Azure blue, blue with white or gold.<br/><strong>Works with:</strong> Clear Quartz <strong>Helps with:</strong> Communication, written communication, education, learning, expressing truth, harmony, improving performance, wisdom, intellect, truth, psychic development, energy boost.    <br/><strong>Usage tip:</strong> Lapis Lazuli makes beautiful jewellery, and will help any performer or speaker particularly when worn as a necklace. Carry Lapis Lazuli with you to enhance your natural abilities. Place Lapis Lazuli around your home and office to promote clear thought and organisation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ReVMaa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0011_layer-7-1632784884314.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_V6gerF": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_bwrYBz": {
+          "type": "richtext",
+          "settings": {
+            "title": "Lemon Calcite",
+            "richtext": "<p>Awareness ✧ Determination ✧ Focus</p><p>This is a relatively new and powerful meditation stone discovered only recently in Pakistan. Lemon Calcite has been found to be excellent for recentering yourself and restoring balance to your life.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Bright Lemon Calcite give you the power to solidify new interests and new relationships from a space of deep relaxation and spirituality. This stone can be an effective aid in efforts to move towards enlightenment and adding clarity to your life.\n<br>\n<h5>Lemon Calcite is very good at bringing concentration and determination to your personal will and life path, helping you to enliven your energy whilst adding zest, optimism, and meaning to your life and relationships. </h5>\nSelf examination and discovery go hand in hand with Lemon Calcite.",
+            "image": "shopify://shop_images/crown--third-eye-1659751601364.webp",
+            "text-tc": "<p><strong>Origin:</strong> Mexico, China.<br/><strong>Energy: </strong>Uplifting<br/><strong>Colours:</strong> Pale yellow, yellow and gold.<br/><strong>Helps with:</strong> Determination, meditation, manifestation, personal will, knowledge, truth, relaxation, new beginnings, passion, opportunities, courage, self-discovery, action, abundance, focus, awareness, intuition.<br/><strong>Usage tip: </strong>Hold Lemon Calcite for a powerful manifestation and healing meditation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bwrYBz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0010_layer-8-1632784884306.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_MqmR3J": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_LjqW4F": {
+          "type": "richtext",
+          "settings": {
+            "title": "Lemurian Quartz",
+            "richtext": "<p>Intuition ✧ Knowledge ✧ Love</p><p>Lemurian Quartz is steeped in ancient mystery, based on the lost civilisation of the Lemurians and found in only one mine in Brazil. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Misshapen and with natural etchings like a modern day barcode, these powerful stones hold historic energy, one that reminds us of our spiritual ties to higher planes and that we can manifest whatever we set our mind, heart and soul to. Lemurian Quartz guides us to acknowledge our intuition and remember what we are seeking is already deep within us. \n\n<h5>Each piece has a personality of its own, and will guide its user to higher communication or to heal the inner spirit and physical body.</h5>\n\nRegardless, Lemurian Quartz is extremely powerful in imparting wisdom and understanding for any complex problem. Once the stone has guided you to a solution, it will also help support your intuition to move you beyond it. Legend suggests Lemurian Quartz was seeded in the ground by the last beings of the ancient civilisation for our future use. As such, each stone today imparts absolute love for the earth and are excellent for the soul, dispelling negativity.",
+            "image": "shopify://shop_images/crown--third-eye-1659751601364_33372938-2cfa-4b82-9c37-1a73739b50bd.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil.<br/><strong>Colours:</strong> Colourless.<br/><strong>Helps with:</strong> Intuition, negativity, wisdom, clarity, understanding, meditation, knowledge.<br/><strong>Usage tip:</strong> Meditate whilst holding Lemurian Crystal in your right hand to find the answer to a complex problem. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_LjqW4F"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0005_lemurian-quartz-1659244535317_1.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_zkCAWH": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_HhWaRC": {
+          "type": "richtext",
+          "settings": {
+            "title": "Lepidolite",
+            "richtext": "<p>Transition ✧ Optimism ✧ Emotional Balance</p><p>This incredibly beautiful and powerful stone balances the emotions and lifts the spirits.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Belonging to the mica group, Lepidolite is enhanced with a high lithium content making it an excellent crystal to aid in promoting calm, independence and concentration. In particular, this stone is well known for its use in stabilising mood swings, addictions, self-esteem issues and bi-polar disorders. Lepidolite is also an excellent dream and sleep saver, helping you drift off into peaceful slumber. \n<br>\n<h5>Lepidolite is an uplifting stone to carry in your crystal collection for its stabilising properties in general. </h5>\n\nJoy and calm emanate from the stone, clearing and balancing your energy and wellbeing from frazzled to calm and clear.",
+            "image": "shopify://shop_images/all-chakras-1659672718297_2f43eba3-aed4-48d6-ae1f-f280b48aff16.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, Madagascar, Australia, Russia, Japan, Canada, the United Kingdom, Mexico, and the United States.<br/><strong>Energy: </strong>Protector.<br/><strong>Colours:</strong> Pink, mauve and purple.<br/><strong>Helps with:</strong> Calming, stabilising moods, lifting moods, relaxation, sleep, peace, gratitude, joy, concentration, self-sufficiency, connection with soul, detoxifying electro-magnetic pollution.<br/><strong>Usage tip:</strong> Parents with newborns might like to place a large piece of Lepidolite in your child's room to help these new humans feel loved and nurtured. Activate and align your entire chakra column by holding or connecting with this stone, or placing a piece directly over your third eye or crown chakra during a meditative session. Place a piece of Lepidolite near your computer to help clear electro-magnetic pollution.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HhWaRC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0009_layer-9-1632784884291.jpg",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_tjgJFq": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_KqcR88": {
+          "type": "richtext",
+          "settings": {
+            "title": "Mahogany Obsidian",
+            "richtext": "<p>Calmness ✧ Intuition ✧ Strength</p><p>Birthed from the Earth as volcanic glass, Mahogany Obsidian brings emotions and feelings to the surface, whilst gently grounding you to a more balanced energy. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "This powerful grounding stone will help you to become centered, feel present, clear energy and connect to the earth and your own body. Mahogany Obsidian is the perfect meditation tool for those working to release negative energies and stimulate growth emotionally, spiritually and physically, and balance throughout the chakras.  \n\n<h5>Able to activate and stimulate personal growth, sexuality, strength, creativity, passion and protection, this powerful stone also brings thoughts and ideas into action for the sole purpose of personal growth. </h5>\n\nRelease yourself from inner limitations, unlock and enhance all of your creative energy and express your true self with calm confidence. Gentler than black Obsidian, Mahogany Obsidian is the perfect assistant to those starting on their inner work journey, or when beginning to clear energy associated with particularly painful or traumatic events. Imparting strength and intuition, Mahogany Obsidian is also wonderful for those desiring to increase or unlock their sexual energy. This stone allows you to express yourself and your desires with greater ease and confidence.",
+            "image": "shopify://shop_images/mahogany-obsidian-1659754891053.webp",
+            "text-tc": "<p><strong>Origin: </strong>Mexico, Japan, Afghanistan, Brazil, and USA. <br/><strong>Energy:</strong> Grounding.<br/><strong>Colours:</strong> Black and brown.<br/><strong>Works with: </strong>Phenacite, Herkimer Diamond. <br/><strong>Helps with:</strong> Grounding, balance, clearing energy, negativity, courage, inner work, chakras, creativity, strength, truth, trust, self-expression, sexuality, personal will.  <br/><strong>Usage tip:</strong> Wear Mahogany Obsidian to relieve physical pain and improve circulation. Clear unwanted energy by sweeping Mahogany Obsidian over your body, or meditating with the stone placed on a particular chakra. When exploring sexuality with others, place Mahogany Obsidian in your bedroom or wear it to help disperse anxiety and assist in increased confidence and intuition. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KqcR88"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0018_mahogany-obsidian-1659244535398.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_8KEqFE": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_Kj6JW3": {
+          "type": "richtext",
+          "settings": {
+            "title": "Malachite",
+            "richtext": "<p>Protection ✧ Confidence ✧ Healing</p><p>This beautiful crystal is the perfect healing heart stone, one which can provide ultimate protection from negativity, whilst filling the auric field with positivity.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "How amazing is that? Malachite soothes the heart and brings peace into your life. It is also an incredible confidence boosting stone, enabling you to confront fears and energy blockages stifling you. We would recommend giving this to anyone who is constantly working on themselves.\n\n<h5>Since Medieval times, Malachite has also been used to alleviate minor aches and pains in the body. </h5>\n\nUsers of Malachite must take care though: as a powerful absorber of negative energy, it does not however release that negativity. Cleanse your Malachite piece very regularly, especially if you are using it daily.",
+            "image": "shopify://shop_images/heart--solar-plexus-1659673890131.webp",
+            "text-tc": "<p><strong>Origin:</strong> Congo, Russia, Middle East, Zambia<br/><strong>Energy:</strong> Absorbs<br/><strong>Colours:</strong> Green<br/><strong>Works with:</strong> Lapis Lazuli, Azurite, Turquoise, Tigers Eye.<br/><strong>Helps with:</strong> Protection against negativity, boosting mood, travel, self-confidence, transformation, insight, balance, minor aches, healing, cleansing, prosperity.<br/><strong>Usage tip:</strong> This is an excellent travel companion stone. Place in your carry-on to ensure a calm state of mind and a peaceful and smooth flight.Meditate holding Malachite over your heart to assist with healing emotional wounds.Place Malachite in four corners of a room to cleanse it of negative energy and boost positivity.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Kj6JW3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0008_layer-10-1632784884279.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_wjAWAk": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ERxD3Q": {
+          "type": "richtext",
+          "settings": {
+            "title": "Mookaite",
+            "richtext": "<p>Grounding ✧ Invigorate ✧ Energise</p><p>This form of Jasper comes from Mooka Creek in the Kennedy Ranges of Western Australia and is a powerful stone connected to the ancient healing properties of Mother Nature.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Not only a healing stone, Mookaite utilises energies to invigorate and connect our physical body with the Earth. In this way, this stone will help ground your mind, heart, and soul, allowing you to connect with what is truly important both within you and in the physical realm.\n\n<h5>Deep meditation with Mookaite is a powerful way of communing with Mother Earth, nature and the ability to find true beauty in every moment.</h5>\n\nRejuvenating, calming and powerfully grounding, Mookaite is the perfect stone for those looking to a greater connection with the world around them. It is also said to have anti-ageing properties, both on a physical and mental level.",
+            "image": "shopify://shop_images/all-chakras-1659672718297_59984ba1-eca3-482a-b576-ec2f0b8b3294.webp",
+            "text-tc": "<p><strong>Origin:</strong> Western Australia.<br/><strong>Energy:</strong> Transforming<br/><strong>Colours: </strong>Blood red, brown, red, grey, yellow and purple.<br/><strong>Works with:</strong> Citrine, Tiger Eye and Imperial Topaz.<br/><strong>Helps with:</strong> Grounding, healing, energy, calming, inner strength, encouragement, adventure, power, motivation, knowledge, joy, personal will, passion, nurturing, opportunities.<br/><strong>Usage tip:</strong> Meditate with Mookaite placed on your solar plexus to strengthen your personal will and motivation. Place Mookaite under your pillow for a truly rejuvenating night’s sleep.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ERxD3Q"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0007_layer-11-1632784884273.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_WkqPAp": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_djQTJV": {
+          "type": "richtext",
+          "settings": {
+            "title": "Moonstone",
+            "richtext": "<p>Intuition ✧ Calming ✧ Higher Realms</p><p>Ethereal in appearance and nature, Moonstone helps gain knowledge of self at the highest level.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Working with upper Chakras, this stone’s energy allows for greater connection to and engagement with your intuition, allowing your true self to grow, strengthen and transform. It is also deeply connected to the cycles and rhythms of Mother Earth, and greatly assists in soothing and calming the emotional state. Possessing a stable feminine energy, Moonstone balances the emotions and enhances our sensitivity to the divine.\n\n<h5>This stone helps us connect to the higher realms.</h5>\n\nHere, you will have the knowledge you seek, be shown eternal, universal planes and develop an enlightened consciousness.Moonstone is also well known for its protection during night time travel and travel over water, its glimmering sheen lighting the way.",
+            "image": "shopify://shop_images/chevron-amethyst-chakras09-1657777230528.webp",
+            "text-tc": "<p><strong>Origin:</strong> Austria, Brazil, India, Sri Lanka<br/><strong>Energy: </strong>Amplifies<br/><strong>Colours: </strong>Black, peach, white<br/><strong>Works with: </strong>Rose Quartz, Amethyst, Cavansite<br/><strong>Helps with:</strong> Strengthening intuition, psychic abilities, meditation, divination, balance, calming, soothing, love and affection, patience, self-healing, self-expression and inner peace.<br/><strong>Usage tip:</strong> Place a piece of Moonstone in the glovebox of your car to assist with travelling or at night.Wear or carry a piece of Moonstone if you suffer from PMS. Meditate with Moonstone on your Sacral Chakra to release energy blocks.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_djQTJV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0006_layer-12-1632784884245.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_HDYGU6": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_dzJTix": {
+          "type": "richtext",
+          "settings": {
+            "title": "Moss Agate",
+            "richtext": "<p>Healing ✧ Balancing ✧ Connection to Earth</p><p>Moss Agate is formed from the weathering of strong volcanic rock, with deep colours of vibrant green and sometimes brown.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "A direct product of our planet’s most primal elements, Moss Agate is heavily associated with Mother Earth, healing, grounding and transformation.  Moss Agate is considered one of the most powerful of medicine stones, with anti-inflammatory properties and the ability to heal wounds, ward off self-induced anger, bitterness, and other negativity.\n\n<h5>It’s connection to Mother Earth encourages us to re-establish the bond with our inner child, where happiness, fun and carefree joy was abundant.</h5>\n\nMoss Agate encourages us to re-connect to our inner purpose, to live with joy and light. This stone works on the same principles as a lovely long walk through a cool forest on a hot day, providing relief, sanctuary and renewed purpose.",
+            "image": "shopify://shop_images/peach-moonstone-1659674082144.webp",
+            "text-tc": "<p><strong>Origin:</strong> India<br/><strong>Energy:</strong> Transformationa<br/><strong>Colours:</strong> Green, brown.<br/><strong>Helps with:</strong> Balancing, calming, healing, pain relief, truth, wisdom, stability, grounding, connection with nature, detoxification, joy, growth, consciousness, transformation.<br/><strong>Usage tip:</strong> Place Moss Agate directly onto the skin in any place where pain or inflammation is present to soothe that area. Ground yourself by carrying a piece of Moss Agate. Meditate with Moss Agate to heal your body and connect to your inner self.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dzJTix"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0005_layer-13-1632784884239.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_RkgCM3": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_H8Hdbr": {
+          "type": "richtext",
+          "settings": {
+            "title": "Obsidian",
+            "richtext": "<p><em>Protection ✧ Grounding ✧ Clearing</em></p><p>Obsidian is a root chakra stone that can help to ground and protect the user.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Usually black in colour, Obsidian is actually volcanic glass that is squeezed out as the lava cools. Coming violently from the Earth, it is believed this stone is very powerful in bringing hidden emotions to the surface. This makes Obsidian an excellent energetic clearer, cleaning up the auric field as well as blockages within your energetic flow.\n\n<h5>Obsidian is also very good at clearing negative energies within the user and the environment surrounding them.</h5>",
+            "image": "shopify://shop_images/peach-moonstone-1659674082144_e2b42374-9777-4502-8cbf-85207cd50399.webp",
+            "text-tc": "<p><strong>Origin:</strong> All over the world.<br/><strong>Energy:</strong> Amplifies.<br/><strong>Colours:</strong> Black, black with white<br/><strong>Works with:</strong> Clear Quartz, Selenite.<br/><strong>Helps with:</strong> Grounding, clearing energetic blocks, releasing anger, cleansing aura, protection against negativity.<br/><strong>Usage tip</strong>: Keep Obsidian by your bed to help release blockages from past experiences. Meditate with Obsidian to gain greater insight into your true self. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_H8Hdbr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0018_stockimage28625797s2015-1632796968109.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_XLN6Up": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_r6PkNq": {
+          "type": "richtext",
+          "settings": {
+            "title": "Ocean Jasper",
+            "richtext": "<p>Acceptance ✧ Love ✧ Soothing</p><p>There are few stones as soothing as Ocean Jasper, which helps to gently pave the way to love, both of others and ourselves. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Extremely rare and beautiful, this stone has only one known origin, along the north-eastern coast of Madagascar from the base of a cliff only accessible by boat during low tide. Ocean Jasper activates and aligns our solar plexus, heart and throat chakras, giving the ability to combine our will with our emotions to achieve joy, happiness and emotional alignment. In use, this stone helps us to reveal our true feelings, accept responsibility of our actions, thoughts and emotions and increases our patience in dealing with them.\n\n<h5>Ocean Jasper helps to release any blocks or constraints on the heart, encouraging you to physically speak your truth and move forward from those emotional issues.</h5>\n\nThis stone will help you heal your emotions, relationships, and most importantly, your inner self.  Ocean Jasper fosters a sense of love of self, encouraging you to become more positive and comfortable with expressing the true essence of yourself. This stone will also help with digestive issues, detoxification and easing body odour.",
+            "image": "shopify://shop_images/ocean-jasper-1659755507678.webp",
+            "text-tc": "<p><strong>Origin:</strong> Madagascar.<br/><strong>Energy:</strong> Amplifies.<br/>Colours: Patterns of green, brown, blue, yellow, grey, white, pink or red.<br/><strong>Helps with:</strong> Acceptance, love, confidence, communication, emotional healing, clarity, cleansing, courage, motivation, personal will, new beginnings, inner peace, transformation, growth, soothing, nurturing, enlightenment.<br/><strong>Usage tip:</strong> Wear Ocean Jasper in jewellery to aid in positive and joyful social interactions. Deep dive into emotional healing during meditation by placing Ocean Jasper on that chakra which is most out of alignment</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_r6PkNq"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0003_ocean-jasper-1659244535311.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_GiJkwg": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_cKfAGt": {
+          "type": "richtext",
+          "settings": {
+            "title": "Opalite",
+            "richtext": "<p>New beginnings ✧ Clarity ✧ Optimism</p><p>Opalite is not a true crystal, but manmade opalised glass. Do not mistake its ethereal beauty for Opal or Moonstone.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "As a manmade stone, its uses as a healing stone are more pragmatic, but no less powerful. Opalite brings peace and serenity, helping you face your fears and accept change. \n\n<h5>This stone can encourage you to explore the desires of your inner self, and discover that even the loftiest goals and dreams can be reached. \n</h5>\nIn this, Opalite helps to strengthen your resolve, but to laugh and enjoy life while you do it. Opalite has been used to ease the pain of childbirth, promote relaxation and clear headaches.",
+            "image": "shopify://shop_images/crown--third-eye-1659751601364_321cdfd5-9bca-44cd-9289-4f41c776d5cd.webp",
+            "text-tc": "<p><strong>Origin:</strong> Worldwide.<br/><strong>Colours:</strong> Pale fluorescent blues, greens, purples and red.<br/><strong>Works with:</strong> Goldstone <br/><strong>Helps with:</strong> Positivity, resilience, easing physical pain, joy, inner resolve, motivation, peace, acceptance, clearing, happiness.<br/><strong>Usage tip:</strong> During meditation, place Opalite on any chakra needing clarity of feeling and to free the energy there. Make use of beautiful Opalite jewellery and wear it often to maintain a joyful outlook on life.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_cKfAGt"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0003_ocean-jasper-1659244535311_487be3b0-a464-4dad-9849-89fffa80b6e2.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_9ppDw6": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_y7zAJN": {
+          "type": "richtext",
+          "settings": {
+            "title": "Orange Calcite",
+            "richtext": "<p>Cleansing  ✧ Healing ✧ Manifestation</p><p>A cleansing and energising stone, especially in the lower chakras, anyone looking to relight that ‘fire’ inside of them, should have Orange Calcite at hand. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Its orange colour mirrors that of the sun, producing the kinds of endorphins we feel upon walking out into the sunshine, but within the body. This is a very positive and uplifting stone which is aligned with the lower chakras, ensuring its use cleanses blocks in those areas, allowing creative and sexual energies to flow more freely. When this occurs, we become more comfortable with ourselves and whatever issues or people surround us.\n\n<h5>The result is an increase in confidence and self esteem: Shiny Storm recommends Orange Calcite to anyone engaging in negative self talk, or those feeling a little down. </h5>\n\nThis sunny stone will help restore mental and emotional balance, and is helpful for the physical body as well. The reproductive system, genitals, kidneys and intestines all benefit from Orange Calcite. It’s also a good cleansing stone for those prone to congestive disorders such as irritable bowel syndrome, chronic fatigue and arthritis.",
+            "image": "shopify://shop_images/solar-plexus--sacral-1659756516266.webp",
+            "text-tc": "<p><strong>Origin:</strong> Mexico, Canada and South America.<br/><strong>Colours: </strong>Orange and yellow.<br/><strong>Works with:</strong> Shiva Lingam<br/><strong>Helps with:</strong> Confidence, self esteem, creativity, manifesting desires, sexuality, fertility, pregnancy, meditation, emotional healing, depression, cleansing, clearing, congestive disorders, balance.<br/><strong>Usage tip:</strong> For those women trying to conceive, carry a piece of Orange Calcite to promote fertility.  Place Orange Calcite under your bed to boost vitality and confidence throughout the next day. In meditation, placing Orange Calcite around your groin area will help boost and secure your sexuality.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_y7zAJN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0021_orange-calcite-1659244535415.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_bJmPEA": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_WTgFCa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Peacock",
+            "richtext": "<p>Self-confidence ✧ Release Energy ✧ Trust</p><p>Peacock Ore is another of Earth’s beautiful rainbows, with a myriad of colours and colour combinations. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Put simply, Peacock Ore will bring colour back into your aura and in turn, happiness to your life. This colourful stone eliminates negative energy while encouraging an abundance of joy. Peacock Ore assists in changing habits, routines and lifestyles to transform you into the best version of yourself. \n\n<h5>As an abundance stone, the Peacock exposes and helps to simplify the relationship between wealth and abundance, and how your thinking affects both. \n</h5>\nIn this way, this beautiful stone helps to focus our efforts on building on our successes as well as enhancing our lives in general.  Peacock Ore also aligns all chakras. Residing at the Crown and streaming energy throughout the auric field, it has the ability to bring every Chakra into balance and harmony. Peacock Ore will also assist in expanding your Third Eye chakra, opening the mind to a higher realm.",
+            "image": "shopify://shop_images/all-chakras-1659672718297_b33db8dc-07ef-43ea-809c-ea2113853a2e.webp",
+            "text-tc": "<p><strong>Origin:</strong> Worldwide.<br/><strong>Colours:</strong> Shimmering pinks, blues and purples. <br/><strong>Helps with:</strong> Abundance, confidence, creativity, happiness, clarity, spirituality, truth, focus, new beginnings, good luck, clearing, trust.<br/><strong>Usage tip:</strong> Feel stuck in life? Carry Peacock Ore with you to affect a sudden and positive change.  Meditate with Peacock Ore on the brow to help open your Third Eye to clearer and more expansive visions in the spiritual realm. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_WTgFCa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0016_peacock-1659244535383.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_LK7ppz": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_LJnpF7": {
+          "type": "richtext",
+          "settings": {
+            "title": "Pink Amethyst",
+            "richtext": "<p>Love ✧ Protection ✧ Wisdom<br/></p><p>A powerful ‘love stone’ credited with enhancing spiritual wisdom and protection from emotional upheaval.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Stones which are pink in colour are often associated with gentle feminine energy, and when combined with the amazing protective, enlightening and purifying capabilities of the Amethyst, create a powerful crystal.\n\n<h5>Pink Amethyst is wonderful for those who have felt lost emotionally, spiritually and in their relationships in the past, and are now ready to move into a future where they can embrace love for both themselves and others.  </h5>\n\nThis crystal will provide clarity into your inner being, and help to clear any blocks surrounding those destructive emotions you might have about love and your self-worth. A Pink Amethyst crystal will help you see yourself as you actually are, whilst helping to understand and acknowledge how others see you also. This is highly beneficial for anyone on their spiritual journey who is ready to seek truth, love and happiness.\nThis is also a highly protective crystal and will help you avoid further emotional turmoil.",
+            "image": "shopify://shop_images/pf-6485ec33--CHAKRAS14.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil and Uruguay<br/><strong>Colours:</strong> Pink<br/><strong>Helps with:</strong> Inner inquiry, protection against emotional and spiritual upheaval, love, understanding, seeking truth, inner work, increasing happiness<br/><strong>Usage tip:</strong> If you are regularly in conflict with another person, hold a Pink Amethyst for protection, but also speak to it and ask for clarity on the situation. Meditate with Pink Amethyst for greater insight and enhancement of spiritual guidance. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_LJnpF7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-9cd21eea--MEANING-PHOTOS22.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_UUqtfn": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_qmRtGa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Pink Calcite",
+            "richtext": "<p>Self-Comfort ✧ Love ✧ Inspiration</p><p>This delicate pink stone emits a true and loving energy, banishing fear and trauma.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Sometimes called Mangano Calcite and often referred to as the Reiki Stone, Pink Calcite is a powerful crystal which can assist with all ailments of the heart chakra.  \n\n<h5>As a promoter of inner peace, pure love and joy, Pink Calcite is the ultimate self-healing stone, and is able to push through any lingering trauma or pain residing within the heart.</h5>\nThis stone will then allow for a greater discovery of self and spirit, gradually developing your confidence, self-assuredness and acceptance of the ‘real’ you. Clear emotional blocks within the heart chakra, ‘reset’, balance and uplift yourself so you are free to love without fear with Pink Calcite.",
+            "image": "shopify://shop_images/heart-1659672849887.webp",
+            "text-tc": "<p><strong>Origin:</strong> Romania, Peru, Bulgaria, Mexico, Madagascar, Russia, Australia and Japan.<br/><strong>Energy:</strong> Uplift<br/><strong>Colours:</strong> Light to Dark Pink<br/><strong>Works with:</strong> Rose Quartz, Morganite, Rhodochrosite, Kunzite, and Pink Tourmaline.<br/><strong>Helps with: </strong>Emotional upset, heart chakra, life path, love, healing, new beginnings, nourishment, self-discovery, self-love, self-healing, consciousness, transformation, overcoming grief, inspiration, insight, rejuvenation.<br/><strong>Usage tip:</strong> Wear a necklace of Pink Calcite after a relationship break down or death of a loved one to help your heart chakra process your grief. Meditate with Pink Calcite to boost and uplift your inner self. Place a piece of Pink Calcite beside your bedside to dispel nightmares.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_qmRtGa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0003_layer-15-1632784884231.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_wXnnMA": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_bFKWFg": {
+          "type": "richtext",
+          "settings": {
+            "title": "Pink Opal",
+            "richtext": "<p>Soothing  ✧ Self-healing ✧ Love<br/></p><p>The prettiness of Pink Opal makes the beholder smile immediately, an indicator of just how powerful this loving stone is.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Deeply connected to the Heart Chakra, this crystal helps us to look within and strengthen the bond we have with our inner selves. Love for others must come from within us, and this means loving ourselves first. In this way, Pink Opal helps to transform any feelings of subservience to others into those which allow us to trust ourselves, love our own individuality and strengthen our resolve to happiness and joy without compromise. \n\n<h5>It is unsurprising to note how helpful this crystal can be in healing from emotional trauma, loss and even in long distance relationships. \n</h5>\n\nPink Opal helps us gain the courage and strength to love and be our true selves in every relationship.",
+            "image": "shopify://shop_images/pf-6485ec33--CHAKRAS14.webp",
+            "text-tc": "<p><strong>Origin:</strong> Peru, USA, Australia and some South American countries.<br/><strong>Energy:</strong> Activates.<br/><strong>Colours:</strong> Pink.<br/><strong>Works with: </strong>Green Calcite, Rose Quartz and Garnet.<br/><strong>Helps with: </strong>Love and relationships, trauma, stress relief, patience, wisdom, self-exploration, spiritual awakening, sleep, selflessness, self-healing, individuality, strength, courage, inner peace, healing emotions.<br/><strong>Usage tip: </strong>Do not expose Pink Opal to sunlight: this will cause the stone to become dry and brittle, and potentially break. Place a piece of Pink Opal in your child’s bedroom or pocket to help calm fears, dispel anxiety or increase their confidence. Use Pink Opal in meditations to aid in a strong connection to and clearing of your Heart Chakra.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bFKWFg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0023_pink-opal-1659244535427.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_biTiWi": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_YnkENh": {
+          "type": "richtext",
+          "settings": {
+            "title": "Pistachio Calcite",
+            "richtext": "<p>Insight ✧ Inspiration ✧ Growth</p><p>This is a quintessential heart stone, one which will help you heal, accept and move on to greater heights of love and happiness.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Yes, it’s that good!! Pistachio Calcite enhances your vitality, can bring abundance and helps us to grow both physically and emotionally. When suffering heartache, this stone will allow your joyful energy to grow and for you to accept and move purposefully into new beginnings, nourishment and health. \n\n<h5>Calming Pisatachio Calcite will help you unwind after a hard day at work or an emotional experience, relieving the pressures and strain which have built up in your centre: the heart.\n</h5>\nPistachio Calcite can also help dissolve rigid, unhelpful belief systems which no longer serve you on the path you wish to follow. This powerful stone instead leads the mind to a more positive frame, helping with manifestation, abundance and intuition.",
+            "image": "shopify://shop_images/heart-1659672849887.webp",
+            "text-tc": "<p><strong>Origin:</strong> Mexico, Peru and Brazil.<br/><strong>Energy: </strong>Seeker, builder<br/><strong>Colours:</strong> Green.<br/><strong>Helps with:</strong> Heartache, personal growth, calming, manifestation, meditation, joy, physical and emotional healing, connecting with nature, love, stress relief, positivity.<br/><strong>Usage tip: </strong>Use green crystals to enhance any space used for eating or exercising. Place in any space where you are beginning a new project. Meditate with Pistachio Calcite outside to take advantage of its unique connection with nature, especially at dawn or dusk.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_YnkENh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0002_layer-16-1632784884223.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_EW33cJ": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_mAjChR": {
+          "type": "richtext",
+          "settings": {
+            "title": "Polychrome Jasper",
+            "richtext": "<p>Vitality ✧ Action ✧ Creativity<br/></p><p>A true ancient Earth stone exhibiting the fire element, Polychrome or Desert Jasper is an intriguing and powerful crystal which will help create a path to your desires and blow oxygen and life into your passions.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "The energy of heat, action and emotion helps to ignite your ideas and concepts, facilitating and activating your inner balance. Polychrome Jasper will feed that heat, passion and life giving energy force within you, revitalising your purpose and inner being.\n\n<h5>This stone will help create safe, secure and happy energy within you, has great healing properties and is a powerful tool in manifestation.</h5>\n\nPink Opal helps us gain the courage and strength to love and be our true selves in every relationship.",
+            "image": "shopify://shop_images/pf-cb505d31--CHAKRAS01.webp",
+            "text-tc": "<p><strong>Origin:</strong> Madagascar.<br/><strong>Colours:</strong> Red, brown.<br/><strong>Helps with:</strong> Energising and rejuvenating, manifesting desires, calming, security, attracting love, actioning dreams and goals, protection.<br/><strong>Usage tip: </strong>Feeling a little blah? Hold a sphere of Polychrome Jasper in your hand and feel its energy enliven your spirit. Attract love and emit a sense of vibrancy by carrying Polychrome Jasper with you at all times.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_mAjChR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-fd032790--MEANING-PHOTOS33.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_crtEfU": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_PeNLmc": {
+          "type": "richtext",
+          "settings": {
+            "title": "Prehnite",
+            "richtext": "<p>Communication ✧ Peace ✧ Focus</p><p>Prehnite promotes unconditional love, stimulates spiritual growth and is very calming. When in use, this stone has a general balancing effect on your inner self, attracting peace, joy and harmony into your life.  </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Prehnite has the ability to help encourage focus and concentration on a task. This is wonderful for studying and learning, but also for deliberate and deep meditations with our higher selves, which in time can allow us to ascend to other astral planes. \n\n<h5>Physically, this stone helps to purify the body, support the immune system, and when used effectively, can draw attention to those areas in need of healing. Emotionally, Prehnite works powerfully with the Heart, to clear and open this chakra whilst enveloping you in greater positive energy.  \n</h5>",
+            "image": "shopify://shop_images/heart--solar-plexus-1659673890131_cb23c761-418a-4f0f-b4a3-69e4cfbefaf8.webp",
+            "text-tc": "<p><strong>Origin:</strong> Australia, China, Mali, New Zealand, Scotland, Tanzania and US.<br/><strong>Colours:</strong> Pale and olive greens.<br/><strong>Works with:</strong> Epidote.<br/><strong>Helps with:</strong> Manifestation, inner peace, communication in all realms, harmony, joy, love, focus, growth, acceptance, positivity, concentration, higher levels of consciousness.<br/><strong>Usage tip: </strong>Place Prehnite on your desk for calm, focused and effective learning. Meditate with Prehnite as a manifestation tool. Hold it firmly and communicate your dreams, goals and desires directly to the stone. Journal your goals and dreams, and as you do so, have Prehnite with you. Doing this daily will not only strengthen yourself but also clarify to the universe what it is you truly want.  Sleep with Prehnite next to you to feel a stronger connection to a higher dimension, including spiritual beings and your guardian angels.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PeNLmc"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0009_prehnite-1659244535347.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_gVgg8h": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_taXxKB": {
+          "type": "richtext",
+          "settings": {
+            "title": "Pyrite",
+            "richtext": "<p>Manifestation ✧ Confidence ✧ Action</p><p>Need a bit of oomph to get you goals realised? Pyrite is the stone for you!</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Also referred to as ‘Fools Gold’ this iron sulphide mineral has been used in protection talismans and jewellery throughout the centuries, whilst Native Americans used it as a powerful meditation and ceremonial tool. This is a very strong determination stone, and coupled with its connection to the Solar Plexus (personal will) is an excellent aid in activating your purpose, action and confidence\n\n<h5>Pyrite helps to manifest your heart’s desire by enhancing those energies needed to achieve them.</h5>\n\nAs an enhancement stone, Pyrite helps to build on our success and achievements, whilst providing protection from negative energies. Inspiring you to remain focussed and determined during challenging times, this stone is excellent for anyone who struggles to remain grounded or on task. As an added bonus, Pyrite promotes energy, vitality and confidence.",
+            "image": "shopify://shop_images/solar-plexus-1659673793381.webp",
+            "text-tc": "<p><strong>Origin:</strong> Worldwide, Peru and Mexico.<br/><strong>Lattice:</strong> Cubic (Isometric).<br/><strong>Energy:</strong> Determination, grounding.<br/><strong>Colours:</strong> Metallic, pale brass, pale yellow.<br/><strong>Works with: </strong>Quartz and selenite.<br/><strong>Helps with: </strong>Manifestation, determination, action, confidence, focus, motivation, clarity and protection from harm.<br/><strong>Usage tip:</strong> Pyrite is an excellent stone to meditate with when seeking financial abundance. Focus on attracting wealth during the meditation and channelling the energies which will help make this intention a reality. Wear pyrite in jewellery to help keep you focussed during your day and to provide protection from those who wish to harm you. Like to exercise? Got fitness goals?? A large chunk of Pyrite in the room where you exercise will help keep you focused for the entire length of your workout. When you feel fatigued, this powerful motivation stone will help channel those determined energies to keep you going! A pyrite crystal placed in the centred of a space will bring balance to the space, assuring that equilibrium and harmony is maintained.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_taXxKB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0001_layer-17-1632784884222.webp",
+        "color_scheme": "primary",
+        "text-b1": "Back to Crystals from A to J",
+        "link-b": "/pages/crystals-k-p-clovecode"
+      }
+    }
+  },
+  "order": [
+    "pf-2789993d",
+    "page_richtext_section_cULCgB",
+    "right_image_text_ttXXEy",
+    "right_image_text_AiBrgb",
+    "image_tab_section_TyEeCU",
+    "left_image_tab_section_V6gerF",
+    "image_tab_section_MqmR3J",
+    "left_image_tab_section_zkCAWH",
+    "image_tab_section_tjgJFq",
+    "left_image_tab_section_8KEqFE",
+    "image_tab_section_wjAWAk",
+    "left_image_tab_section_WkqPAp",
+    "image_tab_section_HDYGU6",
+    "left_image_tab_section_RkgCM3",
+    "image_tab_section_XLN6Up",
+    "left_image_tab_section_GiJkwg",
+    "image_tab_section_9ppDw6",
+    "left_image_tab_section_bJmPEA",
+    "image_tab_section_LK7ppz",
+    "left_image_tab_section_UUqtfn",
+    "image_tab_section_wXnnMA",
+    "left_image_tab_section_biTiWi",
+    "image_tab_section_EW33cJ",
+    "left_image_tab_section_crtEfU",
+    "image_tab_section_gVgg8h"
+  ]
+}

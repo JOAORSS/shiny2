@@ -1,0 +1,668 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-2789993d": {
+      "type": "pf-2789993d",
+      "disabled": true,
+      "settings": {}
+    },
+    "page_richtext_section_cULCgB": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_jib63U": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h5>✧ Each crystal holds a power and energetic makeup<br/>of its very own ✧</h5><p>Browse our crystals below and their meanings to find the perfect one for you.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_jib63U"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title-t": "Crystals A - E",
+        "title": "Discover other crystals\n<br>\n<a href=\"/pages/discovercrystals\">&gt; Crystals A - E</a>\n<br>\n<a href=\"/pages/crystals-f-j\">&gt; Crystals F - J</a>\n<br>\n<a href=\"/pages/discover-q-z\">&gt; Crystals Q - Z</a>",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary"
+      }
+    },
+    "right_image_text_AiBrgb": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_qD4LJP": {
+          "type": "richtext",
+          "settings": {
+            "title": "African Blood",
+            "richtext": "<p>Protection ✧ Courage ✧ Action</p><p>This is a healer’s stone used to ground negativityand protect against injuryor harm.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "As a translucent to green opaque coloured Chalcedony, the inclusion of flecks of deep red and green make this a beautiful addition to any crystal collection, with an added benefit this stone’s generous energy giving qualities.\n\n<h5>African Blood Crystal is said to help us face challenges, conquer fears and motivate us to action. It activates the courage deep within us, encouraging us to take on those experiences we dread or are holding us back from embracing our true joyful self.</h5>\n\nUltimately a protection stone, this beautiful flecked crystal will aid in healing, especially in any matters to do with the heart. Using African Blood Crystal grounds Heart energy, reducing irritability, anger and frustration.",
+            "image": "shopify://shop_images/chakras-1659244128918.webp",
+            "text-tc": "<p><strong>Origin:</strong> India, Brazil, China, Australia and the USA.<br/><strong>Energy:</strong> Activates.<br/><strong>Colours:</strong> Translucent with flecks of green and dark red.<br/><strong>Helps with:</strong> Healing, protection, creativity, strength, purification, motivation, grounding,  protection against injury, transmutes negativity, courage, movement, circulation, transformation.<br/><strong>Usage tip:</strong> Wear African Blood Crystal if you work in a hazardous occupation. Use African Blood Crystal in your meditation to clear the Heart Chakra of energetic blocks. Hold African Blood Crystal for inner strength when you are feeling anxious.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_qD4LJP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0025_african-blood-crystal-1659243573131.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "right_image_text_ttXXEy": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_Qtkqmh": {
+          "type": "richtext",
+          "settings": {
+            "title": "Agate",
+            "richtext": "<p>Balance ✧ Protection ✧ Soothing<br/></p><p>Agate comes in all the colours of the rainbow and can be an effective healing and meditation stone.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Unusually, different agates will have slightly varying properties depending on their colour: ask myself or one of the team at Shiny Storm to help you find the best kind for your needs. Essentially though, they are composed of quartz crystals whose hexagonal structure will help you achieve desires.\n\n<h5>Agate is primarily thought of as a protection stone, associated</h5>\n\nwith transforming negativity as well as improving concentration, perception and analytical abilities. It is a bringer of balance, and can be used effectively in soothing and calming inner anger and turmoil.",
+            "image": "shopify://shop_images/all-chakras-1659672718297.webp",
+            "text-tc": "<p><strong>Origin:</strong> All over the world.<br/><strong>Energy:</strong> Amplifies.<br/><strong>Colours:</strong> Black, blue, brown, grey, green, multi-coloured, orange, purple, red, white, yellow.<br/><strong>Works with:</strong> Other Agates, Clear Quartz.<br/><strong>Helps with:</strong> Emotional balance, concentration, calmness and manifestation. Blue: communication and honesty. Moss: love, success. Orange/brown: willpower. Pink: compassion. Other colours: any concerns associated with chakras of the same colour.<br/><strong>Usage tip:</strong> A beautiful way to begin a powerful and special relationship with an agate is to allow one to make its way to you. They can be found on rocky beaches all over the world: simply look through the rocks and when you see one that speaks to you, hold it up to the sunlight. If the sun shines through, it is an agate. If that sounds a little hard or you don’t live near a rocky beach, contact Shiny Storm: we will be more than happy to unite you with your agate!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Qtkqmh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0021_stockimage2684299s2015-1632796968115.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "image_tab_section_TyEeCU": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ReVMaa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Amazonite",
+            "richtext": "<p>Communication ✧ Truth ✧ Peace<br/><br/>A variety of feldspar, Amazonite is known as the Stone of Truth and the Stone of Courage.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Ranging in colour from blue to green, it is associated with both the heart and throat chakras, and is therefore excellent in communicating matters of truth. Amazonite assists with peace, truth, harmony and communication, radiating rejuvenating and positive energies. It is also a balancing stone and will calm a room, dispelling any negative energies.\n\n<h5>When used in meditation, Amazonite can also help to manifest our desires.</h5>\n\nIt will empower and strengthen the intentions you set within it.",
+            "image": "shopify://shop_images/pf-34d56799--CHAKRAS11.webp",
+            "text-tc": "<p><strong>Origin:</strong> Australia, Brazil, Canada, USA.<br/><strong>Energy:</strong> Absorbs.<br/><strong>Colours:</strong> Blue, green, light blue.<br/><strong>Works with:</strong> Rose Quartz.<br/><strong>Helps with:</strong> Empowers intentions, communication, protective against negativity, aids speaking the truth, balancing between throat and heart chakras, loving unconditionally, peace and understanding, integrity, forgiveness, prosperity.<br/><strong>Usage tip:</strong> Wearing amazonite in jewellery or keeping it close to you will have a calming effect on a stressful day. When trying to communicate difficult topics to loved ones, try placing a piece of Amazonite in your pocket.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ReVMaa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0015_stockimage44483363s2015-1632796961009.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_V6gerF": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_bwrYBz": {
+          "type": "richtext",
+          "settings": {
+            "title": "Amethyst",
+            "richtext": "<p>Calm ✧ Intuition ✧ Strength</p><p>Amethyst comes from the quartz family and can range in colour from pale to deep purple.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "You can also find heat-treated versions that are green (prasiolite) and yellow (so-called 'citrine’). The word amethyst comes from the Ancient Greek word amethystos, meaning ‘not drunken’ and refers to its traditional use as a stone to prevent overindulgence and inebriation. What does this mean for us living in the here and now?\n\n<h5>Amethyst is a powerful crystal, used to protect and purify both the physical and spiritual body. It is strongly related to the third eye, the seat of intuition and the crown chakra.</h5>\n\nWhen our energy in these chakras is blocked, we can become clumsy physically, anxious and blunder through thought and decision making. Amethyst helps to cleanse this blocked energy in the third eye, crown chakra, the body or any room it is placed in. It can also be used to transform negativity or assisting with insomnia and dreams, assisting travellers with safety. With all of these amazing uses and qualities, Amethyst is a significantly beneficial all-purpose stone and one of Shiny Storm’s most popular crystals.",
+            "image": "shopify://shop_images/pf-d56799b4--CHAKRAS09.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, Germany, Sri Lanka, Uruguay.<br/><strong>Energy: </strong>Amplifies.<br/><strong>Colours:</strong> Pale to deep purple, green (heat-treated, prasiolite), yellow (heat-treated, ‘citrine’).<br/>Works with: Citrine, clear quartz.<br/><strong>Helps with:</strong> Intuition and insight, insomnia, safe travel, connecting to higher self and the Divine, creativity, manifestation, stress and anxiety, nightmares and addiction.  <br/><strong>Usage tip:</strong> Place on your bedside table to help alleviate insomnia, discourage nightmares and/or remember dreams. You could even secure amethyst underneath the head of your bed.<br/>In meditation, Amethyst will help attain stillness in your mind, allowing you to channel greater clarity, creativity and manifesting ideas into reality. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bwrYBz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0005_stockimage194025274s2015-1632796960437.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_MqmR3J": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_LjqW4F": {
+          "type": "richtext",
+          "settings": {
+            "title": "Apatite",
+            "richtext": "<p>Balance ✧ Energise ✧ Purify</p><p>Apatite is the ultimate stone to help you find a place of balance and tranquillity. Recentering into the essence of you by discarding energetic blocks, harmful habits and all those negative thought patterns we pick up unconsciously is an important part of any healing process; this crystal will help you achieve that. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Associated with spiritual wisdom and truth, Apatite comes in many different colours, each with its own unique qualities and healing properties.\n\n<h5>Closely associated with the higher realms, this stone will help download ideas from your higher self and stimulate the intellect.</h5>\n\nIt allows for deeper exploration and reflection into one’s self. Meditating with Apatite will increase your insight and inner clarity, buffering the pressures and energies from the outside world so you can find balance, peace and quiet strength. Apatite is also said to be good for suppressing the appetite, a helpful tool for anyone seeking a healthier weight.",
+            "image": "shopify://shop_images/apatite-chakras18-1657772198510.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, Burma, Mexico, Norway, Russia, United States.<br/><strong>Energy:</strong> Amplifies.<br/><strong>Colours:</strong> Pink- heart or root. Yellow- solar plexus. Aqua- heart. Blue- throat. Violet- third eye. Clear- crown.<br/><strong>Works with:</strong> Amethyst, clear quartz and rose quartz.<br/><strong>Helps with:</strong> Balancing, peace, tranquillity, energetic cleansing, intuition, clarity, strength, wisdom, knowledge, astral travel, motivation, energy, decreasing social anxiety, focus, connection to higher realms.<br/><strong>Usage tip: </strong>This is a brittle crystal: store carefully wrapped as it will chip and scratch easily.Wear Apatite during times of healthy weight loss to help keep hunger pangs away.Due to its strength, using Apatite during long meditations will maintain your energy and connection to the higher realm.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_LjqW4F"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/apatite-texture-1657772038104.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_zkCAWH": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_HhWaRC": {
+          "type": "richtext",
+          "settings": {
+            "title": "Apophyllite",
+            "richtext": "<p>Spiritual Awakening ✧ Calmness ✧ Intuition</p><p>Only recently discovered, Apophyllite is a powerful attractor stone useful for anyone regardless of the intentions they may have for their crystal collection.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "At its core, this crystal aids in the attunement of energies to purpose, higher dimensions and divine beings. Used in meditation, Apophyllite can help to connect to your guardian angels and spirits, strengthening your bond and allowing your intuition to become more powerful. In this way, you become more sure of yourself and the path you are taking, whilst also attracting those things (and people!) you want most.\n\n<h5>Apophyllite is also an excellent clearer of negative energy whilst increasing high vibrations, making it a calming addition to any space.</h5>\n\nFor those who practice healing modalities such as Reiki, this crystal is well known as a powerful aid in enhancing the flow of Reiki energy, while also helping practitioners purify themselves as an energy channel.",
+            "image": "shopify://shop_images/chevron-amethyst-chakras09-1657777230528_65759660-4a5f-4deb-aefd-63abf9cafec5.webp",
+            "text-tc": "<p><strong>Origin: </strong> India, Australia, Russia, Germany, Greenland, Italy, and the USA. Green Apophyllite is found in India, Brazil, Quebec and Canada.<br/><strong>Energy:</strong> Connection, high vibration.<br/><strong>Colours:</strong> Clear or white, green.<br/>Works with: Any grounding stones because of powerful Apophyllite’s connection to the higher realms.<br/><strong>Helps with: </strong>Enhancing intuition, calm, energy clearing, communication with higher realms and spirit guides, connection, attunement, alignment.<br/><strong>Usage tip: </strong>Anyone practicing astral projection and lucid dreaming should place a piece of Apophyllite at their bedside. This stone will fill the entire room with high vibrational energy that will aid your transcendence to higher realms and connection with your spirit guides and angels. Green Apophyllite (whilst rare) is an excellent aid to meditate outside with, and will help attune you to Mother Earth’s powerful energies. Place a small piece of Apophyllite on your third eye to ease headaches or tired eyes, perfect after a long day at work.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HhWaRC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0017_layer-1-1632784884367.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_tjgJFq": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_KqcR88": {
+          "type": "richtext",
+          "settings": {
+            "title": "Aquamarine",
+            "richtext": "<p>Calming ✧ Inspiration ✧ Peace</p><p>Aquamarine is a manifestation stone and helps to clear the channel between heart and throat chakras.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Its beautiful azure blue colour is calming, cooling those hot emotions and allowing the inner being to glow. Aquamarine is especially useful for those with anxiety or phobias. It also offers safety to travellers.\n\n<h5>Aquamarine supports all aspects of the intellect, as well as the enhancement of ideas, and clarity of the mind and the ability to communicate these.</h5>\n\nIt is also a helpful stone to promote resolution and harmony in disagreements or arguments.",
+            "image": "shopify://shop_images/pf-4310a022--CHAKRAS10.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, Mexico, Russia, USA.<br/><strong>Energy:</strong> Amplifies.<br/><strong>Colours:</strong> Blue, green-blue.<br/><strong>Works with:</strong> Amethyst, clear quartz, turquoise.<br/><strong>Helps with:</strong> Clearing, easing anxiety and phobias, assisting with manifestation, balancing chakras, promoting courage, wisdom, protection of self-expression and the discovery of spiritual truth.<br/><strong>Usage tip:</strong> Aquamarine will help in meditation, especially when speaking your affirmations. Hold Aquamarine in your receiving hand for clarity and help with manifestation. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KqcR88"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0007_stockimage133323414s2015-1632796960541.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_8KEqFE": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_Kj6JW3": {
+          "type": "richtext",
+          "settings": {
+            "title": "Aragonite",
+            "richtext": "<p>Patience ✧ Intuition ✧ Emotional Insight</p><p>Aragonite is the perfect stone to partner with when you begin your journey with inner healing.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Regardless of the colour, Aragonite holds powerful energy which will encourage you to release blocks, face the truth and develop an unclouded perception of reality.\n\n<h5>This stone enhances tolerance, trust and provides clarity by developing a deep understanding of any problem.</h5>\n\nThis may sound quite difficult, but it is a power which will aid in your efforts to make positive change. This change might  come in the form of increased confidence, patience, inner healing and personal improvement.  Aragonite helps to bring all the chakras in balance, which in turn promotes mental clarity and emotional equilibrium, bringing us ever closer to positive transformation.",
+            "image": "shopify://shop_images/pf-02df2853--CHAKRAS01.webp",
+            "text-tc": "<p><strong>Origin: </strong>Italy, Mexico, Pakistan, Spain, U.K. and the US.<br/><strong>Energy:</strong> Projective, Receptive. <strong>Colours:</strong> Golden brown, colourless, white, green, red, violet, yellow, and blue.<br/><strong>Helps with: </strong>Balance, clarity, inner strength, alignment, clearing, confidence, emotional healing, patience, tolerance, trust, truth. Usage tip:  Bring your entire chakra column into alignment with regular use of Aragonite during meditations. Clear troublesome or open closed chakras by placing Aragonite on that chakra during meditation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Kj6JW3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0012_aragonite-1659244225658.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_wjAWAk": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ERxD3Q": {
+          "type": "richtext",
+          "settings": {
+            "title": "Aura quartz",
+            "richtext": "<p>Joy ✧ Truth ✧ Freedom</p><p>Aura Quartz or Angel Aura Quartz is a natural quartz crystal processed at extremely high heat with precious metals.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "The metal ‘coats’ the natural crystal, giving it a new colour and layer, mixed in a way to provide enhanced energies of both. What remains is an extremely high vibrational crystal whose power can be felt immediately. Joy, happiness and uplifting energy are the hallmarks of Aura Quartz. \n\n<h5>This stone protects and provides inner peace, mental clarity and harmony. Aura Quartz is perfect for clearing a mental fog or painful emotional state.</h5>\n\nWhen used regularly, not only will you feel happier and more joyful, but Aura Quartz will allow you to evaluate the trajectory of your life’s path, and encourage you to take action toward your true purpose.",
+            "image": "shopify://shop_images/aura-quartz-1670193458075.webp",
+            "text-tc": "<p><strong>Colours: </strong>White, metallic, silver and rainbow.<br/><strong>Works with: </strong>Rose Quartz, Amazonite, Rhodonite, Black Tourmaline and Hematite.<br/><strong>Helps with:</strong> Happiness, joy, truth, manifestation, clarity, consciousness, life purpose, self-belief, growth, transformation, self-healing, calming, protection, strength, transformation.<br/><strong>Usage tip:</strong> Wear Aura Quartz help lift your energy to a more positive level when you feel emotionally unstable or distressed. Combine Aura Quartz and Rose Quartz for a powerful meditation which draws grief, pain and trauma out of your energy body. Once free of this negativity, allow the nurturing power of these Quartzes to forge a new, loving and joyful life path for you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ERxD3Q"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/screenshot-20221205-at-7_0000_aura-quartz-1670193433777.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_WkqPAp": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_djQTJV": {
+          "type": "richtext",
+          "settings": {
+            "title": "Aventurine",
+            "richtext": "<p>Positivity ✧ Decisiveness ✧ Freedom</p><p>Formed from quartz with inclusions of others minerals, Aventurine can be almost any colour, though green is most common.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "As an energy amplifier, the other colours of blue, red, orange, yellow or white can also amplify the chakra energies associated with each colour.\n\n<h5>A joyful crystal, Aventurine is a wonderful stone to balance the emotions, enhance self esteem and decisiveness.</h5>\n\nIt can also assist in channelling your own personal energies and desires.\nAventurines in general can renew your optimism for life, pushing you to take action, seek new opportunities and adventure, helping you grow as an individual.",
+            "image": "shopify://shop_images/pf-02df2853--CHAKRAS01_5769720b-8aeb-468a-a6eb-b9f31fb9a061.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, China, Russia, Tibet.<br/><strong>Energy:</strong> Amplifies.<br/><strong>Colours:</strong> Green, blue, red, orange, yellow and white.<br/>Works with: Tourmaline, turquoise.<br/><strong>Helps with:</strong> Blue: enhancing communication. Green: leadership and optimism. Red: safety. White: Connection to higher-self. Yellow: confidence.<br/><strong>Usage tip:</strong> Green Aventurine is excellent in promoting leadership and confidence. Place one in your suit pocket during important work meetings. Meditate with Aventurine to bring you closer to your spiritual guides. Carry Aventurine to help protect from those who suck away your energy. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_djQTJV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0011_stockimage68688183s2015-1632796960749.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_HDYGU6": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_dzJTix": {
+          "type": "richtext",
+          "settings": {
+            "title": "Black Kyanite",
+            "richtext": "<p>Protection ✧ Joy ✧ Healing</p><p>As protection stones go, Black Kyanite is one of the most powerful, able to awaken our inner selves from deep slumber.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "This stone directs energy, and is particular good for clearing and removing negative or unhelpful energies, whilst attracting the positive.\n\n<h5>Feel protected from threats and harmful energy with Black Kyanite, and begin to access inner peace, regardless of the stressful situation you might be experiencing. </h5>\n\nBlack Kyanite can activate our entire chakra column, burning off negative karmic energy and bringing ourselves back to a blissful state of balance.",
+            "image": "shopify://shop_images/all-chakras-1659672718297_09847e93-2ac5-4b33-98e8-b2f8b43794e7.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, Burma, South Africa and India.<br/><strong>Colours:</strong> Black and grey.<br/><strong>Helps with:</strong> Joy, protection, alignment, meditation, balance, calming. <br/><strong>Usage tip:</strong> Carry Black Kyanite with you whenever you're in an uncomfortable environment or a highly emotional situation. Meditate with Black Kyanite to clear negative blocks from your body and aura.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dzJTix"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0008_black-kyanite-1659244535344.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_RkgCM3": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_H8Hdbr": {
+          "type": "richtext",
+          "settings": {
+            "title": "Black Tourmaline",
+            "richtext": "<p>Protection ✧ Regeneration ✧ Courage</p><p>Black Tourmaline is an incredibly helpful crystal and one I use frequently to absorb any negativity surrounding me.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "In ancient times, magicians used Black Tourmaline to ward off demons, but now along with draining off negativity and providing protection, black tourmaline also helps keep you grounded, promotes self-confidence and reduces anxiety. In this way, it is a powerful regeneration stone, helping to channel the courage to face new challenges whilst creating a safe and balanced energy around you.\n<h5> It can also aid in purifying environments where excessive emotional negativity has occurred. </h5>\nIf Black Tourmaline breaks, it has become saturated with the harmful energy it has absorbed. Simply return it lovingly to the Earth and see me in person at a market on the Sunshine Coast or the Shiny Storm website for a new piece.",
+            "image": "shopify://shop_images/pf-b19ec247--CHAKRAS02.webp",
+            "text-tc": "<p><strong>Origin: </strong>Australia, Brazil, Sri Lanka, United States.<br/><strong>Energy: </strong>Absorbs.<br/><strong>Colours:</strong> Black.<br/><strong>Works with:</strong> Clear quartz.<br/><strong>Helps with:</strong> Anxiety, excessive anger, psychic protection, protection against negativity,  grounding, stress release, cleansing negative emotions.<br/><strong>Usage tip:</strong> If you are in close and constant contact with someone who is excessively negative (such as a colleague), position a piece of Black Tourmaline between you and that person. Wearing Black Tourmaline will help keep you safe from harm. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_H8Hdbr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0013_stockimage55888105xl2015-1632796960904.jpg",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_XLN6Up": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_r6PkNq": {
+          "type": "richtext",
+          "settings": {
+            "title": "Bloodstone",
+            "richtext": "<p>Courage ✧ Transformation ✧ Strength</p><p>The ultimate hero stone, this crystal imparts a cool and determined energy of courage and calm.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Incredibly powerful, Bloodstone enhances the ability to ground ourselves fully in the now, activating our inner strength, willpower and courage. It can transform negative energies, purifying those thoughts and feelings into positive ones.  During times of extreme adversity or abandonment, Bloodstone reconnects us with our higher selves, reassuring us that loneliness and isolation are simple illusions.\n\n<h5>We only have to open ourselves to the connection to receive Divine love!</h5>\n\nBloodstone is also excellent at reducing all those ‘hot’ emotions we seem to be plagued with in our modern world: irritability, aggression, resentment and intolerance melt away with Bloodstone nearby.",
+            "image": "shopify://shop_images/pf-b19ec247--CHAKRAS02_c756b30e-2e34-4f9b-8552-23f536fd6c42.webp",
+            "text-tc": "<p><strong>Origin: </strong>India, China, Madagascar, Brazil, Australia and the United States.<br/><strong>Colours: </strong>Green and red.<br/><strong>Helps with:</strong> Creativity, strength, purpose, courage, willpower, purification, cleansing, transformation, confidence, action.<br/><strong>Usage tip:</strong> Place Bloodstone under your bed to wake up feeling refreshed, recharged and with a powerful zest for life!Wear Bloodstone to any interaction requiring you to control your anger yet maintain strength and courage. Keep Bloodstone next to your place of work to promote a calm and constructive atmosphere.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_r6PkNq"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/screenshot-20221205-at-7_0002_bloodstone-1670193623235.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_GiJkwg": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_cKfAGt": {
+          "type": "richtext",
+          "settings": {
+            "title": "Blue Aragonite",
+            "richtext": "<p>Calming ✧ Healing ✧ Communication</p><p>This pretty stone is strongly associated with the throat chakra, and is blessed with powerful, yet soothing healing capabilities. A beautiful gift from Mother Earth, if a gentle and calm conversational ‘download’ with a caring friend was embodied in a stone, Blue Aragonite would be it.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Having the ability to express what we think and feel freely and clearly is incredibly important to our overall emotional, physical and spiritual health. \n<h5>Our voice is the pressure valve of our body: when our throat chakra is blocked or out of alignment, all chakras begin to fall out of balance.  \n</h5>\nBlue Aragonite is an excellent stone to help those who struggle to express their truth, by gently bringing to consciousness those traumas and painful memories we refuse to confront. With a calm and tender energy, this crystal will unveil the pain hidden and pushed down deep into your inner self, allowing you to process and speak your truth with compassion and kindness for yourself and others. Calming, gentle and nurturing, Shiny Storm strongly recommends Blue Aragonite be included in every crystal collection.",
+            "image": "shopify://shop_images/blue-aragonite-1670193790227.webp",
+            "text-tc": "<p><strong>Colours:</strong> Light blue and blue.<br/><strong>Works with:</strong> Rose Quartz, Green Calcite, Rhodochrosite.<br/><strong>Helps with:</strong> Communication, truth, speaking truth, calming, relaxation, intuition, joy, mediation, self-discovery, healing, nurturing, trust, clarity, balancing, compassion, kindness, overcoming trauma.<br/><strong>Usage tip: </strong>Wear Blue Aragonite to increase your ability to communicate with compassion and kindness. Place Blue Aragonite on your throat chakra during a Reiki or massage treatment to concentrate powerful healing energies there.Meditate with Blue Aragonite to calmly unveil and confront those truths we find hard or refuse to acknowledge. Simply hold Blue Aragonite for instant relaxation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_cKfAGt"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/screenshot-20221205-at-7_0003_blue-aragonite-1670193844702.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_9ppDw6": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_y7zAJN": {
+          "type": "richtext",
+          "settings": {
+            "title": "Blue Lace Agate",
+            "richtext": "<p>Communication ✧ Calming ✧ Trust</p><p>A communication stone first and foremost, the delicate lines forming Blue Lace Agate imparts a sense of loyalty, trust, calm and optimism.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "For those who struggle with communication on any level, this beautiful stone will not only support your voice to be heard, but untangle frazzled thoughts and ambiguous desires.\n\n<h5>Blue Lace Agate helps those who need confidence and clarity to clearly articulate their truths, especially in friendships or relationships, as it assists both aspects of communication: the ability to listen and understand as well as communicate clearly.</h5>\n\nSpeak clearly, in confidence and in truth. By communicating your truth and what you want to those around you, this stone will help you manifest those desires into your experience. On an emotional level, Blue Lace Agate helps ease feelings caused by past experiences, clearing negative energies and blockages to allow for renewed self-expression and growth.",
+            "image": "shopify://shop_images/throat-1659245221285.webp",
+            "text-tc": "<p><strong>Origin:</strong> Africa and Eastern Europe.<br/><strong>Colours:</strong> Blue and light blue.<br/><strong>Works with:</strong> Rose Quartz, Aquamarine, Lapis Lazuli.<br/><strong>Helps with:</strong> Communication, trust, calming, balance, detoxification, confidence, clarity, courage, clearing, self-expression, growth, manifestation. <br/><strong>Usage tip:</strong> Wear Blue Lace Agate in a necklace if you struggle to express your emotions without getting upset. Carry Blue Lace Agate with you to job interviews, public speaking or therapy sessions to give yourself a confidence boost and clear thought. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_y7zAJN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0007_blue-lace-agate-1659244535332.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_bJmPEA": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_WTgFCa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Blue Calcite",
+            "richtext": "<p>Calming ✧ Communication ✧ Protection</p><p>In general, Calcites are powerful amplifiers and cleansers of energy: they are wonderful healing stones, especially when used with Chakras of the same colour.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "It’s no surprise then that the Throat Chakra benefits from Blue Calcite, which is particularly useful for cleansing all lines of communication. But this is not where this amazing crystal’s healing properties end. As a powerful stone used in relaxation and recuperation, Blue Calcite will help soothe and relax the emotional body.\n\n<h5>It’s calming effects on the mind through the Third Eye Chakra, allow the user to think about emotional situations with more of objectivity, opening up stronger communication channels between your thoughts and feelings.\n</h5>\n\nBlue Calcite will also absorb negative energy and help protect you from the ill feelings of others throughout your day. It also promotes clear thought as it cleanses communication channels throughout your body, allowing creativity and inspired ideas to flow.",
+            "image": "shopify://shop_images/blue-calcite-chakras07-1657772524532.webp",
+            "text-tc": "<p><strong>Origin:</strong> Mexico, South Africa.<br/><strong>Energy: </strong>Amplifies, cleansing.<br/><strong>Colours:</strong> Light blue, dark blue.<br/><strong>Works with: </strong>Aquamarine, Moldavite, Phenacite.<br/><strong>Helps with:</strong> Communication, soothing emotions, relaxation, recuperation, tranquillity, protection, emotional understanding, psychic abilities, patience, dispelling negativity.<br/><strong>Usage tip: </strong>Wear Blue Calcite in a necklace to help communicate more effectively during your day.Keep a piece of Blue Calcite at your work station to promote clear thought and creativity.Place Blue Calcite over your Third Eye during meditation to increase your psychic powers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_WTgFCa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/blue-calcite-texture-1657772696080.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_LK7ppz": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_LJnpF7": {
+          "type": "richtext",
+          "settings": {
+            "title": "Blue Quartz",
+            "richtext": "<p>Growt ✧  Communication ✧ Calm</p><p><br/>Are you on a personal growth journey? Blue Quartz is for you.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "This powerful stone enhances spiritual development and helps to encourage all forms of communication, both physical, emotional and spiritual.Blue Quartz enhances creativity and self-expression, helping us to communicate to others, but also to allow ourselves to hear our truth and listen to our inner beings fully. Accessing the spiritual and angelic realms is also made easier with this beautiful stone.\n\n<h5>Incredibly soothing, Blue Quartz reduces stress, calms the mind, combats fear and inspires hope. It is also a powerful tool in protection from negativity while its balancing properties help dispel fear.</h5>\n\nThis stone offers hope, happiness, and peace, lifting our inner selves up and out of anxiety and darkness into beautiful positivity.",
+            "image": "shopify://shop_images/throat-and-3rd-eye-1659245661667_9833966e-70aa-4c73-8724-4fa9dff01465.webp",
+            "text-tc": "<p><strong>Origin:</strong> USA, Colombia, Venezuela, Brazil, Switzerland, Spain, Italy and Madagascar. <br/><strong>Energy: </strong>Transformational<br/><strong>Colours: </strong>Light to deep blue.<br/><strong>Helps with:</strong> Communication, creativity, self-expression, spirituality, psychic abilities, calmness, personal development, growth, accessing higher realms, hope, trust, listening, courage, happiness, consciousness, accessing the higher realms.<br/><strong>Usage tip:</strong> Use in your yoga and breathwork practices: Blue Quartz is very good in helping to learn how to control and be conscious of your breathing. Hold Blue Quartz in your hand to promote calm and peacefulness.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_LJnpF7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0024_blue-quartz-1659244535430.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_UUqtfn": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_qmRtGa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Calcite",
+            "richtext": "<p>Cleansing ✧ Healing ✧ Manifestation</p><p>Calcite comes in all colours of the rainbow, with each holding specific properties aligned with each corresponding chakra.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "A very strong amplifying and cleansing stone, its hexagonal structure suggests that Calcite will help you achieve your desires and thus is excellent for manifestation work. This stone is also considered to be an effective healing stone.  \n\n<h5>Being made almost entirely of calcium, Calcite is closely associated with the growth and healing of bones. </h5>",
+            "image": "shopify://shop_images/pf-02df2853--CHAKRAS01_7727f776-d8dd-49b6-8996-c85131530efe.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, Iceland, Russia, USA.<br/><strong>Energy:</strong> Amplifies.<br/><strong>Colours: </strong>Black, blue, green, grey, honey, yellow, orange, pink, red, violet and white.<br/><strong>Works with: </strong>Other Calcites in different colours.<br/><strong>Helps with:</strong> Manifestation, energy amplification, calming, rejuvenating, cleansing, grounding, inner peace, individual chakra work.<br/><strong>Usage tip: </strong>Calcite is beautiful and can be used to create a rejuvenating environment in a bedroom or bathroom. Place different coloured Calcite stones around the room and enjoy their combined calming energies. Put Calcite in children’s rooms to promote the growth of healthy bones.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_qmRtGa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0008_stockimage129542046s2015-1632796960543.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_wXnnMA": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_bFKWFg": {
+          "type": "richtext",
+          "settings": {
+            "title": "Caribbean Blue Calcite",
+            "richtext": "<p>Serenity ✧ Intuition ✧ Self-Discovery</p><p>This stone represents one of the newest discoveries in the crystal kingdom, and whilst our knowledge of the Caribbean Blue Calcite is limited, its power when used with the third eye and crown chakra is obvious.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Caribbean Blue Calcite was first found in Pakistan as late as 2019, and has a soothing azure blue colour with white and light brown Aragonite. This calming oceanic colour resonates with its use within meditation, where users can certainly feel an almost instant sensation of dropping away into serenity.\n\n<h5>This crystal can help in more effective and transformative meditations.</h5>",
+            "image": "shopify://shop_images/pf-d65a084a--CHAKRAS09.webp",
+            "text-tc": "<p><strong>Origin:</strong> Pakistan<br/><strong>Colours:</strong> Blue, white, light brown.<br/><strong>Usage tip:</strong> Keep this crystal by your bedside for greater dream awareness. Hold a piece of Caribbean Blue Calcite in your hand as you begin your meditations to help ease yourself into a calm and serene state. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bFKWFg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/caribbean-1632797600530.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_biTiWi": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_YnkENh": {
+          "type": "richtext",
+          "settings": {
+            "title": "Blue Lace Agate",
+            "richtext": "<p>Communication ✧ Calming ✧ Trust</p><p>A communication stone first and foremost, the delicate lines forming Blue Lace Agate imparts a sense of loyalty, trust, calm and optimism.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "For those who struggle with communication on any level, this beautiful stone will not only support your voice to be heard, but untangle frazzled thoughts and ambiguous desires.\n\n<h5>Blue Lace Agate helps those who need confidence and clarity to clearly articulate their truths, especially in friendships or relationships, as it assists both aspects of communication: the ability to listen and understand as well as communicate clearly.</h5>\n\nSpeak clearly, in confidence and in truth. By communicating your truth and what you want to those around you, this stone will help you manifest those desires into your experience. On an emotional level, Blue Lace Agate helps ease feelings caused by past experiences, clearing negative energies and blockages to allow for renewed self-expression and growth.",
+            "image": "shopify://shop_images/throat-1659245221285_483f4c1d-b233-4e34-8144-dfbb6c14da48.webp",
+            "text-tc": "<p><strong>Origin: </strong>Africa and Eastern Europe.<br/><strong>Colours:</strong> Blue and light blue.<br/><strong>Works with:</strong> Rose Quartz, Aquamarine, Lapis Lazuli.<br/>Helps with: Communication, trust, calming, balance, detoxification, confidence, clarity, courage, clearing, self-expression, growth, manifestation. <br/><strong>Usage tip:</strong> Wear Blue Lace Agate in a necklace if you struggle to express your emotions without getting upset. Carry Blue Lace Agate with you to job interviews, public speaking or therapy sessions to give yourself a confidence boost and clear thought. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_YnkENh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0007_blue-lace-agate-1659244535332_6aa2efde-484e-4219-8af2-30541e517f74.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_EW33cJ": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_mAjChR": {
+          "type": "richtext",
+          "settings": {
+            "title": "Blue Calcite",
+            "richtext": "<p>Calming ✧ Communication ✧ Protection</p><p>In general, Calcites are powerful amplifiers and cleansers of energy: they are wonderful healing stones, especially when used with Chakras of the same colour.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "It’s no surprise then that the Throat Chakra benefits from Blue Calcite, which is particularly useful for cleansing all lines of communication. But this is not where this amazing crystal’s healing properties end. As a powerful stone used in relaxation and recuperation, Blue Calcite will help soothe and relax the emotional body.\n\n<h5>It’s calming effects on the mind through the Third Eye Chakra, allow the user to think about emotional situations with more of objectivity, opening up stronger communication channels between your thoughts and feelings.\n</h5>\n\nBlue Calcite will also absorb negative energy and help protect you from the ill feelings of others throughout your day. It also promotes clear thought as it cleanses communication channels throughout your body, allowing creativity and inspired ideas to flow.",
+            "image": "shopify://shop_images/blue-calcite-chakras07-1657772524532_dab3880c-3997-46b1-ac38-91fcf4636b0f.webp",
+            "text-tc": "<p><strong>Origin: </strong>Mexico, South Africa.<br/><strong>Energy:</strong> Amplifies, cleansing.<br/><strong>Colours: </strong>Light blue, dark blue.<br/><strong>Works with:</strong> Aquamarine, Moldavite, Phenacite.<br/><strong>Helps with:</strong> Communication, soothing emotions, relaxation, recuperation, tranquillity, protection, emotional understanding, psychic abilities, patience, dispelling negativity.<br/><strong>Usage tip:</strong> Wear Blue Calcite in a necklace to help communicate more effectively during your day.Keep a piece of Blue Calcite at your work station to promote clear thought and creativity.Place Blue Calcite over your Third Eye during meditation to increase your psychic powers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_mAjChR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/blue-calcite-texture-1657772696080_b3dd8d0a-faec-4e62-acb8-64c0a593506c.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_crtEfU": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_PeNLmc": {
+          "type": "richtext",
+          "settings": {
+            "title": "Blue Quartz",
+            "richtext": "<p>Growt ✧  Communication ✧ Calm</p><p>Are you on a personal growth journey? Blue Quartz is for you.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "This powerful stone enhances spiritual development and helps to encourage all forms of communication, both physical, emotional and spiritual.Blue Quartz enhances creativity and self-expression, helping us to communicate to others, but also to allow ourselves to hear our truth and listen to our inner beings fully. Accessing the spiritual and angelic realms is also made easier with this beautiful stone.\n\n<h5>Incredibly soothing, Blue Quartz reduces stress, calms the mind, combats fear and inspires hope. It is also a powerful tool in protection from negativity while its balancing properties help dispel fear.</h5>\nThis stone offers hope, happiness, and peace, lifting our inner selves up and out of anxiety and darkness into beautiful positivity.",
+            "image": "shopify://shop_images/throat-and-3rd-eye-1659245661667_8b9de42e-a6fc-416f-9d63-d0a069248656.webp",
+            "text-tc": "<p><strong>Origin:</strong> USA, Colombia, Venezuela, Brazil, Switzerland, Spain, Italy and Madagascar. <br/><strong>Energy: </strong>Transformational<br/><strong>Colours:</strong> Light to deep blue.<br/><strong>Helps with:</strong> Communication, creativity, self-expression, spirituality, psychic abilities, calmness, personal development, growth, accessing higher realms, hope, trust, listening, courage, happiness, consciousness, accessing the higher realms.<br/><strong>Usage tip:</strong> Use in your yoga and breathwork practices: Blue Quartz is very good in helping to learn how to control and be conscious of your breathing. Hold Blue Quartz in your hand to promote calm and peacefulness.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PeNLmc"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0024_blue-quartz-1659244535430_4eb999b3-d2dd-4f3e-8332-b2ca8baeff3b.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_gVgg8h": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_taXxKB": {
+          "type": "richtext",
+          "settings": {
+            "title": "Calcite",
+            "richtext": "<p>Cleansing ✧ Healing ✧ Manifestation</p><p>Calcite comes in all colours of the rainbow, with each holding specific properties aligned with each corresponding chakra.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "A very strong amplifying and cleansing stone, its hexagonal structure suggests that Calcite will help you achieve your desires and thus is excellent for manifestation work. This stone is also considered to be an effective healing stone.\n\n<h5>Being made almost entirely of calcium, Calcite is closely associated with the growth and healing of bones. </h5>",
+            "image": "shopify://shop_images/pf-02df2853--CHAKRAS01_281e569c-df8b-4270-8ddf-3eb88753c1c4.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, Iceland, Russia, USA.<br/><strong>Energy:</strong> Amplifies.<br/><strong>Colours:</strong> Black, blue, green, grey, honey, yellow, orange, pink, red, violet and white.<br/>Works with: Other Calcites in different colours.<br/><strong>Helps with: </strong>Manifestation, energy amplification, calming, rejuvenating, cleansing, grounding, inner peace, individual chakra work.<br/><strong>Usage tip:</strong> Calcite is beautiful and can be used to create a rejuvenating environment in a bedroom or bathroom. Place different coloured Calcite stones around the room and enjoy their combined calming energies. Put Calcite in children’s rooms to promote the growth of healthy bones.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_taXxKB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0008_stockimage129542046s2015-1632796960543_c1f22adf-4a96-4d0e-8f82-6d9b3a2eda0d.webp",
+        "color_scheme": "primary",
+        "text-b1": "CRYSTALS C E  ⇢",
+        "link-b": "shopify://pages/crystals-c-e"
+      }
+    }
+  },
+  "order": [
+    "pf-2789993d",
+    "page_richtext_section_cULCgB",
+    "right_image_text_AiBrgb",
+    "right_image_text_ttXXEy",
+    "image_tab_section_TyEeCU",
+    "left_image_tab_section_V6gerF",
+    "image_tab_section_MqmR3J",
+    "left_image_tab_section_zkCAWH",
+    "image_tab_section_tjgJFq",
+    "left_image_tab_section_8KEqFE",
+    "image_tab_section_wjAWAk",
+    "left_image_tab_section_WkqPAp",
+    "image_tab_section_HDYGU6",
+    "left_image_tab_section_RkgCM3",
+    "image_tab_section_XLN6Up",
+    "left_image_tab_section_GiJkwg",
+    "image_tab_section_9ppDw6",
+    "left_image_tab_section_bJmPEA",
+    "image_tab_section_LK7ppz",
+    "left_image_tab_section_UUqtfn",
+    "image_tab_section_wXnnMA",
+    "left_image_tab_section_biTiWi",
+    "image_tab_section_EW33cJ",
+    "left_image_tab_section_crtEfU",
+    "image_tab_section_gVgg8h"
+  ]
+}

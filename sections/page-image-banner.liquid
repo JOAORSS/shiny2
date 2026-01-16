@@ -1,0 +1,76 @@
+{% assign background = section.settings.color_icons_bg %}
+<div class="full-width-banner-outer">
+ {%- if section.settings.b_link != blank -%} <a href="{{ section.settings.b_link }}"> {%- endif -%}
+ {%- if section.settings.image -%}
+             <div class="{%- if section.settings.mobile-image != blank -%} des-image {%- endif -%}">
+                   <img src="{{ section.settings.image | img_url: 'master' }}" class="des-h-image">
+            </div>
+ {%- endif -%}
+ {%- if section.settings.mobile-image -%}
+            <div class="mob-image">
+                   <img src="{{ section.settings.mobile-image | img_url: 'master' }}" class="mob-h-image">
+            </div>
+ {%- endif -%}
+ {%- if section.settings.b_link -%} </a> {%- endif -%}
+</div>
+
+ <style>
+  #shopify-section-{{ section.id }}{
+      background-color: {{ background }};
+  }
+  </style>
+{% schema %}
+ 
+{
+  "name": "Full width banner",
+  "tag": "section",
+  "class": "section full-width-banner",
+  "settings": [
+      {
+      "type": "color",
+      "id": "color_icons_bg",
+      "label": "Background color"
+    },
+      {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile-image",
+          "label": "Mobile Image"
+        },
+        {
+          "type": "url",
+          "id": "b_link",
+          "label": "Banner Link"
+        }
+  ],
+  "presets": [
+    {
+      "name": "Full width banner"
+    }
+  ]
+}
+{% endschema %}
+<style>
+.full-width-banner-outer img {
+    max-width: 100%;
+}
+.full-width-banner-outer {
+    text-align: center;
+    line-height: 0;
+}
+.mob-image {
+    display: none;
+}
+@media(max-width:768px){
+  .des-image {
+    display: none;
+}
+body .mob-image {
+    display: block;
+}
+}
+</style>

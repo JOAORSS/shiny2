@@ -1,0 +1,102 @@
+{%- assign section_color = section.settings.color_scheme -%}
+
+
+{%- case section.blocks.size -%}
+  {%- when 1 -%}
+     {%- assign block_class = 'lg--up--three-quarters font-size--ml line-height--5 lg--up--font-size--xl lg--up--line-height--6' -%}
+  {%- when 2 -%}
+    {%- assign block_class = 'lg--up--one-half' -%}
+  {%- when 3 -%}
+    {%- assign block_class = 'lg--up--one-third' -%}
+{%- endcase -%}
+
+<section class="richtext section-with-padding color--{{ section_color }}-text bg--{{ section_color }}-background" data-section-type="richtext" data-section-id="{{ section.id }}">
+  <div class="max-site-width lg--up--px3">
+    <div class="grid">
+      <div class="grid__item lg--up--three-quarters">
+        <div class="px2 lg--up--px0">
+             {% for block in section.blocks %}
+            <h2 class="heading">{{ block.settings.title }}</h2>
+        
+          <div class="rich-text">
+         
+            <div class="grid__item-1 {% if section.blocks.size > 1 %}font-size__basic{% endif %} {{ block_class }} ">
+              {{ block.settings.richtext }}
+            </div>
+             {%- if block.settings.cta_text != blank -%}
+          <a class="inline-block homepage-more-link  font-size__basic link-underline--{{ section_color }} hover-underline--{{ section_color }}" href="{{ block.settings.cta_url }}" >
+            {{ block.settings.cta_text }}
+          </a>
+          {% endif %}
+          </div>
+           {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Full width Richtext",
+  "class": "page-richtext-section full-width-richtext",
+  "settings": [
+    {
+      "type":      "header",
+      "content":   "Color"
+    },
+    {
+       "type": "select",
+       "id": "color_scheme",
+       "label": "Color scheme",
+       "options": [
+          { "value": "primary", "label": "Primary"},
+          { "value": "secondary", "label": "Secondary"},
+          { "value": "tertiary", "label": "Tertiary"}
+       ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "richtext",
+      "name": "Rich text",
+      "limit": 1,
+      "settings": [
+            {
+      "id": "title",
+      "type": "text",
+      "label": "Heading",
+    },
+        {
+          "id": "richtext",
+          "type": "richtext",
+          "label": "Text",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+                   {
+      "type": "url",
+      "id": "cta_url",
+      "label": " button link"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "button text"
+    },
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Full width Richtext",
+      "category": "Text",
+      "blocks": [
+        {
+          "type": "richtext"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

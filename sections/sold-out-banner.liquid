@@ -1,0 +1,119 @@
+{{ 'sold-out-banner.css' | asset_url | stylesheet_tag }}
+
+{%- assign s = section.settings -%}
+
+<style>
+  #Section-{{ section.id }} {
+    --bg-gradient-start: {{ s.bg_start }};
+    --bg-gradient-end: {{ s.bg_end }};
+    --color-text: {{ s.color_text }};
+    --color-meta: {{ s.color_meta }};
+    --color-accent: {{ s.color_accent }};
+    --color-border: {{ s.color_border }};
+    
+    --font-body: {{ settings.type_main_font.family }}, {{ settings.type_main_font.fallback_families }};
+  }
+</style>
+
+<div id="Section-{{ section.id }}" class="sold-out-banner-section">
+  <section class="banner">
+    <div class="container">
+      <div class="content">
+        <div class="lastHours">
+          <span class="icon">{{ s.icon_text }}</span>
+          <p class="mainText">{{ s.main_text }}</p>
+        </div>
+        
+        <p class="unitsText">{{ s.units_text }}</p>
+      </div>
+      <div class="progressBar">
+        <div class="progressFill" style="width: {{ s.progress_value }}%"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+{% schema %}
+  {
+    "name": "Banner Sold Out",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Conteúdo"
+      },
+      {
+        "type": "text",
+        "id": "icon_text",
+        "label": "Ícone (Emoji)",
+        "default": "⏰"
+      },
+      {
+        "type": "text",
+        "id": "main_text",
+        "label": "Texto Principal",
+        "default": "Last hours before price adjustment!"
+      },
+      {
+        "type": "text",
+        "id": "units_text",
+        "label": "Texto de Unidades",
+        "default": "Only 162 units left"
+      },
+      {
+        "type": "range",
+        "id": "progress_value",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Porcentagem da Barra",
+        "default": 81
+      },
+      {
+        "type": "header",
+        "content": "Estilo"
+      },
+      {
+        "type": "color",
+        "id": "bg_start",
+        "label": "Cor Fundo (Início Gradient)",
+        "default": "#ECC4B6"
+      },
+      {
+        "type": "color",
+        "id": "bg_end",
+        "label": "Cor Fundo (Fim Gradient)",
+        "default": "#F9F8F8"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Cor do Texto Principal",
+        "default": "#25211D"
+      },
+      {
+        "type": "color",
+        "id": "color_meta",
+        "label": "Cor do Texto Secundário",
+        "default": "#7A6F66"
+      },
+      {
+        "type": "color",
+        "id": "color_accent",
+        "label": "Cor da Barra (Accent)",
+        "default": "#5F09D2"
+      },
+      {
+        "type": "color",
+        "id": "color_border",
+        "label": "Fundo da Barra",
+        "default": "#EBE2E0"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Banner Sold Out"
+      }
+    ]
+  }
+{% endschema %}

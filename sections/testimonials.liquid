@@ -1,0 +1,159 @@
+{% assign heading = section.settings.heading | escape %}
+{% assign color = section.settings.star_icons_text %}
+<div class="page-width" id="home-testimonials" data-section-id="{{ section.id }}" data-section-type="quotes">
+  <div class="max-site-width lg--up--px3">
+	<div class="row header">
+		<div class="columns">
+          {% if heading != blank %}
+			<h2 class="f--heading font-size__heading">{{ heading }}</h2>
+			{% endif %}</div>
+	</div>
+  <div class="row">
+  <div class="columns">
+  {% if section.blocks.size > 0 %}
+	<div class="quotes-wrapper-outer">
+		<div class="testimonial-carosul testisec" id="Quotes-{{ section.id }}" data-count="{{ section.blocks.size }}">
+          {% for block in section.blocks %}
+          <div class="outer-tesimonials">
+			<div class="single-slide-testimonials">
+				<div class="testimonial-content col-left-info">
+                   <div class="image-text-col">
+                     <div class="left-col">
+
+                {% if block.settings.testimonial-provider != blank %} <span class="client-name">{{ block.settings.testimonial-provider }}</span>
+					{% endif %}
+					<div class="review-sec-staarts"> 
+                        <span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+					</div>
+             
+                    {% if block.settings.testimonial-title != blank %}
+						<a href="{{ block.settings.p-link }}">
+							<div class="product-name-link">
+								<p><u>{{ block.settings.testimonial-title }}</u>
+								</p>
+							</div>
+						</a>{% endif %}	
+                     </div>
+                     <div class="right-col">
+					<div class="image-colum-testimonials">{% if block.settings.image != blank %}
+						<a href="{{ block.settings.p-link }}"> <span class="t-image">
+                    <img src="{{ block.settings.image | img_url: '650x' }}" alt="{{ block.settings.image.alt }}"class="testimonial-img" />
+                  </span>
+						</a>{% endif %} 
+                    </div>
+              </div>
+                </div>
+                <div class="footer-image-text">
+                <span class="product-thumb"><m-image class="minimog-lazy-image m-img-loaded"><img src="{{ block.settings.Pro-image | img_url: 'master' }}"></span>
+                <span class="product-title">{{ block.settings.testimonial-content }}</span>
+              </div>
+                </div>
+			</div>
+          </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+  </div>
+</div>
+  </div>
+</div>
+</div>
+<style>
+  #home-testimonials .checked{
+  color: {{ color }};
+  }
+</style>
+
+
+{% schema %}
+{
+"name": "Testimonials",
+"class": "index-section testimonials-sec",
+"max_blocks": 40,
+"settings": [
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Section Heading",
+            "default": "FROM THE PEOPLE"
+         },
+         {
+          "type": "color",
+          "id": "star_icons_text",
+          "label": "Star color",
+          "default": "#333"
+        }
+		],
+    "blocks": [
+      {
+        "type": "quote",
+        "name": {
+          "en": "Testimonial",
+          "de": "Testimonial",
+          "fr": "Témoignages"
+        },
+        "settings": [
+         {
+          "type": "richtext",
+          "id": "testimonial-content",
+          "label": "Bottom Testimonial"
+          },
+          {
+          "type": "image_picker",
+          "id": "Pro-image",
+          "label": "Product image"
+          },         
+          {
+            "type": "text",
+            "id": "testimonial-provider",
+            "label": "Client Name"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Product Image"
+          },
+          {
+          "type": "text",
+          "id": "testimonial-title",
+          "label": "Product Title"
+          },
+          {
+          "type": "url",
+          "id": "p-link",
+          "label": "Product Link"
+          }
+        ]
+      }
+    ],
+"presets": [
+      {
+        "name": {
+          "en": "Testimonials",
+          "de": "Testimonials",
+          "fr": "Testimonials"
+        },
+        "category": {
+          "en": "Text",
+          "de": "Text",
+          "fr": "Texte"
+        },
+        "blocks": [
+          {
+            "type": "quote"
+          },
+          {
+            "type": "quote"
+          },
+          {
+            "type": "quote"
+          }
+        ]
+      }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,128 @@
+{%- assign section_color = section.settings.color_scheme -%}
+
+
+{%- assign custom_grid_width = 'lg--up--three-quarters' -%}
+{%- if section.settings.title == blank and section.settings.description == blank and section.settings.cta_url == blank -%}
+  {%- assign custom_grid_width = 'lg--up--one-whole' -%}
+{%- endif -%}
+
+<section class="custom section-with-padding color--{{ section_color }}-text bg--{{ section_color }}-background" data-section-type="custom" data-section-id="{{ section.id }}">
+  <div class="max-site-width lg--up--px3">
+    <div class="grid">
+
+      <div class="image-with-text">
+        <div class="image-section">
+       
+     <img src="{{ section.settings.image | img_url: 'master' }}">  
+          
+        </div>
+         
+        <div class="text-colmun">
+           {% for block in section.blocks %}
+             <div class="t-1">
+        {% if block.settings.title  %}
+          <h2 class="f--heading font-size__heading">{{ block.settings.title }}</h2>
+        {% endif %}     
+            <div class="grid__item-1 {% if section.blocks.size > 1 %}font-size__basic{% endif %} {{ block_class }} ">
+             {{ block.settings.richtext }}
+          </div>
+             {%- if block.settings.richtext-b  != blank -%}
+               
+              <div class="t-2-map">
+             
+              <div class="t-text-col">
+               {%- if block.settings.richtext-b  != blank -%}
+             <div class="grid__item-1">
+                {{ block.settings.richtext-b }}
+              </div>
+               {% endif %}
+                </div>
+                 {%- if block.settings.title-m  != blank -%}
+                <div class="t-map-col">
+                  {%- if block.settings.title-m  != blank -%}
+                  <div class="iframe-col">
+                  {{ block.settings.title-m }}
+                  </div>
+                   {% endif %}
+                </div>
+                  {% endif %}
+              </div>
+               {% endif %}
+             </div>
+          {% endfor %}  
+        </div>
+  
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Image with text",
+  "class": "section-video image-text-t1",
+  "settings": [
+    {
+       "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+    {
+      "type":      "header",
+      "content":   "Color"
+    },
+    {
+       "type": "select",
+       "id": "color_scheme",
+       "label": "Color scheme",
+       "options": [
+          { "value": "primary", "label": "Primary"},
+          { "value": "secondary", "label": "Secondary"},
+          { "value": "tertiary", "label": "Tertiary"}
+       ]
+    }
+  ],
+    "blocks": [
+    {
+      "type": "richtext",
+      "name": "Rich text",
+      "limit": 1,
+      "settings": [
+       {
+      "id": "title",
+      "type": "text",
+      "label": "Heading",
+       },
+        {
+          "id": "richtext",
+          "type": "richtext",
+          "label": "Text",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+                 {
+          "id": "richtext-b",
+          "type": "richtext",
+          "label": "Info",
+        },
+       {
+      "id": "title-m",
+      "type": "html",
+      "label": "Iframe code",
+       }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with text",
+       "category": "Text",
+          "blocks": [
+        {
+          "type": "richtext"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

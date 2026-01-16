@@ -1,0 +1,110 @@
+{{ 'header-custom.css' | asset_url | stylesheet_tag }}
+
+{%- assign s = section.settings -%}
+
+<style>
+  #Section-{{ section.id }} {
+    --header-bg: {{ s.bg_color }};
+    --header-text: {{ s.text_color }};
+    --header-accent: {{ s.accent_color }};
+    --header-border: {{ s.border_color }};
+    --font-logo: {{ settings.type_heading_font.family }}, {{ settings.type_heading_font.fallback_families }};
+    --font-nav: {{ settings.type_main_font.family }}, {{ settings.type_main_font.fallback_families }};
+  }
+</style>
+
+<div id="Section-{{ section.id }}" class="shiny-header-wrapper" data-section-id="{{ section.id }}" data-section-type="header">
+  <header class="shiny-header">
+    <div class="shiny-container">
+
+      <a href="{{ routes.root_url }}" class="shiny-logo">
+        {% if s.logo_text != blank %}
+          {{ s.logo_text | replace: '<br>', ' <br>' | replace: '<br/>', ' <br/>' }}
+        {% else %}
+          ✧ Shiny <br>Storm
+        {% endif %}
+      </a>
+
+      <nav class="shiny-nav">
+        {% for link in linklists[s.main_linklist].links %}
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+
+      <div class="shiny-icons">
+        <a href="/pages/wishlist" class="shiny-iconButton" aria-label="Favorites">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </a>
+
+        <a href="{{ routes.cart_url }}" class="shiny-iconButton" aria-label="Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </header>
+</div>
+
+{% schema %}
+{
+  "name": "Header Custom",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Conteúdo"
+    },
+    {
+      "type": "html",
+      "id": "logo_text",
+      "label": "Logo em Texto",
+      "info": "Use <br> para quebra de linha em Desktop. Ele será removido automaticamente no Mobile.",
+      "default": "✧ Shiny <br>Storm"
+    },
+    {
+      "type": "link_list",
+      "id": "main_linklist",
+      "label": "Menu Principal",
+      "default": "main-menu"
+    },
+    {
+      "type": "header",
+      "content": "Cores"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Fundo",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Links e Ícones",
+      "default": "#25211D"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Accent (Logo/Hover)",
+      "default": "#5F09D2"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Borda Inferior",
+      "default": "#E5E5E5"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Header Custom"
+    }
+  ]
+}
+{% endschema %}

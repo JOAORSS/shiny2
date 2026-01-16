@@ -1,0 +1,641 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-2789993d": {
+      "type": "pf-2789993d",
+      "disabled": true,
+      "settings": {}
+    },
+    "page_richtext_section_cULCgB": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_jib63U": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h5>✧ Each crystal holds a power and energetic makeup<br/>of its very own ✧</h5><p>Browse our crystals below and their meanings to find the perfect one for you.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_jib63U"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title-t": "Crystals Q - Z",
+        "title": "Discover other crystals:\n<br>\n<a href=\"/pages/discovercrystals\">&gt; Crystals A - E</a>\n<br>\n<a href=\"/pages/crystals-f-j\">&gt; Crystals F - J </a>\n<br>\n<a href=\"/pages/crystals-k-p\">&gt; Crystals K - P</a>",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary"
+      }
+    },
+    "right_image_text_ttXXEy": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_Qtkqmh": {
+          "type": "richtext",
+          "settings": {
+            "title": "Rainbow Fluorite",
+            "richtext": "<p>Balance ✧ Clarity ✧ Multicoloured</p><p>Enhancing positivity, mental clarity and thinking and increasing emotional brightness are this stone’s superpowers! Considered the most versatile of the Fluorite range because of its many colours, this stone is a fantastic addition to any collection.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Enhancing positivity, mental clarity and thinking and increasing emotional brightness are this stone’s superpowers! Considered the most versatile of the Fluorite range because of its many colours, this stone is a fantastic addition to any collection.\n\n<h5>Rainbow Fluorite assists with energy flow amongst the upper body chakras.</h5>\n\nMoving energetic blocks here assists in an overall sense of connection between the mind, body and spirit, allowing for clear focus and calm emotions.",
+            "image": "shopify://shop_images/rainbow-fluorite-1659674412483.webp",
+            "text-tc": "<p><strong>Origin:</strong> Australia, Brazil, China, the Americas.<br/><strong>Energy: </strong>Absorbs<br/><strong>Colours: </strong>Rainbow. Any combination of aqua, blue, clear, green, pink, purple and yellow.<br/><strong>Works with:</strong> Clear Quartz and Amethyst.<br/><strong>Helps with: </strong>Emotions, clarity, realigning, clearing chakras, peace, focus, confidence, knowledge, connection to oneself, self-love, positivity, energy.<br/><strong>Usage tip:</strong> Rainbow Fluorite scratches easily- keep it safely away from other crystals. Use Rainbow Fluorite at work when overwhelm or stress creeps into your day.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Qtkqmh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0000_layer-18-1632784884219.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "right_image_text_AiBrgb": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_qD4LJP": {
+          "type": "richtext",
+          "settings": {
+            "title": "Rhodochrosite",
+            "richtext": "<p>Energising ✧ Altruism ✧ Compassion</p><p>A loving stone, Rhodochrosite is perfect for those looking to heal their emotional selves. A true self care stone, it reminds you to take time for you and your wellbeing. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Energising and beautifully uplifting, Rhodochrosite makes an excellent anti-depressant, encouraging you to release suffering, pain, grief and even PTSD from your body. In the place of this trauma, calm and soothing energies will flood your aura with love, peace and tranquillity.\n\n<h5>Rhodochrosite is a high energy stone revealing the possibility of new beginnings and opportunities right around the corner: all you need do is take time for self-love and care to move into this new and positive life. Love and abundance are waiting for you! </h5>\n\nRhodochrosite can also be used to increase the libido and enhance the sex drive. Known as a general balancer, including balancing male and female energy, this is a useful stone in helping to release our inhibitions and embrace all aspects of life.",
+            "image": "shopify://shop_images/heart--solar-plexus-1659673890131_292839da-a79e-4608-be99-b75713afd5ac.webp",
+            "text-tc": "<p><strong>Origin:</strong> Argentina, Colorado Peru and South Africa.<br/><strong>Colours: </strong>Pink, red, white and orange.<br/><strong>Helps with:</strong> Inner peace, strength, soothing, love, relationships, overcoming trauma, stress relief, compassion, selflessness, calm, patience, growth, generosity.<br/><strong>Usage tip: </strong>Keep Rhodochrosite around your home to promote happiness and transformation. Place Rhodochrosite around your bed to enhance your sex life. Meditate with Rhodochrosite to bring calm and comfort into your heart after times of trauma and upheaval. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_qD4LJP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0002_rhodochrosite-1659244535307.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_TyEeCU": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ReVMaa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Rhodonite",
+            "richtext": "<p>Self-love ✧ Kindness ✧ Healing<br/></p><p>A truly nurturing crystal, this stone paves the way to self-love, rejuvenation and happiness.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Providing protection against jealousy and anger whilst promoting generosity and nurturing feelings of love, Rhodonite is a beautiful crystal with extraordinary healing properties.\n\n<h5>Associated with bringing balance to the heart and root chakras, this crystal radiates love for self and self-worth by ‘holding space’ for the user.</h5>\n\nThis is not simply a ‘love stone’ radiating acceptance and love, but a crystal to bring relief to those suffering from emotional distress, depression or anxiety. Rhodonite pulsates with love, producing kindness, joy and understanding in those who wear or use it.\nRhodonite can also assist with personal intuition or with inner clarity, especially when interpreting dreams or in the aftermath of an intense meditation.",
+            "image": "shopify://shop_images/pf-3b4f6968--CHAKRAS19.webp",
+            "text-tc": "<p><strong>Origin:</strong> Russia, India, Mexico, Sweden, Madagascar, Brazil, and USA.<br/><strong>Colours:</strong> Red, pink.<br/>Works with: Rose Quartz, Emerald, Garnet.<br/><strong>Helps with:</strong> Acceptance of self, dream interpretation, conflict, emotional upheaval, self-love, relationships, negativity.<br/><strong>Usage tip: </strong>If you have teenagers or a house full of bickering children, place Rhodonite in communal areas to promote positive energies of love and acceptance. Sleep with Rhodonite under your pillow to help with the interpretation or dreams and enhance your psychic abilities.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ReVMaa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0004_stockimage253230418s2015-1632796960335.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_V6gerF": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_bwrYBz": {
+          "type": "richtext",
+          "settings": {
+            "title": "Rose Calcite",
+            "richtext": "<p>Calmness ✧ Self-love ✧ Stress relief</p><p>A true stone of love, the gorgeous pink colour of Rose Calcite tells of compassion, self-worth and joy. This stone will assist those needing to nurture themselves, their heart and mind.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "With Rose Calcite, new opportunities and journeys can begin calmly and stress-free. Used in meditation, this beautiful stone will help you receive and connect with your truth, and you inner self.\n\n<h5>Envelop yourself in love and tranquillity with Rose Calcite </h5>",
+            "image": "shopify://shop_images/pf-7948a4ab--CHAKRAS05.webp",
+            "text-tc": "<p><strong>Colour: </strong>Pink.<br/><strong>Works with:</strong> Clear Quartz, Amethyst, Prasiolite, Peridot.<br/><strong>Helps with:</strong> Self-care, wellbeing, transformations, calm, stress relief, love, balance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bwrYBz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0011_rose-calcite-1659244535361.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_MqmR3J": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_LjqW4F": {
+          "type": "richtext",
+          "settings": {
+            "title": "Rose Quartz",
+            "richtext": "<p>Love ✧ Calm ✧ Healing</p><p>This gorgeous stone opens the channels to unconditional love, kindness and compassion: everyone wants more love in their lives!</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "I absolutely adore Rose Quartz and it is one of Shiny Storm’s most popular crystals. Despite the heart chakra being green in colour, rose quartz, with its pink hues, also holds a deep association with this chakra. Unsurprisingly, it also helps with forgiveness and emotional healing.\n\n<h5>This is a beautiful crystal for self-healing, especially with love-based emotional upsets such relationship breakdowns, betrayal, or the loss of a loved one. </h5>\n\nRose Quartz is a hardworking yet nurturing and gentle crystal which restores a sense of calm and peacefulness to your life, helping you feel connection to others and empower your sense of joy and self-love. For those feeling emotionally depleted or with poor self-image, Rose Quartz will help you to realise and appreciate the amazing worth you bring to the world!",
+            "image": "shopify://shop_images/pf-7948a4ab--CHAKRAS05_bc3265c6-c580-4e0b-ad7a-1f0a1aa0bf2d.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, India, Japan, USA.<br/><strong>Energy: </strong>Amplifies.<br/><strong>Colour:</strong> Pink.<br/><strong>Works with:</strong> Clear Quartz, Amethyst, Prasiolite, Peridot.<br/>Helps with: Love, nourishment, self-love, compassion, forgiveness, kindness, emotional healing, joy, peace, playfulness.<br/><strong>Usage tip: </strong>Place Rose Quartz around your home to promote love, balance and positive relationships. Carry Rose Quartz with you after emotional upheaval with a loved one to help initiate healing. Rub Rose Quartz on your forehead at night for a restful and rejuvenating sleep.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_LjqW4F"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-1eea621e--MEANING-PHOTOS24.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_zkCAWH": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_HhWaRC": {
+          "type": "richtext",
+          "settings": {
+            "title": "Rutilated quartz",
+            "richtext": "<p>Energising ✧ Abundance ✧ Joy</p><p>This high vibrational stone is used primarily to improve our happiness and excitement at the joy life can bring. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "It can activate and balance our entire chakra system, removes energetic blocks, can replenish our life force energies, help manifest our desires and improve our confidence, clarity and mental awareness. Sound to good to be true?\n\n\n\n<h5>Rutilated Quartz is extremely powerful and can be used to change our lives in meaningful and potent ways, but this crystal should also be used with care: Rutilated Quartz accelerates almost any process it is used in. </h5>\n\nMessages from the dream world are easily understood. Space and energies from the spiritual and physical world are quickly bridged and attuned. Manifestations arrive rapidly, and hidden feelings are unveiled swiftly. This incredible stone can help you achieve great satisfaction and accomplish all your heart’s desires, but its power can also enhance any unacknowledged negativity, and provide answers and manifestations you may desire but are not quite ready to receive. As such, the power of Rutilated Quartz should be used sparingly by those just starting out on their inner healing journey, and with care by experienced users.",
+            "image": "shopify://shop_images/rutilated-quartz-1670190925428.webp",
+            "text-tc": "<p><strong>Origin:</strong> Sierra Leone, Brazil, Madagascar, South Africa and Switzerland.<br/><strong>Colours: </strong>Clear, yellow and red.<br/><strong>Works with:</strong> Black Tourmaline, Shungite and Black Opal.<br/><strong>Helps with:</strong> Balancing, alignment, dreamwork, manifestation, clarity, higher realms, joy, happiness, meditation, action, wisdom, abundance, inspiration, focus, expansion, truth, strength, confidence, attraction, communication, creativity.<br/><strong>Usage tip: </strong>Place in the centre of a family living room or other space to bring balance and harmony to the energy contained within. When using Rutilated Quartz frequently, if you begin to feel anxious or negative, remove the stone. Concentrate on healing your inner self until you feel strong and courageous enough to continue on your journey to achieving your desires. Only then should you return Rutilated Quartz to your suite of crystals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HhWaRC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/screenshot-20221205-at-7_0004_rutilated-quartz-1670190976463.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_tjgJFq": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_KqcR88": {
+          "type": "richtext",
+          "settings": {
+            "title": "Ruby Zoisite",
+            "richtext": "<p>Insight ✧ Balance ✧ Strength</p><p>Also known as Anyolite, this beautiful crystal will help stimulate your passion for spirituality and enhance your past-life work. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "A gorgeous combination of both Ruby and Zoisite, the red flecks through jade greens draws the eye and mind into a super state of consciousness and manifestation. Negativity is dispelled, chakras are balanced, strength and courage are enhanced and our true selves are awakened.\n\n<h5>Ruby Zoisite carries powerful energy to enhance psychic abilities and astral projection during meditation.</h5>\n\nThis crystal is also known as a mourning stone, offering comfort and helping to release the grief and sorrow of losing a loved one.",
+            "image": "shopify://shop_images/ruby-zoisite-1670188452750.webp",
+            "text-tc": "<p><strong>Origin: </strong>Tanzania<br/><strong>ColourS:</strong> Green, red, jade green, blood red and olive green..<br/><strong>Works with:</strong> Sapphire<br/><strong>Helps with:</strong> Balancing, insight, intuition, strength, courage, self-enquiry, manifestation, determination, creativity, confidence, passion, growth, spirituality, awakening, grief. <br/><strong>Usage tip:</strong> Meditate with Ruby Zoisite over the chakra you would like to attain greater insight into.In times of grief, wear Ruby Zoisite to ease your emotional pain.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KqcR88"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/rubyzoisite-1670188193587.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_8KEqFE": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_Kj6JW3": {
+          "type": "richtext",
+          "settings": {
+            "title": "Serpentine",
+            "richtext": "<p>Calming ✧ Detoxify ✧ Self-belief</p><p>This ancient stone is capable of balancing our entire chakra system through its gentle, calming and grounding energy.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Serpentine aids in the release of harmful emotions that are difficult to shift, helping to release these heavy feelings and dissolve energetic blocks. \n\n<h5>Serpentine is often used for protection of whatever is precious to us, whether that be physical possessions or our own inner being. </h5>\n\nThis crystal will protect and nurture your core beliefs and allow you to remain true to yourself, bringing a sense of well-being and calm to our lives.",
+            "image": "shopify://shop_images/serpentine-1670190817185.webp",
+            "text-tc": "<p><strong>Origin: </strong>Worldwide. South Africa, Australia, Austria, Germany, France, Madagascar, Peru and the United Kingdom.<br/><strong>Helps with:</strong> Meditation, transformation, protection, calming, soothing, grounding, self-belief, inner peace, well-being.<br/><strong>Usage tip:</strong> If you are at the very beginning of your meditation practice, hold Serpentine to help quieten your mind.Wear Serpentine to facilitate a calm outcome to an emotional or traumatic discussion.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Kj6JW3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/screenshot-20221205-at-7_0006_serpentine-1670190834804.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_wjAWAk": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ERxD3Q": {
+          "type": "richtext",
+          "settings": {
+            "title": "Selenite",
+            "richtext": "<p>Cleansing ✧ Clearing ✧ Meditation</p><p>Because this is a very soft crystal, Selenite is often carved into beautiful shapes.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "With strong protective qualities, this crystal does not need to be cleaned since it does not absorb or collect energy. It is used heavily as a cleansing stone for other crystals.\n\n<h5>Selenite helps to open and clear the crown chakra, opening the gateway to the highest levels of self, aiding in spiritual growth.</h5>\n\nAs a protective stone, it will help dispel negative energy and keep outside forces from entering your space. Selenite will also amplify the power in all your other crystals, helping to gain the most out of your stones.",
+            "image": "shopify://shop_images/pf-b97cc542--CHAKRAS09.webp",
+            "text-tc": "<p><strong>Origin:</strong> Chine, France, India, United States.<br/><strong>Energy: </strong>Amplifies.<br/><strong>Colours: </strong>White.<br/><strong>Works with: </strong>All stones.<br/><strong>Helps with:</strong> Protecting against and cleansing negative energy, cleaning other crystals and auras, intuition, forgiveness, connection with the Divine.<br/><strong>Usage tip:</strong> As a soft stone, great care must be taken to ensure your piece is not scratched or chipped. Never expose Selenite to water or salt. Cleanse your auric field by leaving Selenite by your bed. Place Selenite at the corners of your home to create a peaceful and safe space, free from the influence of outside forces. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ERxD3Q"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0024_stockimage414328950s2015-1632796968119.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_WkqPAp": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_djQTJV": {
+          "type": "richtext",
+          "settings": {
+            "title": "Shungite",
+            "richtext": "<p>Purify ✧ Healing ✧ Protection<br/></p><p>This is an extraordinary purifying stone and one whose dull hues when unpolished contradict its incredible powers.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "As a purifier, Shungite will aid you in cleansing, healing and detoxing your mind, body and spirit. This crystal will also help with problematic and overwhelming emotions, as well as any form of anxiety or depression, filling the body with light and suppressing negativity. Whilst this may highlight some of the more unpleasant aspects of our personality, Shungite will also help us clear what isn’t needed, and allow us to embrace those aspects which are more positive and beneficial to our wellbeing.\n\n<h5>An excellent aid in clearing the body of toxins, this crystal supports the immune and lymphatic systems, whilst cleansing and rejuvenating the chakras. \n</h5>\n\nContaining electrical conducting properties, Shungite is also a naturally occurring inhibitor of electromagnetic radiation.",
+            "image": "shopify://shop_images/pf-9b45c581--CHAKRAS08.webp",
+            "text-tc": "<p><strong>Origin:</strong> Russia.<br/><strong>Colours: </strong>Black.<br/><strong>Helps with:</strong> Clearing, cleansing, invigorating the chakras, suppressing negativity, clarity, strengthening the mind, body and soul.<br/><strong>Usage tip:</strong> Placing Shungite at the base of any electronic in your home, and on the back of your phone can significantly reduce the radial output without interfering with its performance.<br/>Use Shungite as an elixir by placing a piece in water for a brief period of time to purify; drink the water to detoxify the body and aid in cell growth.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_djQTJV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0006_stockimage179483734s2015-1632796960539.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_HDYGU6": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_dzJTix": {
+          "type": "richtext",
+          "settings": {
+            "title": "Smoky Quartz",
+            "richtext": "<p>Grounding ✧ Strength ✧ Transformation</p><p>With the power to convert negative energy into positivity and with a strong capacity for grounding, Smoky Quartz is an amazingly helpful crystal.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "It is known as a stone of tranquillity, and can help in gaining clarity, connecting with the Earth and becoming more grounded as well as opening you up to your inner being.\n\n<h5>Perhaps its greatest quality is the ability to dispel and transmute negative energy around it. \n</h5>\n\nSmoky Quartz will absorb and store this energy, especially when surrounded by confusion, intense or destructive activity. In this way, it is an incredibly powerful stone of strength, and one that has been used as such since the Celts discovered it thousands of years ago.Smoky Quartz is associated with the lower chakras and helps to anchor you to the natural world. This in itself relieves anxiety, stress and negative thinking. This is also an excellent crystal for those who would like to reign in their wandering mind and concentrate with more clarity and focus.",
+            "image": "shopify://shop_images/pf-6fb63a05--CHAKRAS20.webp",
+            "text-tc": "<p><strong>Origin:</strong> All over the world.<br/><strong>Energy:</strong> Amplifies.<br/><strong>Colours:</strong> Light grey to brown.<br/><strong>Works with:</strong> Clear Quartz, Citrine, Amethyst.<br/><strong>Helps with: </strong>Transmuting negative energy into positive energy, magnifying positive energy, concentration, breaking habits, grounding, detoxifying, connecting all the chakras to balance energies, connection to higher guidance.<br/><strong>Usage tip:</strong> Smoky Quartz is very useful in balancing the energy of the home and I almost always carry one with me: its effects are just so powerful in creating positivity! Sprinkle chips of Smoky Quartz all around the perimeter of your home to charge the area with positive energy. Carry a piece with you and announce your intentions to it daily: this will allow the universe to hear the path you would like to take.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dzJTix"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-621edf4c--MEANING-PHOTOS27.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_RkgCM3": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_H8Hdbr": {
+          "type": "richtext",
+          "settings": {
+            "title": "Black Tourmaline",
+            "richtext": "<p>Protection ✧ Regeneration ✧ Courage</p><p>Black Tourmaline is an incredibly helpful crystal and one I use frequently to absorb any negativity surrounding me.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "In ancient times, magicians used Black Tourmaline to ward off demons, but now along with draining off negativity and providing protection, black tourmaline also helps keep you grounded, promotes self-confidence and reduces anxiety. In this way, it is a powerful regeneration stone, helping to channel the courage to face new challenges whilst creating a safe and balanced energy around you.\n<h5> It can also aid in purifying environments where excessive emotional negativity has occurred. </h5>\nIf Black Tourmaline breaks, it has become saturated with the harmful energy it has absorbed. Simply return it lovingly to the Earth and see me in person at a market on the Sunshine Coast or the Shiny Storm website for a new piece.",
+            "image": "shopify://shop_images/pf-b19ec247--CHAKRAS02.webp",
+            "text-tc": "<p><strong>Origin: </strong>Australia, Brazil, Sri Lanka, United States.<br/><strong>Energy: </strong>Absorbs.<br/><strong>Colours:</strong> Black.<br/><strong>Works with:</strong> Clear quartz.<br/><strong>Helps with:</strong> Anxiety, excessive anger, psychic protection, protection against negativity,  grounding, stress release, cleansing negative emotions.<br/><strong>Usage tip:</strong> If you are in close and constant contact with someone who is excessively negative (such as a colleague), position a piece of Black Tourmaline between you and that person. Wearing Black Tourmaline will help keep you safe from harm. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_H8Hdbr"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0013_stockimage55888105xl2015-1632796960904.jpg",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_XLN6Up": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_r6PkNq": {
+          "type": "richtext",
+          "settings": {
+            "title": "Sodalite",
+            "richtext": "<p>Truth ✧ Intuition ✧ Growth</p><p>Need an intellectual energy enhancer? This is your crystal. Sodalite is wonderful for helping with insight and unlocking your intuition, whilst enhancing your mental and emotional states.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Dive deep into your subconscious with Sodalite for an authentic evaluation of your self, your strengths, weaknesses and true desires. It balances intellect with intuition, allowing you to see things clearly.\n\n<h5>Called the logic stone, Sodalite has a high vibration frequency and helps to heal the inner self, whilst maintaining a calm and reflective state.</h5>\n\nThis means it is perfect for anyone mastering their creativity, boosting mental performance and enhancing intuition and insight. For those seeking intellectual clarity or needing to focus on difficult concepts, Sodalite can help with concentration.",
+            "image": "shopify://shop_images/throat-and-3rd-eye-1659245661667_d6faa475-43a4-4ffa-bed4-ad8652db4b17.webp",
+            "text-tc": "<p><strong>Origin:</strong> Australia, Brazil, Canada, Russia<br/><strong>Energy: </strong>Amplifies<br/><strong>Colours:</strong> Blue with white<br/><strong>Works with:</strong> Amethyst, Lapis Lazuli, Rose Quartz<br/><strong>Helps with:</strong> Truth seeking, intuition, insight, balance, creativity, efficiency, confidence, communication, psychic abilities, spiritual guidance, concentration and focus.<br/><strong>Usage tip:</strong> Give Sodalite to those needing a self-esteem or confidence boost. Place Sodalite in your office to boost clarity, efficiency and creativity. Meditate with Sodalite when you are confused and need clarity on a particular issue.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_r6PkNq"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0009_stockimage83821698s2015-1632796960545.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_GiJkwg": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_cKfAGt": {
+          "type": "richtext",
+          "settings": {
+            "title": "Strawberry Quartz",
+            "richtext": "<p>Love ✧ Connection ✧ Soothing<br/></p><p>Rare and beautiful, this is an excellent amulet to wear when looking to bring more love into your life!</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Strawberry Quartz attracts the power of new love and romance in all its forms while having a soothing and calming effect.\n\n<h5>This crystal also promotes connection to others and open communication. </h5>\n\nAmplify your intentions to love and be loved, to appreciate and be appreciated and to feel generous to yourself and others.\nStrawberry Quartz will also radiate these feelings of love outward which in turn, attracts more joy and happiness toward you.  Smoky Quartz is associated with the lower chakras and helps to anchor you to the natural world. This in itself relieves anxiety, stress and negative thinking. This is also an excellent crystal for those who would like to reign in their wandering mind and concentrate with more clarity and focus.",
+            "image": "shopify://shop_images/pf-47a28923--CHAKRAS21.webp",
+            "text-tc": "<p><strong>Origin:</strong> Kazakhstan, Mexico, Africa.<br/><strong>Colours:</strong> Pink<br/><strong>Works with:</strong> Thulite, Rose Quartz, Rhodocrosite, Peridot, Carnelian, Orange Calcite, Mahogany Obsidian, Orange Millennium, Kunzite, or Lapis Lazuli<br/><strong>Helps with: </strong>Self-love, self-awareness, clarity, love, generosity<br/><strong>Usage tip: </strong>Wear a pendant of Strawberry Quartz to attract and open your heart to new love. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_cKfAGt"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-df4c018e--MEANING-PHOTOS28.jpg",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_9ppDw6": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_y7zAJN": {
+          "type": "richtext",
+          "settings": {
+            "title": "Sunstone",
+            "richtext": "<p><em>Creativity ✧ Abundance ✧ Positivity</em></p><p>You can almost see the positive energy emanating from Sunstone, a crystal whose bright orange and red tones reflect the life-giving sustenance of the sun.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Beautiful to behold and powerful to use, Sunstone is a mood-lifting, action-inspiring, abundance-attracting super stone. Importantly, this crystal allows us to let go of negative feelings, and connect our mind and its desires with the body and action.\n\n<h5>Detach yourself from old, destructive and negative patterns and restore your sense of fun, enjoyment and abundance with Sunstone.</h5>\n\nThis crystal will also aid in transforming your creative self from stuck and unproductive, to inspired and inventive. In this way, using Sunstone is almost like flicking an abundance switch: positive desires will simply flow toward you.",
+            "image": "shopify://shop_images/sunstone-chakras03-1657778714252.webp",
+            "text-tc": "<p><strong>Origin:</strong> Sri Lanka, India, Mexico, Norway, Russia, China, Canada and the United States.<br/><strong>Energy:</strong> Transformational<br/><strong>Colours:</strong> Orange, gold, amber and peach<br/><strong>Helps with:</strong> Transformation, luck, abundance, depression, positivity, anxiety, lethargy, creativity, mental clarity, protection, inspiration, leadership, cleansing.<br/><strong>Usage tip:</strong> Keep Sunstone with you to maintain positivity.Meditate with Sunstone to enhance your clairvoyant powers. Soak sore feet in a warm bath containing Sunstone.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_y7zAJN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sunstone-1657778822638.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_bJmPEA": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_WTgFCa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Tigers Eye",
+            "richtext": "<p>Confidence ✧ Clarity ✧ Self</p><p><br/>With glistening yellow and brown colours resembling its namesake, Tiger’s Eye can also be blue and red in colour.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "A powerful manifestation stone, this is a wonderful crystal to help uncover and empower the self and enhance creativity.\nTiger’s Eye gives off vibrations of strength, clarity and inspiration whilst energizing the body. Creative energy is greatly enhanced, with the stone helping to overcome tiredness and despair so that the user can carry out action to completion. \n\n<h5>Tiger’s Eye is also a stone of mental clarity and balance, sharpening the mind and thoughts. </h5>",
+            "image": "shopify://shop_images/pf-a9ff8a56--CHAKRAS22.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, Canada, South Africa, India.<br/><strong>Energy: </strong>Absorbs.<br/><strong>Colours: </strong>Red, yellow, blue.<br/><strong>Works with:</strong> Citrine.<br/><strong>Helps with:</strong> The self, self-esteem, self-expression, self-love, self-worth, defining the self, self-criticism, manifestation.<br/><strong>Usage tip:</strong> Unpolished Tiger’s Eye contains asbestos, so using polished stones is safest. Meditate with Tiger’s Eye with a specific problem in mind to gain greater clarity and confidence. Place Tiger’s Eye around you to promote the courage to embrace new beginnings.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_WTgFCa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0001_stockimage332575294s2015-1632796959982.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_LK7ppz": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_LJnpF7": {
+          "type": "richtext",
+          "settings": {
+            "title": "Tourmalinated Quartz",
+            "richtext": "<p>Clarity ✧ Calming ✧ Protection</p><p>Bringing together the properties of both Quartz and Tourmaline, this is an exceptional grounding and protection stone.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Promoting balance and inner strength whilst bringing protection against external forces, Tourmalinated Quartz is useful for anyone looking to repel negativity and promote calm. It is also an excellent stone for cleansing your immediate environment.\n\n<h5>With the ability to neutralise and harmonise negative and positive thoughts, this is an effective troubleshooting stone which will help to counteract adverse habits and thought patterns.</h5>\n\nMost importantly, Tourmalinated Quartz helps fight depression and anxiety.",
+            "image": "shopify://shop_images/pf-b97cc542--CHAKRAS09_0fddd5ca-7293-4202-a529-731f244c6f54.webp",
+            "text-tc": "<p><strong>Origin: </strong>Brazil.  <br/><strong>Colours:</strong> Clear with black or green inclusions.<br/><strong>Helps with: </strong>Protection, grounding, lifting depression, anxiety, clearing negativity, attracting positivity, meditation, healing, clearing blocks.</p><p><strong>Usage tip: </strong>When facing a day filled with conflict or negativity, wear Tourmalinated Quartz to help build a protective circle of light around you. Use this stone during meditation to aid in clarity and encourage you to let go of negative thoughts.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_LJnpF7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-9f10c7ac--MEANING-PHOTOS31.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_UUqtfn": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_qmRtGa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Turquoise",
+            "richtext": "<p>Voice ✧ Truth ✧ Peace</p><p>A truth-seeking crystal aiding communication, this beautiful blue turquoise stone is an excellent companion for anyone who is shy or struggles to find their physical, intellectual or emotional voice.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Turquoise is associated with the throat chakra, relieving stress and awakening higher knowledge.\nTurquoise has deep symbolism for many nations and has been in use in the world’s most ancient societies for thousands of years. Historically, this sacred stone of shamans and warriors has been used to promote clear vision, spirituality and spiritual power. For you and I however, Turquoise is an excellent aid in activating the throat chakra, making it easier for us to voice those thoughts and opinions we might not normally have the courage to speak.\n\n<h5>This in turn helps with balance, alignment and promotes peace and serenity. \n</h5>\nBe careful: some vendors sell dyed howlite, which has similar veining as turquoise and can easily pass for this powerful stone, but without the healing benefits. This is so cruel: everyone deserves to be able to trust they are receiving only the best, genuine crystals! I will always ensure you are only ever purchasing real turquoise.",
+            "image": "shopify://shop_images/throat-1659245221285_7050ce02-154d-45bb-9107-24476d6860f2.webp",
+            "text-tc": "<p><strong>Origin:</strong> All over the world.<br/><strong>Energy:</strong> Absorbs.<br/><strong>Colours:</strong> Light blue to deep turquoise.<br/><strong>Works with:</strong> Clear quartz, onyx.<br/><strong>Helps with: </strong>Communication, spiritual power, luck and prosperity, relieving anxiety, safe travel, voicing personal truths and creative ideas, protection against theft, promoting ambitions and empowerment, absorbing excessive energy, balancing.<br/><strong>Usage tip:</strong> If a relationship is under stress, place turquoise in your home, bedroom, workplace or wherever you spend significant time with that person. Wear Turquoise around your neck during interviews or events where you must think and speak nimbly. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_qmRtGa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0010_stockimage72270111s2015-1632796960647.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_wXnnMA": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_bFKWFg": {
+          "type": "richtext",
+          "settings": {
+            "title": "Unakite",
+            "richtext": "<p>Energy ✧ Protection ✧ Self-Healing</p><p>Known for being gentle yet powerful, Unakite helps to balance feelings of pain, emotional heaviness and unease with more positive and calming energies.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "When we use Unakite, our mental, spiritual and emotional bodies are unified in a balanced and positive manner, affording us more strength and courage to deal with our day to day concerns and past traumas. \n\n<h5>In this way, this beautiful stone is exceptional in the self-healing process, able to clear away stagnant energy quickly and instil a sense of inner peace and mental clarity. </h5>\n\nAlso considered a potent protection stone, Unakite has been used for centuries especially in regards to fertility and throughout pregnancy to help the safe arrival of healthy babies. Protection of the home and loved ones is assured with Unakite aiding the smooth flow of loving and affectionate energies throughout.",
+            "image": "shopify://shop_images/heart-1659672849887_91e3132f-de87-4351-8b5b-f7614e6e797e.webp",
+            "text-tc": "<p><strong>Origin:</strong> USA, China, South Africa, Brazil, Sierra Leone.<br/><strong>Energy:</strong> Amplifies.<br/>Colours: Green, olive green and red.<br/><strong>Helps with:</strong> Emotional trauma, blocked energy, love, protection, self-healing, peace, wisdom, clarity, patience, calm, relief, anxiety, fertility, strength, energy flow, vitality, self-love, growth, development, joy, happiness. <strong>Usage tip:</strong> Meditate with Unakite to help disperse negative and heavy feelings. Wear Unakite to boost your self confidence and dispel negative thoughts. Place Unakite on your belly to help with fertility and to develop a strong connection with babies in the womb. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bFKWFg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0022_unakite-1659244535417.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_biTiWi": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_YnkENh": {
+          "type": "richtext",
+          "settings": {
+            "title": "Vanadinite",
+            "richtext": "<p>Focus ✧ Motivation ✧ Action</p><p>Enhance your productivity, focus and determination to see a project through to completion with Vanadinite.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "This beautiful red stone helps motivate us into action, expanding the mental processes which go along with it and facilitating the organisation of our thoughts and ideas. It is of particular use to students, those building their own business and anyone involved in exercise (or wishing to do more, more frequently).\n\n<h5>Vanadinite strengthens our resolve while protecting from external negativity and demands.</h5>\n\nThis crystal will help bring balance to your life, and point you on the path to greater fulfilment happiness.",
+            "image": "shopify://shop_images/vanadinite-1670190216125.webp",
+            "text-tc": "<p><strong>Origin:</strong> Morocco, Mexico and the US.<br/><strong>Colours:</strong> Red, orange, and brown.<br/><strong>Works with: </strong>Carnelian, Ionite and Lapis Lazuli.<br/><strong>Helps with:</strong> Motivation, focus, creativity, protection, happiness, success, achievement, self-discipline, strength, productivity, balancing.<br/><strong>Usage tip: </strong>Place in a prominent area of your home to increase energy flow.Gift Vanadinite to anyone committing long hours to work, study or exercise: it will help them stay focused and dedicated.Place Vanadinite on your lower chakras for a lengthy, focused meditation session.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_YnkENh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/screenshot-20221205-at-7_0001_vanadinite-1670190067292.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_EW33cJ": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_mAjChR": {
+          "type": "richtext",
+          "settings": {
+            "title": "Yellow Calcite",
+            "richtext": "<p>Action ✧ Manifestation ✧ Personal will</p><p>Also known as Golden or Honey Calcite, this beautiful stone radiates the nurturing energies of Mother Earth, but with a glowing ‘oomph’ of action. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Connected to the base and sacral chakras, Yellow Calcite will stimulate personal will and creation, helping to jumpstart any new and/or large project. This crystal will expand your energy and motivation not only to begin those huge tasks, but to complete them with greater efficiency and true gratitude. \n\n<h5>Additionally, Yellow Calcite works with the higher chakras to enhance meditation, expand the higher mind and attune us to our spiritual guides. </h5>\nRelax and allow this incredible stone inspire you to action and achieve your true potential!",
+            "image": "shopify://shop_images/yellow-calcite-1670189992121.webp",
+            "text-tc": "<p><strong>Origin:</strong> Mexico<br/><strong>Energy:</strong> Amplifies<br/><strong>Colours: </strong>Gold, yellow and amber.<br/><strong>Works with:</strong> Tiger eye and Citrine<br/><strong>Helps with:</strong> Motivation, action, manifestation, relaxation, intuition, spirituality, higher realms, creativity, personal will, strength, focus, abundance, grounding, transformation, inspiration.<br/><strong>Usage tip: </strong>Place Yellow Calcite anywhere creativity and inspiration are required: in the kitchen, next to an artist’s easel or a study nook. When starting a new task or project, write the challenges and problems on a piece of paper in front of you, and then meditate with Yellow Calcite at your base or on your Third Eye. Allow golden light to energise your emotional, physical and spiritual bodies as you move through your meditation and the solutions to your challenges will find their way to you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_mAjChR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/yellow-calcite-1670189866791.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_crtEfU": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_PeNLmc": {
+          "type": "richtext",
+          "settings": {
+            "title": "Yellow Jasper",
+            "richtext": "<p>Inner Strength✧ Protection ✧ Clarity</p><p>From the Jasper family, Yellow Jasper is another powerful healer. This stone is especially useful for those needing a boost to their inner strength, mental clarity and social confidence.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "It protects from gossip, jealousy and spite, motivates you to have higher energy and enthusiasm for life, and inspires focus to get the work done. The slow stable energy of Yellow Jasper also makes it a wonderful aid for those needing to seek clarity on their relationships and direction in both life and work. Promoting inner strength, this stone helps support your determination to overcome life’s frustrations. Long term use will build your self-confidence and positivity, which in turn will attract those with a similarly positive energy to you. \n\n<h5>Thus, Yellow Jasper is good for building friendships and is an excellent crystal for encouraging achievement at work.  </h5>\n\nIn the body, Yellow Jasper helps purify the body of toxins and impurities, especially in the digestive areas, reduces feelings of nausea and works to develop your immune system.",
+            "image": "shopify://shop_images/solar-plexus-1659673793381_aac0c24d-ad91-4971-83f9-137209c6a792.webp",
+            "text-tc": "<p><strong>Origin:</strong> Brazil, India, Madagascar, South Africa, Russia, India, Venezuela, Australia, Uruguay and US.<br/><strong>Colours:</strong> Mustard and sandy yellow.<br/><strong>Helps with: </strong>Clarity, positivity, courage, confidence, inner strength, protection against negativity, purifies, protection, determination, focus, motivation, enthusiasm.<br/><strong>Usage tip: </strong>Wear Yellow Jasper to help ease self-consciousness in social settings, such as meeting new people or groups. Yellow Jasper is useful when fasting, lending emotional support and confidence in your self-discipline, whilst giving your energy levels a positive boost. Ideal for grounding yourself at the beginning of deep meditations, place Yellow Jasper in front of you for an easier transition to a meditative state.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PeNLmc"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0014_yellow-jasper-1659244535367.jpg",
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "pf-2789993d",
+    "page_richtext_section_cULCgB",
+    "right_image_text_ttXXEy",
+    "right_image_text_AiBrgb",
+    "image_tab_section_TyEeCU",
+    "left_image_tab_section_V6gerF",
+    "image_tab_section_MqmR3J",
+    "left_image_tab_section_zkCAWH",
+    "image_tab_section_tjgJFq",
+    "left_image_tab_section_8KEqFE",
+    "image_tab_section_wjAWAk",
+    "left_image_tab_section_WkqPAp",
+    "image_tab_section_HDYGU6",
+    "left_image_tab_section_RkgCM3",
+    "image_tab_section_XLN6Up",
+    "left_image_tab_section_GiJkwg",
+    "image_tab_section_9ppDw6",
+    "left_image_tab_section_bJmPEA",
+    "image_tab_section_LK7ppz",
+    "left_image_tab_section_UUqtfn",
+    "image_tab_section_wXnnMA",
+    "left_image_tab_section_biTiWi",
+    "image_tab_section_EW33cJ",
+    "left_image_tab_section_crtEfU"
+  ]
+}

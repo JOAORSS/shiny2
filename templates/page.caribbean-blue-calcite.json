@@ -1,0 +1,96 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-2789993d": {
+      "type": "pf-2789993d",
+      "disabled": true,
+      "settings": {}
+    },
+    "page_image_banner_JhEmAr": {
+      "type": "page-image-banner",
+      "settings": {
+        "color_icons_bg": "",
+        "image": "shopify://shop_images/pf-4372c6fb--CRYSTAL-PHOTOS08.jpg",
+        "mobile-image": "shopify://shop_images/pf-4372c6fb--CRYSTAL-PHOTOS08.jpg",
+        "b_link": ""
+      }
+    },
+    "page_richtext_section_zVDeiF": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_HH9V4Q": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>This stone represents one of the newest discoveries in the crystal kingdom, and whilst our knowledge of the Caribbean Blue Calcite is limited, its power when used with the third eye and crown chakra is obvious.  Caribbean Blue Calcite was first found in Pakistan as late as 2019, and has a soothing azure blue colour with white and light brown Aragonite.</p><h5>This calming oceanic colour resonates with its use within meditation,</h5><p>where users can certainly feel an almost instant sensation of dropping away into serenity.<br/>This crystal can help in more effective and transformative meditations. </p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HH9V4Q"
+      ],
+      "settings": {
+        "title-t": "Caribbean Blue Calcite",
+        "title": "➸ Serenity\n<br>\n➸ Intuition\n<br>\n➸ Self-Discovery",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "primary"
+      }
+    },
+    "right_image_text_MWdLBr": {
+      "type": "right-image-text",
+      "blocks": {
+        "richtext_3qjFFg": {
+          "type": "richtext",
+          "settings": {
+            "title": "",
+            "richtext": "<ul><li><strong>Origin: </strong>Pakistan</li><li><strong>Colours: </strong>Blue, white, light brown. </li><li><strong>Chakra: </strong>Crown, Third Eye. </li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_3qjFFg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-79323484--CHAKRAS09.webp",
+        "color_scheme": "tertiary"
+      }
+    },
+    "full_width_richtext_nEHDUH": {
+      "type": "full-width-richtext",
+      "blocks": {
+        "richtext_jUKcnr": {
+          "type": "richtext",
+          "settings": {
+            "title": "Usage tip:",
+            "richtext": "<p>Keep this crystal by your bedside for greater dream awareness. Hold a piece of Caribbean Blue Calcite in your hand as you begin your meditations to<strong>help ease yourself into a calm and serene state.</strong></p>",
+            "cta_url": "shopify://pages/caribbean-blue-calcite-clovecode",
+            "cta_text": "Shop your Caribbean Blue Calcite now"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_jUKcnr"
+      ],
+      "settings": {
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "pf-2789993d",
+    "page_image_banner_JhEmAr",
+    "page_richtext_section_zVDeiF",
+    "right_image_text_MWdLBr",
+    "full_width_richtext_nEHDUH"
+  ]
+}

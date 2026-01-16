@@ -1,0 +1,370 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-2789993d": {
+      "type": "pf-2789993d",
+      "disabled": true,
+      "settings": {}
+    },
+    "page_richtext_section_cULCgB": {
+      "type": "page-richtext-section",
+      "blocks": {
+        "richtext_jib63U": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h5>✧ Each crystal holds a power and energetic makeup<br/>of its very own ✧</h5><p>Browse our crystals below and their meanings to find the perfect one for you.</p>",
+            "cta_url": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_jib63U"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title-t": "Crystals C - E",
+        "title": "Discover other crystals\n<br>\n<a href=\"/pages/discovercrystals\">&gt; Crystals A - E</a>\n<br>\n<a href=\"/pages/crystals-f-j\">&gt; Crystals F - J</a>\n<br>\n<a href=\"/pages/discover-q-z\">&gt; Crystals Q - Z</a>",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary"
+      }
+    },
+    "right_image_text_ttXXEy": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_Qtkqmh": {
+          "type": "richtext",
+          "settings": {
+            "title": "Caribbean Blue Calcite",
+            "richtext": "<p>Serenity ✧ Intuition ✧ Self-Discovery<em><br/></em></p><p>This stone represents one of the newest discoveries in the crystal kingdom, and whilst our knowledge of the Caribbean Blue Calcite is limited, its power when used with the third eye and crown chakra is obvious.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Caribbean Blue Calcite was first found in Pakistan as late as 2019, and has a soothing azure blue colour with white and light brown Aragonite. This calming oceanic colour resonates with its use within meditation, where users can certainly feel an almost instant sensation of dropping away into serenity.\n\n<h5>This crystal can help in more effective and transformative meditations.</h5>",
+            "image": "shopify://shop_images/pf-d65a084a--CHAKRAS09_0d2059a7-666d-4c40-ae98-40d4b1f09958.webp",
+            "text-tc": "<p><strong>Origin:</strong> Pakistan<br/><strong>Colours:</strong> Blue, white, light brown.<br/><strong>Usage tip:</strong> Keep this crystal by your bedside for greater dream awareness. Hold a piece of Caribbean Blue Calcite in your hand as you begin your meditations to help ease yourself into a calm and serene state. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Qtkqmh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/caribbean-1632797600530_41dddf74-41c1-42e5-9240-e16b827dffb4.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "right_image_text_AiBrgb": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_qD4LJP": {
+          "type": "richtext",
+          "settings": {
+            "title": "Carnelian",
+            "richtext": "<p>Strength ✧ Self-Awareness ✧ Energy</p><p>This crystal brings beautiful power into your life, giving strength to your weaknesses and improvement to your general wellbeing:</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "it is particularly beneficial for those who are timid or struggle to make decisions and act on them. Not only does it strengthen, building confidence, courage and passion, it will boost your energy. Carnelian can also help temper a sense of self that is either completely inflated or totally diminished, bringing awareness and clarity of who you truly are to the surface. When we understand ourselves and acknowledge our power, we can begin to love ourselves and from there, happiness and joy are just around the corner!\n\n<h5>Carnelian is an excellent motivator, encouraging us to stop waiting for our dreams to appear, but rather make them happen through channels of manifestation and divine motivation. </h5>\n\nThis crystal helps us have the courage to take the risks often associated with strong, assertive action.    Carnelian is also attributed as being a ‘good luck’ stone, as well as attracting abundance.",
+            "image": "shopify://shop_images/pf-63dca236--CHAKRAS16.webp",
+            "text-tc": "<p><strong>Origin: </strong>Brazil, Iceland, India, Peru.<br/><strong>Energy: </strong>Absorbs.<br/><strong>Colours:</strong> Red-orange (root), orange and brown-orange (sacral).<br/><strong>Works with:</strong> Clear Quartz, Malachite, Sardonyx.<br/><strong>Helps with:</strong> Self-awareness, courage, passion, strengthening life-force, willpower, manifesting, abundance, protection, boosting energy, overcoming negativity and mistreatment, becoming present, self-love, action, inner and physical strength.<br/><strong>Usage tip: </strong>Have Carnelian close to you when speaking publicly or at occasions of importance: the stone will bring power and strength to your voice. And since this is an energy boosting stone, keep Carnelian away from places you normally relax in, like bed! </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_qD4LJP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/carnelian-1632797734767.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_TyEeCU": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ReVMaa": {
+          "type": "richtext",
+          "settings": {
+            "title": "Celestine",
+            "richtext": "<p>Tranquility ✧ Balance ✧ Expression<br/><br/>This is a beautiful all-round crystal, perfect for encouraging and maintaining a peaceful energetic balance within your home.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Celestite has powerful abilities to uplift and relax those who use this beautiful, sky-blue crystal. Especially good at promoting clarity within the self, Celestite helps the user speak their inner truth with a sense of serenity. Aligned to the throat, brow and third eye chakras, this stone is an excellent meditative tool, clearing the way to higher planes of being. Seeing with such clarity allows for the genuine expression of the most authentic self without the intrusion of ego or blocking belief systems.\n\n\n\n<h5>Celestite can help with longstanding conflict and arguments, energetically pushing towards the discovery of new opportunities and experiences. </h5>\n\nIn this way, this crystal allows us to move on from emotional blocks we continue to hang onto.",
+            "image": "shopify://shop_images/pf-876c3942--CHAKRAS15.webp",
+            "text-tc": "<p><strong>Origin:</strong> Madagascar, Egypt, Poland, Peru, Libya, Mexico, UK, and US.<br/><strong>Colours:</strong> Blue, light blue.<br/><strong>Helps with: </strong>Communication, meditation, accessing higher thought, calm, negotiations, resolving issues, clearing emotional blocks.<br/><strong>Usage tip:</strong> Place near your work station to maintain focus while blocking out ‘white noise’. Hold Celestite in your hand during intense negotiations to help encourage balanced thought processes and decision making. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ReVMaa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0003_stockimage272211898s2015-1632796960186.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_V6gerF": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_bwrYBz": {
+          "type": "richtext",
+          "settings": {
+            "title": "Chevron Amethyst",
+            "richtext": "<p>Spirituality ✧ Connection to Higher Realms ✧ Manifestation</p><p>Need a potent aid to connect with your higher self, the self who is the truest, purest and happiest form of ‘you’? Let us introduce you to the beautiful, v-banded Chevron Amethyst!</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "This is one of the strongest crystals to use when working with the higher Chakras. Its powerful abilities to help strengthen your connection to the higher realms are legendary, whilst attunement and alignment within your own emotional and energetic body are other benefits.\n\n<h5>As one of the finest Third-Eye Chakra stones, using Chevron Amethyst will almost certainly help you attune yourself to the higher realm whilst realigning your purpose and desires here on Earth.</h5>\n\nHere, this crystal allows for greater clarity, wisdom and insight into your true self, which in turn aids in the manifestation of your desires. Its power can also be used to dissolve and protect from negativity, another wonderful quality when delving into our higher spirituality to learn and heal.",
+            "image": "shopify://shop_images/chevron-amethyst-chakras09-1657777230528_69adfe81-a9c9-403c-b025-bcb67647fcb8.webp",
+            "text-tc": "<p><strong>Origin: </strong>India, Russia and Brazil.<br/><strong>Colours: </strong>Purple, white, indigo and violet.<br/><strong>Works with:</strong> Sodalite, Lapis Lazuli, Phenacite and Tanzanite.<br/><strong>Helps with:</strong> Spiritual awakening, wisdom, clarity, intuition, inspiration, meditation, accessing higher realms, insight, attunement, alignment, dreams, higher self, expanded awareness, inner healing, manifestation, inner self.<br/><strong>Usage tip:</strong>  Meditate with Chevron Amethyst to gain deeper access and insight into the truest form of your higher self, as well as the higher realms.Sleep with Chevron Amethyst to enhance the clarity of your dreams.Activate your Third Eye by place a piece of Chevron Amethyst over it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bwrYBz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/chevron-amethyst-texture-1657777427625.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_MqmR3J": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_LjqW4F": {
+          "type": "richtext",
+          "settings": {
+            "title": "Chrysocolla",
+            "richtext": "<p>Communication ✧ Calm ✧ Clarity</p><p>The rare and exceptionally beautiful Chrysocolla is a stone which has been used for thousands of years and was considered sacred by the Ancient Egyptians and Native Americans.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "It is a powerful communication stone, with added benefits of empowerment and calming properties. This makes Chrysocolla an excellent aid to those subject to high emotions, panic and anxiety.\n\n<h5>Use of this stone will help with discharging negative energies, and allowing the truth and inner wisdom you hold within you to surface and be heard in a calm and peaceful manner</h5>\n\nReducing panic and overwhelm, Chrysocolla will help you regain and maintain a clear head and calm mind. Considering its powerful ability to balance the emotions, this stone is excellent for attracting unconditional love. Also considered a wonderful healing stone, Chrysocolla will help draw out infection and pain from effected body parts. As a feminine crystal, it has long been used with pain associated with pregnancy and menstruation.",
+            "image": "shopify://shop_images/chrysocolla-1659672792960.webp",
+            "text-tc": "<p><strong>Origin:</strong> Chile, Congo, Russia, and the USA.<br/><strong>Energy: </strong>Absorbing<br/><strong>Colours:</strong> Blue, green and light blue.<br/><strong>Works with: </strong>Quartz, Azurite and Malachite.<br/><strong>Helps with:</strong> Communicating, calm, mental clarity, decision making, speaking truth, peace, tranquillity, balance, pain relief, love, healing, truth, acceptance inner peace, emotional balance.<br/><strong>Usage tip:</strong> Those who tend to become erratic and are very emotional during stressful situations should carry a piece of Chrysocolla daily. Wear Chrysocolla in a necklace to help you communicate clearly and calmly.Place Chrysocolla directly onto the stomach to relieve period pain.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_LjqW4F"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/final-meaning-pics_0016_layer-2-1632784884365.jpg",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_zkCAWH": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_HhWaRC": {
+          "type": "richtext",
+          "settings": {
+            "title": "Chrysoprase",
+            "richtext": "<p>Growth ✧ Clarity ✧ Inner Knowledge</p><p>Also known as Australian Jade because of the large quantities currently coming out of Queensland, Chrysoprase symbolises new life in all its manifestations.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "This is a stone of the heart, one which can be used to encourage growth, confidence and development, filling the aura with strong healing energies. It will help activate and open one's heart chakra, making it easier to get in touch with your emotional body, whilst also instilling a sense of humility. Chrysoprase encourages us to channel strength directly into our heart space, to cleanse and rid all negative, self-focused and egotistical energy.\n\n<h5>This is particularly helpful when attempting to heal a broken heart, and in preparation for a new relationship.</h5>\n\nChrysoprase also provides a connection between our solar plexus chakra (our will) and our heart. When this connection is opened, we have increased clarity, stamina and determination: this provides us with the strength to truly focus on doing what our heart desires. This stone also promotes humility, clarity, inner knowledge, creativity, fertility and stamina, which makes it a powerful tool for new beginnings of the heart and business.",
+            "image": "shopify://shop_images/heart-1659672849887_e5733150-c7b3-455b-a815-a09cf4eb6c63.webp",
+            "text-tc": "<p><strong>Origin:</strong> Australia, Brazil, India, Madagascar, Russia, Poland, Tanzania and US.<br/><strong>Colours:</strong> Apple green, blue, green and light blue.<br/><strong>Helps with:</strong> Selflessness, new beginnings, opportunities, clarity, self-discovery, motivation, compassion, wisdom, humility, truth, creativity, growth, inner peace, manifestation.<br/><strong>Usage tip:</strong>  Keep Chrysoprase near your work station or in times of emotional upheaval to maintain clarity of thought. Meditate with Chrysoprase to calm and heal a broken heart.  Recharge Chrysoprase in the open under a half moon to ensure good health and a happy marriage.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HhWaRC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0006_chrysoprase-1659244535329.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_tjgJFq": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_KqcR88": {
+          "type": "richtext",
+          "settings": {
+            "title": "Citrine",
+            "richtext": "<p>Creativity ✧ Abundance ✧ Joy</p><p>Citrine is both beautiful and powerful, channelling creativity and clarifying thought and emotion.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "This is a gorgeous addition to your crystal collection. From the quartz family and ranging in colour from pale yellow to orange and amber, there are two types of Citrine: naturally occurring and heat-treated amethyst. The difference can be seen in the golden yellow colour. If it is extremely clear and saturated it is a heat-treated amethyst. Despite this, it still has similar properties to naturally occurring Citrine, though the latter tends to contain a more powerful energy. Ask me or any of my wonderful crystal experts at Shiny Storm; we are more than happy to help if you are unsure which is which!\n\n<h5>Citrine is associated with the sacral and solar plexus chakras and is known to be beneficial for creativity, manifestation and imagination. </h5>\n\nThis beautiful crystal can help to open the door to inner thought during manifestation, awakening your creative thought and then helping to drive the action needed to bring those ideas into reality. In this way, Citrine is a stone which can bring great joy and abundance as your positive thoughts become tangible things. Also known as the ‘Merchant’s Stone’, Citrine will bring wealth and abundance to wherever it’s warming energy is directed.\nThis crystal is also associated with boosting the immunity, stamina and digestive orders, especially with its connections to the lower chakras. Citrine can also help clear energy blocks around feelings of lack and doubt.",
+            "image": "shopify://shop_images/pf-75b8105b--CHAKRAS04.webp",
+            "text-tc": "<p><strong>Origin: </strong>Brazil, Peru, Russia, United States.<br/><strong>Energy: </strong>Amplifies.<br/><strong>Colour: </strong>Yellow.<br/><strong>Works with: </strong>Clear quartz, amethyst, ametrine, smoky quartz.<br/><strong>Helps with: </strong>Encouraging abundance, creativity, self-esteem and self-image, creating generosity, promoting clarity, manifestation, personal action (or getting stuff done!), facilitating new beginnings.<br/><strong>Usage tip: </strong>I place Citrine all over my home, particularly in places I want abundance and prosperity to flow. In a physical store, I would definitely place a large Citrine on the left corner at the back, maybe close to a plant to give the other company. Stones like to have friends too!<br/>If you’re not sure where to put it but you would love to encourage more prosperity to enter your life, place Citrine in the back-left corner of your home. This is the prosperity corner, which can be found by standing at the front door, facing inward and looking toward the back-left. In fact, placing Citrine in the back-left corner of any room will increase the riches flowing into your life. Consider your place of work, whether that is a bricks and mortar shopfront, an online business or your office: where would Citrine be best placed to promote abundance?  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KqcR88"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-822a094f--MEANING-PHOTOS11.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_8KEqFE": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_Kj6JW3": {
+          "type": "richtext",
+          "settings": {
+            "title": "Clear Quartz",
+            "richtext": "<p>Harmony ✧ Power ✧ Healing<br/></p><p>This is often the first crystal people purchase when starting out on their healing and wellbeing journey due to the versatile nature of this stone.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "The power of this beautiful crystal has been used by ancient cultures right through to the present day to enliven and focus the energy of the holder. Clear Quartz is associated with all the chakras, and is one of the most balancing and calming of all the crystals available to us. It enhances and clarifies our thoughts, disperses negative energy and encourages harmony and joy.\n\n<h5> Clear quartz is especially beautiful to hold close when you are trying to connect to yourself and/or starting new habits, like meditation. </h5>\n\nClear quartz is also a self-cleansing crystal and if you have a large cluster, can be used as a power crystal to cleanse and charge others. It will also intensify the power of any crystal it works with by placing the flat end of the quartz at the second crystal and the point away from it.",
+            "image": "shopify://shop_images/pf-02df2853--CHAKRAS01_5cf2d459-eaed-41b7-a7a0-e66e9e60b3fc.webp",
+            "text-tc": "<p><strong>Origin:</strong>All over the world.<br/><strong>Energy:</strong>Amplifies.<br/><strong>Colours:</strong>Milky white to clear.<br/><strong>Works with:</strong>All other crystals.<br/><strong>Helps with:</strong>Amplifying the properties of all other crystals and our own emotions, clear thought, improving concentration, receptiveness to clear messages, connection to higher consciousness, protection, cleansing and purification, intensifying energy and thought, balancing the body, mind and spirit.<br/><strong>Usage tip:</strong>Care needs to be taken when using Clear Quartz: because it amplifies energy and emotion, this can also have a negative effect if you are feeling sad or the stone has absorbed unhelpful energy. I always place a Clear Quartz close to a Smoky Quartz, since the later will convert that negative energy or emotion to positive energy. <br/>Use a cluster of Clear Quartz points to cleanse and clear your crystal collection with ease. If you feel physical discomfort somewhere on your body, place Clear Quartz directly onto the skin to help ease that pain. Place Clear Quartz on your work desk to encourage focus and creativity, or in the main living area of your home to attract light and harmony. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Kj6JW3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pf-2a094f60--MEANING-PHOTOS12.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_wjAWAk": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_ERxD3Q": {
+          "type": "richtext",
+          "settings": {
+            "title": "Desert Rose",
+            "richtext": "<p>Cleansing ✧ Charging ✧ Balancing<br/></p><p>This beautiful and fragile crystal which can be used to anchor the user in a grounded space, helping them to gain balance and alignment with their true self.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Being selenite crystal, the Desert Rose also has the capability of cleansing the surrounding environment and auras as well as charging the crystals around it. Considering the short growth cycle of this crystal (only a few hundred years rather than millions) its power is amazing!\n\n<h5>Associated with the root, crown and sacral chakras, the Desert Rose can help promote clarity, focus and has a high energetic vibration which helps to clear and balance energy.</h5>\n\nThis is especially useful for manifesting your desires.",
+            "image": "shopify://shop_images/pf-a7f50f4e--CHAKRAS13.webp",
+            "text-tc": "<p><strong>Origin:</strong>Deserts, Mexico, Morocco, Saudi Arabia, Australia, Tunisia, and Afghanistan.<br/><strong>Colours:</strong>Brown, white.<br/><strong>Helps with:</strong>Manifestation, clarity, focus, meditation, grounding, balancing, clearing energy, charging and cleansing other crystals.<br/><strong>Usage tip:</strong>Place a Desert Rose next to your workspace, kitchen or bedroom to help cleanse the energy of the room. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ERxD3Q"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/old-pics_0002_stockimage288882186s2015-1632796960083.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_WkqPAp": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_djQTJV": {
+          "type": "richtext",
+          "settings": {
+            "title": "Dalmatian Jasper",
+            "richtext": "<p>Manifestation ✧ Self-love ✧ Balancing</p><p>Mesmerising black dots characterise this nurturing stone. Jasper is wonderful and nurturing, though Dalmatian Jasper takes this trait and amplifies it into one of manifestation, courage and confidence. </p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "This crystal imbues a sense of purpose, and gives us greater impetus and action to bring our dreams into reality. A harmoniser of emotions and balancer of composure under stressful situations, Dalmatian Jasper also helps us reflect and review our past actions. \n\n<h5>Using this stone in this way, we can move forward on our healing journey with helpful information for better decision making.</h5>\n\nAdditionally, Dalmatian Jasper has a grounding energy, supports family and has a calming influence on children and animals.",
+            "image": "shopify://shop_images/dalmatian-jasper-1670194519660.webp",
+            "text-tc": "<p><strong>Origin:</strong>Mexico<br/><strong>Colours:</strong>Pale Yellow, White, Brown, Yellow.<br/><strong>Works with:</strong>Orange Calcite, Smoky Quartz or Tiger Eye<br/><strong>Helps with:</strong>Confidence, courage, manifestation, purpose, personal will, decision making, reflection, manifestation, action, self-love, self-care, development, reflection, stress relief, clarity, focus, grounding.<br/><strong>Usage tip:</strong>Hold a piece of Dalmatian Jasper while practicing gratitude during the Full Moon: reflect and review what you have brought into your reality.Place a piece of Dalmatian Jasper on your desk at work to remain focussed.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_djQTJV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/screenshot-20221205-at-7_0008_dalmatian-jasper-1670194630250.webp",
+        "color_scheme": "primary"
+      }
+    },
+    "image_tab_section_HDYGU6": {
+      "type": "image-tab-section",
+      "blocks": {
+        "richtext_dzJTix": {
+          "type": "richtext",
+          "settings": {
+            "title": "Dragon’s Blood Jasper ",
+            "richtext": "<p>Vitality ✧ Joy ✧ Strength</p><p>Dragon’s Blood Jasper is reminiscent of the fabled animal, with the green colour of the stone representing the skin and deep red the blood. It is a potent symbol, and the stone is no different!</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Dragon’s Blood Jasper is able to help develop self-confidence, a stronger will and the persistence required to overcome obstacles and make lasting transformations in your life. This stone will encourage you to find creative ways to maintain inner equilibrium and outer balance through a new path or approach to joy and happiness. Through its grounding energy, creativity and imagination can’t help but be energised with the courage to make dreams a reality.\n\n<h5>The determination and passion found so readily in Dragon’s Blood Jasper will support your journey of self-discovery and self-love. </h5>\n\nA powerful abundance stone, Dragon’s Blood Jasper also enhances the energy flow of wealth and family. Physically, it aids endurance and inspires determination to complete projects.",
+            "image": "shopify://shop_images/chakras-1659244128918_814d4032-dc08-421e-815d-894fde08572c.webp",
+            "text-tc": "<p><strong>Origin:</strong>South Africa and Australia.</p><p><strong>Energy:</strong>Enhances.</p><p><strong>Colours:</strong>Swirls of green and red.</p><p><strong>Helps with:</strong>Journeys, healing, self-love, strength, confidence, inner self, transformations, endurance, determination, will, abundance, balance, joy, creativity, courage, resilience, adaptability.</p><p><strong>Usage tip:</strong>Use Dragon’s Blood Jasper to properly ground and centre yourself at the beginning of a meditation. Bring abundance to your home and put Dragon’s Blood Stone with a few coins in a place which receives sunshine. Carry Dragon’s Blood Stone when you travel: you will always find the path you seek.  Wear Dragon’s Blood Jasper to enhance your creativity.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dzJTix"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0010_dragons-bloodstone-jasper-1659244535350.webp",
+        "color_scheme": "primary",
+        "text-b1": "",
+        "link-b": ""
+      }
+    },
+    "left_image_tab_section_RkgCM3": {
+      "type": "left-image-tab-section",
+      "blocks": {
+        "richtext_H8Hdbr": {
+          "type": "richtext",
+          "settings": {
+            "title": "Emerald",
+            "richtext": "<p>Love ✧ Healing ✧ Growth</p><p>Directly empowering and enlivening our Heart chakra with free-flowing energy makes Emerald excellent in the aid of emotional healing.</p>",
+            "title-ta": "Read more ⇢",
+            "title-tb": "Chakra ⇢",
+            "title-tc": "Details ⇢",
+            "text-ta": "Its soothing energy restores confidence and provides healing to all through its unconditional love. Emerald helps to overcome heartbreak, when the needs of the heart are not being met or improve your ability to express love. Life simply becomes more joyous with Emerald in your pocket! \n\n\n<h5>As a stone of the heart, Emerald will also help with inspiration and patience in your life and embodies harmony, kindness and love. </h5>\n\nThis makes it a good stone for communication, friendship and cooperation, especially in the family and your greater community. It also promotes balance, and helps us bounce back from sudden change and drama in our lives. Emerald inspires us to live our lives with joy and compassion!",
+            "image": "shopify://shop_images/heart-1659672849887_6098e44a-f406-41d4-89c2-655460d60eda.webp",
+            "text-tc": "<p><strong>Origin:</strong>Africa, Australia, Brazil, Columbia, Egypt and Russia.</p><p><strong>Colours:</strong>Green.</p><p><strong>Helps with:</strong>Balance, self-healing, manifestation, cooperation, compassion, confidence, growth, hope, wisdom, love, passion, truth, justice, healing, trust, joy, transformation.</p><p><strong>Usage tip: </strong>Place Emerald in the eastern part of your room or home to enhance the flow of your Chi, or Universal Life Force. Wear Emerald jewellery to enhance your patience throughout the day. Meditation with Emerald will help you connect with your inner self, manifest your desires and bring love into your life.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_H8Hdbr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0000_emerald-1659244535300.jpg",
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "pf-2789993d",
+    "page_richtext_section_cULCgB",
+    "right_image_text_ttXXEy",
+    "right_image_text_AiBrgb",
+    "image_tab_section_TyEeCU",
+    "left_image_tab_section_V6gerF",
+    "image_tab_section_MqmR3J",
+    "left_image_tab_section_zkCAWH",
+    "image_tab_section_tjgJFq",
+    "left_image_tab_section_8KEqFE",
+    "image_tab_section_wjAWAk",
+    "left_image_tab_section_WkqPAp",
+    "image_tab_section_HDYGU6",
+    "left_image_tab_section_RkgCM3"
+  ]
+}

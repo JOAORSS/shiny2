@@ -1,0 +1,221 @@
+{%- assign section_color = section.settings.color_scheme -%}
+
+{%- assign custom_grid_width = 'lg--up--three-quarters' -%}
+{%- if section.settings.title == blank
+  and section.settings.description == blank
+  and section.settings.cta_url == blank
+-%}
+  {%- assign custom_grid_width = 'lg--up--one-whole' -%}
+{%- endif -%}
+
+<section
+  class="custom section-with-padding color--{{ section_color }}-text bg--{{ section_color }}-background"
+  data-section-type="custom"
+  data-section-id="{{ section.id }}"
+>
+  <div class="max-site-width lg--up--px3">
+    <div class="grid right-image">
+      <div class="image-with-text">
+        <div class="image-section">
+          <img src="{{ section.settings.image | img_url: 'master' }}">
+        </div>
+
+        <div class="text-colmun">
+          {% for block in section.blocks %}
+            <div class="t-1">
+              {% if block.settings.title %}
+                <h2 class="f--heading font-size__heading">{{ block.settings.title }}</h2>
+              {% endif %}
+              <div class="grid__item-1 {% if section.blocks.size > 1 %}font-size__basic{% endif %} {{ block_class }} ">
+                {{ block.settings.richtext }}
+              </div>
+              <div class="          <div class="custom-tabs-row">
+        <!-- FAQ Accordin Start -->
+       <div class="faqpage powerfaq">
+       
+      <div class="power-faq">
+      {% if block.settings.title-ta != blank %}
+        <div class="faq-box">
+          <div class="faq" id="section-{{ forloop.index }}">
+            <h2>
+              {{ block.settings.title-ta | escape }}
+              <span></span>
+            </h2>
+          </div>
+          <div class="content">
+            {{ block.settings.text-ta }}
+          </div>
+          
+        </div>
+          {% endif %}
+           {% if block.settings.title-tb != blank %}
+         <div class="faq-box">
+          <div class="faq" id="section-{{ forloop.index }}">
+            <h2>
+              {{ block.settings.title-tb | escape }}
+              <span></span>
+            </h2>
+          </div>
+             {% if block.settings.image  != blank %}
+          <div class="content">
+            <img src="{{ block.settings.image | img_url: 'master' }}" class="hover-img">
+          </div>
+            {% endif %}
+        </div>
+          {% endif %}
+           {% if block.settings.title-tc != blank %}
+        <div class="faq-box">
+          <div class="faq" id="section-{{ forloop.index }}">
+            <h2>
+              {{ block.settings.title-tc | escape }}
+              <span></span>
+            </h2>
+          </div>
+          <div class="content">
+            {{ block.settings.text-tc }}
+          </div>
+          
+        </div>
+          {% endif %}
+         </div>
+ 
+      </div>
+        
+   <!-- FAQ Accordin Start -->
+      </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+       {%- if section.settings.link-b != blank -%}
+         <div class="inline-bot">
+    <a class="inline-block homepage-more-link  font-size__basic link-underline--primary hover-underline--primary" href="{{ section.settings.link-b}}">
+            {{ section.settings.text-b1 }}
+      </a>
+         </div>
+               {%- endif -%}
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Image with tab",
+  "class": "section-video image-text-t1 right-image-t1  tab-col-t3",
+  "settings": [
+    {
+       "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+    {
+      "type":      "header",
+      "content":   "Color"
+    },
+    {
+       "type": "select",
+       "id": "color_scheme",
+       "label": "Color scheme",
+       "options": [
+          { "value": "primary", "label": "Primary"},
+          { "value": "secondary", "label": "Secondary"},
+          { "value": "tertiary", "label": "Tertiary"}
+       ]
+    },
+         {
+      "id": "text-b1",
+      "type": "text",
+      "label": "Button label",
+       },
+       {
+      "id": "link-b",
+      "type": "url",
+      "label": "Button link",
+       }
+  ],
+    "blocks": [
+    {
+      "type": "richtext",
+      "name": "Rich text",
+      "limit": 1,
+      "settings": [
+       {
+      "id": "title",
+      "type": "text",
+      "label": "Heading",
+       },
+        {
+          "id": "richtext",
+          "type": "richtext",
+          "label": "Text",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+      "type":      "header",
+      "content":   "Title 1"
+       },
+       {
+          "id": "title-ta",
+          "type": "text",
+          "label": "Heading",
+       },
+             {
+      "type":      "header",
+      "content":   "Title 2"
+       },
+       {
+          "id": "title-tb",
+          "type": "text",
+          "label": "Heading",
+       },
+       {
+      "type":      "header",
+      "content":   "Title 3"
+       },
+       {
+          "id": "title-tc",
+          "type": "text",
+          "label": "Heading",
+       },
+        {
+      "type":      "header",
+      "content":   "Info 1"
+       },
+       {
+          "id": "text-ta",
+          "type": "html",
+          "label": "Info",
+       },
+       {
+      "type":      "header",
+      "content":   "Image"
+       },
+          {
+       "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+      "type":      "header",
+      "content":   "Info 3"
+       },
+       {
+          "id": "text-tc",
+          "type": "richtext",
+          "label": "Info",
+       },
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with tab",
+       "category": "Text",
+          "blocks": [
+        {
+          "type": "richtext"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
