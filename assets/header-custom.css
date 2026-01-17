@@ -38,6 +38,8 @@
   display: flex;
   gap: 40px;
   position: absolute;
+  text-align: center;
+  align-items: center;
   left: 50%;
   transform: translateX(-50%);
 }

@@ -86,9 +86,9 @@
           <div class="react-form-group">
             <label class="react-label">Quantity</label>
             <div class="react-quantity-selector">
-              <button type="button" class="react-quantity-btn" onclick="adjustQuantity(-1)">−</button>
-              <input type="text" name="quantity" id="Quantity" value="1" min="1" class="react-quantity-input">
-              <button type="button" class="react-quantity-btn" onclick="adjustQuantity(1)">+</button>
+              <button type="button" class="react-quantity-btn" onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">−</button>
+              <input type="number" name="quantity" id="Quantity" value="1" inputmode="numeric" min="1" readonly class="react-quantity-input">
+              <button type="button" class="react-quantity-btn" onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
             </div>
           </div>
         {% else %}
@@ -156,7 +156,6 @@
   const productImages = [
     {% for media in image_media %}
       {
-        // se preferir manter img_url, pode; aqui uso uma URL grande mas não "master" por performance
         src: "{{ media | image_url: width: 2400 }}",
         width: {{ media.width | default: 2400 }},
         height: {{ media.height | default: 2400 }},
@@ -195,22 +194,12 @@
     lightbox.loadAndOpen(currentImageIndex);
   };
 
-  function adjustQuantity(delta) {
-    var input = document.getElementById('Quantity');
-    if (!input) return;
-
-    var currentValue = parseInt(input.value, 10);
-    if (isNaN(currentValue)) currentValue = 1;
-
-    var newValue = currentValue + delta;
-    if (newValue < 1) newValue = 1;
-
-    input.value = String(newValue);
-
-    input.dispatchEvent(new Event('input', { bubbles: true }));
-    input.dispatchEvent(new Event('change', { bubbles: true }));
-  }
-
+  window.toggleBundle = function(element) {
+    const checkbox = element.querySelector('.react-bundle-checkbox');
+    if (!checkbox) return;
+    checkbox.click();
+    element.classList.toggle('is-selected', checkbox.checked);
+  };
 
 </script>
 

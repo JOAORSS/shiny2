@@ -2767,6 +2767,8 @@ body .template-product .accordion-open span {
   border: 1px solid #EBE2E0;
   border-radius: 8px;
   padding: 0;
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 .react-quantity-input::-webkit-outer-spin-button,
