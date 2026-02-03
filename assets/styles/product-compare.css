@@ -1,0 +1,66 @@
+  .product-compare-table-wrap {
+    width: 100%;
+    font-family: var(--font-primary);
+  }
+
+  .product-compare-table {
+    width: 100%;
+    border-collapse: collapse; 
+    table-layout: fixed;       
+  }
+
+  .product-compare-table thead tr,
+  .product-compare-table tbody tr {
+    height: 58px;
+  }
+
+  .product-compare-table thead tr {
+    border-bottom: 2px solid #5F09D2;
+  }
+
+  .product-compare-table tbody tr {
+    border-bottom: 1px solid #EBE2E0;
+  }
+
+    .product-compare-table tbody tr:hover {
+        background-color: #5F09D20A;
+        :first-child {
+            color: #5F09D2;
+            font-weight: bold;
+        }
+        
+    }
+
+  .product-compare-table th,
+  .product-compare-table td {
+    border: 0;
+    padding: 0 12px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .product-compare-table th {
+    font-weight: 600;
+    text-align: left;
+  }
+
+.product-compare-table-wrap {
+  width: 100%;
+  font-family: var(--font-primary);
+}
+
+@media (max-width: 900px) {
+  .product-compare-table-wrap {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .product-compare-table {
+    width: max-content;
+    min-width: 720px;  
+    table-layout: auto;
+  }
+}

@@ -1,0 +1,31 @@
+{{ 'styles/Last-hour-banner.css' | asset_url | stylesheet_tag }}
+
+{%- assign s = section.settings -%}
+
+<style>
+  #Section-{{ section.id }} {
+    --bg-gradient-start: {{ 'var(--color-tertiary-background)' }};
+    --bg-gradient-end: {{ 'var(--color-primary-background)' }};
+    --color-text: {{ 'var(--color-tertiary-text)' }};
+    --color-accent: {{ 'var(--color-tertiary-meta)' }};
+    --color-meta: {{ s.color_meta }};
+    --color-border: {{ s.color_border }};
+    
+    --font-body: {{ settings.type_main_font.family }}, {{ settings.type_main_font.fallback_families }};
+  }
+</style>
+
+
+{% schema %}
+{
+  "name": "Banner hour",
+  "settings": [
+    
+  ],
+  "presets": [
+    {
+      "name": "Banner hour"
+    }
+  ]
+}
+{% endschema %}

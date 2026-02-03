@@ -1,59 +1,50 @@
-{%- assign section_color = section.settings.color_scheme -%}
+{{ 'styles/newsletter.css' | asset_url | stylesheet_tag }}
 
+<style>
+  #subscribe-section {
+    --font-primary: {{ settings.type_main_font.family }}, {{ settings.type_main_font.fallback_families }};
+    --font-secondary: {{ settings.type_heading_font.family }};
+  }
+</style>
 
-<section class="newsletter section-with-padding color--{{ section_color }}-text bg--{{ section_color }}-background" data-section-type="newsletter" data-section-id="{{ section.id }}">
-  <div class="max-site-width lg--up--px3">
-    <div class="grid-full">
+<section id="subscribe-section" class="container_component" style="background-color: var(--color-tertiary-background--02)">
 
-      <div class="grid__item-ytt lg--up--one-quarter">
-        <div class="pb1 pl2 pr4 lg--up--p0">
-          {% if section.settings.title == blank %}
-            <h2 class="f--heading font-size__heading m0">{{ 'homepage.onboarding.newsletter_title' | t }}</h2>
-          {% else %}
-            <h2 class="f--heading font-size__heading m0">{{ section.settings.title }}</h2>
-          {% endif %}
-        </div>
-        <div class="pb3 px2 lg--up--p0">
-          {% if section.settings.text != blank %}
-            <div class="line-height--3 font-size__basic">
-              {{ section.settings.text }}
-            </div>
-          {% endif %}
-        </div>
-      </div>
+  <div class="product-subscribe_container">
       
+      {% if section.settings.title == blank %}
+        <h2 class="product-subscribe_title">Subscribe & Save 20%</h2>
+      {% else %}
+        <h2 class="product-subscribe_title">{{ section.settings.title }}</h2>
+      {% endif %}
 
-      <div class="grid__item-ytt lg--up--two-quarters">
-        <div class="px2 lg--up--px0">
-          {% form 'customer' %}
-            {{ form.errors | default_errors }}
-            {% if form.posted_successfully? %}
-              <p class="form--success f--main">{{ 'general.newsletter_form.confirmation' | t }}</p>
-            {% else %}
-              <div class="input-group">
-                <input type="hidden" name="contact[tags]" value="newsletter">
-                <label for="Email" class="hide">{{ 'general.newsletter_form.newsletter_email' | t }}</label>
-                <input type="email"
-                  name="contact[email]"
-                  id="Email"
-                  class="input-group-field px2 py1 bg--transparent border--{{ section_color }}-text color--{{ section_color }}-text"
-                  value="{% if customer %}{{ customer.email }}{% endif %}"
-                  placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}"
-                  autocorrect="off"
-                  autocapitalize="off">
-                <span class="input-group-btn">
-                  <button type="submit" class="btn border--none newsletter__submit px2 py1 bg--{{ section_color }}-text border--{{ section_color }}-text color--{{ section_color }}-text--overlay hover-bg-border--{{ section_color }}" name="commit" id="Subscribe">
-                    <span class="newsletter__submit">{{ 'general.newsletter_form.submit' | t }}</span>
-                  </button>
-                </span>
-              </div>
-            {% endif %}
-          {% endform %}
-        </div>
-      </div>
-
+      <p class="product-subscribe_subtitle">{{ section.settings.text | default: "Join our wellness community and get exclusive offers on your first purchase" }}</p>
+      {% form 'customer', class: 'product-subscribe_form' %}
+        {{ form.errors | default_errors }}
+        {% if form.posted_successfully? %}
+          <p class="product-subscribe_subtitle">{{ 'general.newsletter_form.confirmation' | t }}</p>
+        {% else %}
+          <input type="hidden" name="contact[tags]" value="newsletter">
+          <label for="Email" class="hide">{{ 'general.newsletter_form.newsletter_email' | t }}</label>
+          <input 
+            name="contact[email]"
+            class="product-subscribe_email" 
+            type="email" 
+            required 
+            placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}"
+            autocorrect="off"
+            autocapitalize="off"
+            value="{% if customer %}{{ customer.email }}{% endif %}">
+          <button 
+            id="Email"
+            class="product-subscribe_button button" 
+            name="commit" 
+            id="Subscribe"
+            type="submit">
+              {{ 'general.newsletter_form.submit' | t }}
+          </button>
+        {% endif %}
+      {% endform %}
     </div>
-  </div>
 </section>
 
 {% schema %}

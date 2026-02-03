@@ -1,0 +1,46 @@
+{{ 'styles/product-choose-now.css' | asset_url | stylesheet_tag }}
+
+<style>
+  #WhyChooseNow-{{ section_id }} {
+    --font-primary: {{ settings.type_main_font.family }}, {{ settings.type_main_font.fallback_families }};
+    --font-secondary: {{ settings.type_heading_font.family }};
+  }
+</style>
+
+<div id="WhyChooseNow-{{ section_id }}" class="container_component" style="background-color: var(--color-tertiary-background)">
+  {% if s.why_heading != blank %}
+    <h2 class="why-chooses_title">{{ s.why_heading }}</h2>
+  {% endif %}
+
+  {% if s.why_subtitle != blank %}
+    <p class="why-chooses_subtitle">{{ s.why_subtitle }}</p>
+  {% endif %}
+
+  {% if blocks != blank %}
+  <div class="why-chooses_panel">
+    {% for block in blocks %}
+      {% assign i = forloop.index0 | modulo: 2 %}
+
+      {% if i == 0 %}
+        <div class="why-chooses_block_wrapper">
+      {% endif %}
+
+            <div class="why-chooses_block" {{ block.shopify_attributes }}>
+              <span class="why-chooses_icon" style="--color-block: {{ block.settings.block_color }}" aria-hidden="true">
+                {{ block.settings.icon_svg }}
+              </span>
+
+              <span class="why-chooses_text" style="color: {{ block.settings.block_color }}">
+                {{ block.settings.title }}
+              </span>
+
+              <p class="why-chooses_subtext">{{ block.settings.text }}</p>
+            </div>
+
+      {% if i == 1 or forloop.last %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+</div>

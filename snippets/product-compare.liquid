@@ -1,0 +1,52 @@
+{{ 'styles/product-compare.css' | asset_url | stylesheet_tag }}
+
+<style>
+  #product-compare-{{ section_id }} {
+    --font-primary: {{ settings.type_main_font.family }}, {{ settings.type_main_font.fallback_families }};
+    --font-secondary: {{ settings.type_heading_font.family }};  
+  }
+</style>
+
+<div id="product-compare-{{ section_id }}" class="container_component">
+    
+    <h2 class="product-compare_title">{{ "Compare Solace Chokers" }}</h2>
+
+    <div class="product-compare-table-wrap">
+        <table class="product-compare-table">
+            <thead>
+                <tr>
+                <th scope="col">Gemstone</th>
+                <th scope="col">Color</th>
+                <th scope="col">Energy</th>
+                <th scope="col">Price</th>
+                <th scope="col">Best For</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Amethyst</td>
+                    <td>Purple</td>
+                    <td>Calming, Protective</td>
+                    <td>$59.00</td>
+                    <td>Meditation, Sleep</td>
+                </tr>
+                <tr>
+                    <td>Moonstone</td>
+                    <td>White</td>
+                    <td>Intuition, Balance</td>
+                    <td>$59.00</td>
+                    <td>Intuition, Cycles</td>
+                </tr>
+                <tr>
+                    <td>Clear Quartz</td>
+                    <td>Clear</td>
+                    <td>Clarity, Energy</td>
+                    <td>$59.00</td>
+                    <td>Focus, Amplification</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

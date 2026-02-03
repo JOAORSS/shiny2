@@ -1,10 +1,6 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.8/dist/photoswipe.css">
+{{ 'styles/product-styles.css' | asset_url | stylesheet_tag }}
 
-<style>
-  .react-gallery__main-image {
-    cursor: zoom-in;
-  }
-</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.8/dist/photoswipe.css">
 
 <div class="product-container">
   <div class="react-product-main" id="ProductSection-{{ section.id }}" data-section-id="{{ section.id }}">
@@ -14,11 +10,12 @@
         {%- assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
         <img
           id="MainImage-{{ section.id }}"
-          src="{{ featured_media | img_url: '712x712' }}"
-          width="712px"
-          height="712px"
+          src="{{ featured_media | image_url: width: 1000, height: 1000, crop: 'top' }}"
+          height="712"
+          width="712"
           alt="{{ featured_media.alt | escape }}"
           class="react-gallery__main-image"
+          style="cursor: zoom-in;"
           onclick="openZoom()"
         >
       </div>
@@ -27,13 +24,13 @@
         <div class="react-gallery__thumbnails">
           {% for media in product.media %}
             <img
-              src="{{ media | img_url: '172x172' }}"
+              src="{{ media | image_url: width: 300, height: 300, crop: 'top' }}"
               alt="{{ media.alt | escape }}"
+              height="172"
+              width="172"
               class="react-gallery__thumbnail {% if media == featured_media %}is-active{% endif %}"
-              width="172px"
-              height="172px"
               data-media-id="{{ media.id }}"
-              data-image-src="{{ media | img_url: '712x712' }}"
+              data-image-src="{{ media | image_url: width: 1000, height: 1000, crop: 'top' }}"
               data-index="{{ forloop.index0 }}"
               onclick="changeImage(this)"
             >
@@ -86,9 +83,9 @@
           <div class="react-form-group">
             <label class="react-label">Quantity</label>
             <div class="react-quantity-selector">
-              <button type="button" class="react-quantity-btn" onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">−</button>
-              <input type="number" name="quantity" id="Quantity" value="1" inputmode="numeric" min="1" readonly class="react-quantity-input">
-              <button type="button" class="react-quantity-btn" onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
+              <button type="button" class="react-quantity-btn" onclick="adjustQuantity(-1)">−</button>
+              <input type="number" name="quantity" id="Quantity" value="1" min="1" class="react-quantity-input" readonly>
+              <button type="button" class="react-quantity-btn" onclick="adjustQuantity(1)">+</button>
             </div>
           </div>
         {% else %}
@@ -97,11 +94,25 @@
 
         <div class="react-actions">
           <button type="submit" name="add" class="react-btn-add">Add to Cart</button>
+
           {% if section.settings.enable_payment_button %}
-            {{ form | payment_button }}
+            <div class="payment-overlay-wrapper">
+              
+              <button type="button" class="react-btn-buy visual-only">
+                Buy with Shop
+              </button>
+
+              <div class="shopify-payment-hidden-trigger">
+                {{ form | payment_button }}
+              </div>
+
+            </div>
           {% else %}
             <button type="button" class="react-btn-buy">Buy Now</button>
           {% endif %}
+            <div class="show-bottom-only">
+              {{ form | payment_button }}
+            </div>
         </div>
 
         <div class="react-payment-section">
@@ -116,85 +127,178 @@
           <p class="react-payment-secure">Guaranteed safe & secure checkout</p>
         </div>
 
-        <div class="react-bundle-section">
-          <h3 class="react-bundle-title">✨ Create Your Bundle & Save</h3>
-          <p class="react-bundle-subtitle">Add complementary products and get up to 20% off</p>
-          
-          <div class="react-bundle-items">
-            <div class="react-bundle-item" onclick="toggleBundle(this)">
-              <input type="checkbox" class="react-bundle-checkbox">
-              <img src="https://placehold.co/48x48?text=Bracelet" width="48px" height="48px" alt="Bracelet" class="react-bundle-image" />
-              <div class="react-bundle-info">
-                <p class="react-bundle-name">Solace Bracelet</p>
-                <p class="react-bundle-desc">3mm Faceted Gemstone • Waterproof</p>
-              </div>
-              <p class="react-bundle-price">$39.00</p>
-            </div>
-
-            <div class="react-bundle-item" onclick="toggleBundle(this)">
-              <input type="checkbox" class="react-bundle-checkbox">
-              <img src="https://placehold.co/48x48?text=Anklet" width="48px" height="48px" alt="Anklet" class="react-bundle-image" />
-              <div class="react-bundle-info">
-                <p class="react-bundle-name">Solace Anklet</p>
-                <p class="react-bundle-desc">3mm Faceted Gemstone • Waterproof</p>
-              </div>
-              <p class="react-bundle-price">$49.00</p>
+        {% assign bundle_blocks = section.blocks | where: 'type', 'bundle_item' %}
+        {% if bundle_blocks.size > 0 %}
+          <div class="react-bundle-section">
+            <h3 class="react-bundle-title">✨ Create Your Bundle & Save</h3>
+            <p class="react-bundle-subtitle">Add complementary products and get up to 20% off</p>
+            
+            <div class="react-bundle-items">
+              {% for block in bundle_blocks %}
+                {% assign item = all_products[block.settings.product] %}
+                
+                <div class="react-bundle-item" onclick="toggleBundle(this)" {{ block.shopify_attributes }}>
+                  <input type="checkbox" class="react-bundle-checkbox">
+                  
+                  {% if item != empty %}
+                    <img 
+                      src="{{ item.featured_media | image_url: width: 100, height: 100, crop: 'center' }}" 
+                      width="48px" 
+                      height="48px" 
+                      alt="{{ item.title | escape }}" 
+                      class="react-bundle-image" 
+                    />
+                    <div class="react-bundle-info">
+                      <p class="react-bundle-name">{{ item.title }}</p>
+                      <p class="react-bundle-desc">{{ block.settings.custom_desc | default: item.description | strip_html | truncate: 70 }}</p>
+                    </div>
+                    <p class="react-bundle-price">{{ item.price | money }}</p>
+                  {% endif %}
+                </div>
+              {% endfor %}
             </div>
           </div>
-        </div>
+        {% endif %}
       {% endform %}
     </div>
   </div>
 </div>
 
+{%- assign why_blocks = section.blocks | where: 'type', 'why_item' -%}
+
+{%- for block in section.blocks -%}
+  {%- if block.type == 'why_fixed_group' -%}
+    
+    <style>
+      #WhyChooseNow-{{ block.id }} {
+        --font-primary: {{ settings.type_main_font.family }}, {{ settings.type_main_font.fallback_families }};
+        --font-secondary: {{ settings.type_heading_font.family }};
+      }
+    </style>
+
+    <div id="WhyChooseNow-{{ block.id }}" class="container_component" style="background-color: var(--color-tertiary-background)" {{ block.shopify_attributes }}>
+      {% if block.settings.why_heading != blank %}
+        <h2 class="why-chooses_title">{{ block.settings.why_heading }}</h2>
+      {% endif %}
+
+      {% if block.settings.why_subtitle != blank %}
+        <p class="why-chooses_subtitle">{{ block.settings.why_subtitle }}</p>
+      {% endif %}
+
+      <div class="why-chooses_panel">
+        {%- assign b_color = block.settings.global_color -%}
+
+        {%- for i in (1..4) -%}
+          {%- capture icon_key -%}i{{ i }}_icon{%- endcapture -%}
+          {%- capture title_key -%}i{{ i }}_title{%- endcapture -%}
+          {%- capture text_key -%}i{{ i }}_text{%- endcapture -%}
+
+          {%- assign current_icon = block.settings[icon_key] -%}
+          {%- assign current_title = block.settings[title_key] -%}
+          {%- assign current_text = block.settings[text_key] -%}
+
+          {%- assign mod = i | modulo: 2 -%}
+
+          {%- if mod == 1 -%}
+            <div class="why-chooses_block_wrapper">
+          {%- endif -%}
+
+            <div class="why-chooses_block">
+              <span class="why-chooses_icon" style="--color-block: {{ b_color }}" aria-hidden="true">
+                {{ current_icon }}
+              </span>
+              <span class="why-chooses_text" style="color: {{ b_color }}">
+                {{ current_title }}
+              </span>
+              <p class="why-chooses_subtext">{{ current_text }}</p>
+            </div>
+
+          {%- if mod == 0 -%}
+            </div>
+          {%- endif -%}
+
+        {%- endfor -%}
+      </div>
+    </div>
+  {%- endif -%}
+{%- endfor -%}
+
+{% render 'product-description',
+  s: section.settings,
+  blocks: section.blocks,
+  section_id: section.id,
+  product: product
+%}
+
+{% render 'product-detail',
+  s: section.settings,
+  product: product
+%}
+
+{% render 'product-compare',
+  s: section.settings,
+  product: product
+%}
+
+{% render 'product-loved-by',
+  s: section.settings,
+  blocks: section.blocks,
+  section_id: section.id,
+  product: product
+%}
+
+{% render 'product-subscribe',
+  product: product
+%}
+
 <script type="module">
-  import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.8/dist/photoswipe-lightbox.esm.js';
-  import PhotoSwipe from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.8/dist/photoswipe.esm.js';
+  import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.8/dist/photoswipe-lightbox.esm.js'; 
+  import PhotoSwipe from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.8/dist/photoswipe.esm.js'; 
+  
+  {%- assign image_media = product.media | where: "media_type", "image" -%} 
+  const productImages = [ 
+    {% for media in image_media %} { src: "{{ media | image_url: width: 2400 }}", 
+      width: {{ media.width | default: 2400 }}, 
+      height: {{ media.height | default: 2400 }}, 
+      alt: {{ media.alt | json }} }{% unless forloop.last %},{% endunless %} {% endfor %} 
+    ];
 
-  {%- assign image_media = product.media | where: "media_type", "image" -%}
+      
+    let currentImageIndex = 0;
+    const lightbox = new PhotoSwipeLightbox({ dataSource: productImages, pswpModule: PhotoSwipe });
 
-  const productImages = [
-    {% for media in image_media %}
-      {
-        src: "{{ media | image_url: width: 2400 }}",
-        width: {{ media.width | default: 2400 }},
-        height: {{ media.height | default: 2400 }},
-        alt: {{ media.alt | json }}
-      }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ];
+    lightbox.init();
+     
+    window.changeImage = function(element) { 
+      const mainImage = document.getElementById('MainImage-{{ section.id }}');
+      const newSrc = element.getAttribute('data-image-src');
+      const index = parseInt(element.getAttribute('data-index'), 10);
 
-  let currentImageIndex = 0;
+      if (mainImage && newSrc) { 
+        mainImage.src = newSrc;
+        if (!Number.isNaN(index)) currentImageIndex = index;
+      } 
+      
+      document.querySelectorAll('.react-gallery__thumbnail')
+              .forEach((thumb) => { 
+                thumb.classList.remove('is-active');
+              });
 
-  const lightbox = new PhotoSwipeLightbox({
-    dataSource: productImages,
-    pswpModule: PhotoSwipe
-  });
+      element.classList.add('is-active');
 
-  lightbox.init();
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center'
+      });
+    };
 
-  window.changeImage = function(element) {
-    const mainImage = document.getElementById('MainImage-{{ section.id }}');
-    const newSrc = element.getAttribute('data-image-src');
-    const index = parseInt(element.getAttribute('data-index'), 10);
+    window.openZoom = function() { 
+      if (!productImages.length) return;
+      lightbox.loadAndOpen(currentImageIndex);
+    };
 
-    if (mainImage && newSrc) {
-      mainImage.src = newSrc;
-      if (!Number.isNaN(index)) currentImageIndex = index;
-    }
-
-    document.querySelectorAll('.react-gallery__thumbnail').forEach((thumb) => {
-      thumb.classList.remove('is-active');
-    });
-    element.classList.add('is-active');
-  };
-
-  window.openZoom = function() {
-    if (!productImages.length) return;
-    lightbox.loadAndOpen(currentImageIndex);
-  };
-
-  window.toggleBundle = function(element) {
+  window.toggleBundle = function(element) { 
     const checkbox = element.querySelector('.react-bundle-checkbox');
     if (!checkbox) return;
     checkbox.click();
@@ -203,10 +307,34 @@
 
 </script>
 
+<script>
+  function adjustQuantity(delta) {
+    var input = document.getElementById('Quantity');
+    var currentValue = parseInt(input.value);
+    var newValue = currentValue + delta;
+    
+    if (newValue >= 1) {
+      input.value = newValue;
+    }
+  }
+
+  function toggleBundle(element) {
+    var checkbox = element.querySelector('.react-bundle-checkbox');
+    var isChecked = checkbox.checked;
+    
+    checkbox.checked = !isChecked;
+    
+    if (!isChecked) {
+      element.classList.add('is-selected');
+    } else {
+      element.classList.remove('is-selected');
+    }
+  }
+</script>
 
 {% schema %}
   {
-    "name": "Product React Style",
+    "name": "Product info",
     "class": "pro-page-react",
     "settings": [
       {
@@ -220,6 +348,27 @@
         "id": "show_quantity",
         "label": "Show quantity option",
         "default": true
+      },
+      {
+       "type": "header",  
+       "content": "Description"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_description_button",
+        "label": "Show description",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "description_title",
+        "label": "Description title",
+        "default": "Aesthetic & How to Wear"
+      },
+      {
+        "type": "image_picker",
+        "id": "description_image",
+        "label": "Description image"
       },
       {
        "type": "header",
@@ -250,15 +399,159 @@
         "id": "svg-c",
         "label": "Svg Icon 3"
       },
-       {
+      {
         "type": "text",
         "id": "c-text",
         "label": "Info 3"
+      },
+      {
+        "type": "header",
+        "content": "Why choose now"
+      },
+      {
+        "type": "text",
+        "id": "why_heading",
+        "label": "Title",
+        "default": "Why choose now?"
+      },
+      {
+        "type": "text",
+        "id": "why_subtitle",
+        "label": "Subtitle",
+        "default": "Key benefits you get today"
+      },
+      {
+        "type": "header",
+        "content": "Loved By (Reviews)"
+      },
+      {
+        "type": "text",
+        "id": "loved_title",
+        "label": "Loved By Title",
+        "default": "Loved by Our Customers"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "bundle_item",
+        "name": "Bundle Product",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Select Product"
+          },
+          {
+            "type": "text",
+            "id": "custom_desc",
+            "label": "Custom Description",
+            "default": "3mm Faceted Gemstone • Waterproof"
+          }
+        ]
+      },
+      {
+        "type": "description",
+        "name": "Description block",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Conteúdo:",
+            "default": "<p>Write your formatted description here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "checkbox",
+            "id": "mod_short",
+            "label": "Modifier: short",
+            "default": false
+          },
+          {
+            "type": "checkbox",
+            "id": "mod_inverted",
+            "label": "Modifier: inverted",
+            "default": false
+          }
+        ]
+      },
+      {
+        "type": "why_item",
+        "name": "Why item",
+        "settings": [
+          {
+            "type": "color",
+            "id": "block_color",
+            "label": "Block color",
+            "default": "#5F09D2"
+          },
+          {
+            "type": "html",
+            "id": "icon_svg",
+            "label": "Icon (SVG)",
+            "default": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M16 20C18.2091 20 20 18.2091 20 16C20 13.7909 18.2091 12 16 12C13.7909 12 12 13.7909 12 16C12 18.2091 13.7909 20 16 20Z\" stroke=\"currentColor\" stroke-width=\"2.66\"/></svg>"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Título",
+            "default": "Fast shipping"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Texto",
+            "default": "Delivered to your door"
+          }
+        ]
+      },
+      {
+        "type": "review",
+        "name": "Customer Review",
+        "settings": [
+          {
+            "type": "text",
+            "id": "rating",
+            "label": "Stars",
+            "default": "★★★★⯪"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Review Text",
+            "default": "The Solace Choker has become my daily companion."
+          },
+          {
+            "type": "text",
+            "id": "author",
+            "label": "Author Name",
+            "default": "Sarah H."
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Customer Image"
+          }
+        ]
       }
     ],
     "presets": [
       {
-        "name": "Product React Style"
+        "name": "Product React Style",
+        "blocks": [
+          {
+            "type": "review"
+          },
+          {
+            "type": "review"
+          },
+          {
+            "type": "review"
+          }
+        ]
       }
     ]
   }
