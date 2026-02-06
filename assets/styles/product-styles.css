@@ -24,7 +24,12 @@
   flex-direction: column;
   gap: 16px;
   min-width: 0;
+<<<<<<< HEAD
   
+=======
+  top: 140px !important;
+
+>>>>>>> fa8bc04d4a560e0beb212c63132bae8a66878373
   @media (min-width: 900px) {
     position: -webkit-sticky; 
     position: sticky;

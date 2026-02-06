@@ -2542,7 +2542,11 @@ body .template-product .accordion-open span {
 }
 
 html {
+<<<<<<< HEAD
   --limite-max-width-px: 1472px;
+=======
+  --limite-max-width-px: 1536px;
+>>>>>>> fa8bc04d4a560e0beb212c63132bae8a66878373
   --limite-min-width-px: 390px;
 }
 
