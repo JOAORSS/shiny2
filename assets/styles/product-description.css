@@ -1,0 +1,104 @@
+.product-description_title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    font-family: var(--font-secondary);
+    text-align: center;
+}
+
+.product-description_container {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: nowrap;      
+}
+
+.invert__modifier {
+  flex-direction: row-reverse;
+}
+
+.short__modifier {
+    max-height: 402px;
+    .product-description_image {
+        max-height: 402px;
+        object-position: center;
+        object-fit: cover;
+    }
+    .product-description_text {
+        max-height: 402px;
+        overflow-y: auto;
+    }
+}
+
+.product-description {
+    font-size: 16px;
+    font-family: var(--font-secondary) !important;
+
+    ol {
+      padding-left: 30px !important; 
+
+      li {
+        padding-left: 8px !important;
+      }
+
+      li::marker {
+        font-size: 24px !important;
+        color: var(--color-tertiary-meta) !important;
+        font-weight: bold !important;
+        font-family: var(--font-secondary) !important;
+      }
+    }
+
+}
+
+.product-description_image,
+.product-description_text {
+  flex: 1 1 712px;        
+  max-width: 712px;
+  min-width: 0;           
+}
+
+.product-description_image {
+  width: 100%;
+  height: auto;           
+  object-fit: cover;
+  border-radius: 8px;
+  object-position: top;
+  display: block;
+}
+
+.product-description_text {
+  width: 100%;
+  height: auto;
+  overflow-wrap: anywhere; 
+  word-break: break-word;
+}
+
+@media (max-width: 900px) {
+  .product-description_container {
+    flex-direction: column;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .short__modifier {  
+    overflow: visible;
+    flex-direction: column-reverse;
+        .product-description_image {
+            width: 100%;
+            max-height: 200px !important;
+            object-position: center;
+        }
+    }
+
+
+  .product-description_image, 
+  .product-description_text {
+    min-width: 358px;
+    width: 100%;
+    height: auto;
+  }   
+}

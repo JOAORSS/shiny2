@@ -1,0 +1,80 @@
+{{ 'product-detail.css' | asset_url | stylesheet_tag }}
+
+<style>
+  #product-detail-{{ section_id }} {
+    --font-primary: {{ settings.type_main_font.family }}, {{ settings.type_main_font.fallback_families }};
+    --font-secondary: {{ settings.type_heading_font.family }};
+    --bg-color: #EBE2E0;  
+  }
+</style>
+
+<div id="product-detail-{{ section_id }}" class="container_component" style="background-color: var(--bg-color);">
+    
+    <h2 class="product-detail_title">{{ "Product Details" }}</h2>
+
+    <div class="product-detail_panel">
+        <div class="product-detail_block" {{ block.shopify_attributes }}>
+            <span class="product-detail_text">
+                Specifications
+            </span>
+
+            <div class="product-detail_subtext rte">
+                <p><strong>Gemstone:</strong> Amethyst<br></p>
+                <p><strong>Size:</strong> 3mm Faceted<br></p>
+                <p><strong>Material:</strong> Stainless Steel / Gold-Plated<br></p>
+                <p><strong>Type:</strong> Choker<br></p>
+                <p><strong>Feature:</strong> Waterproof<br></p>
+                <p><strong>Length:</strong> Adjustable</p>
+            </div>
+        </div>
+
+        <div class="product-detail_block" {{ block.shopify_attributes }}>
+            <span class="product-detail_text">
+                Amethyst Benefits
+            </span>
+
+            <div class="product-detail_subtext rte">
+                <p>✨ Calming & protective energy<br></p>
+                <p>🧘 Enhances spiritual awareness<br></p>
+                <p>💜 Promotes peaceful sleep<br></p>
+                <p>🌙 Reduces stress & anxiety<br></p>
+                <p>✨ Supports emotional balance<br></p>
+                <p>💎 Beautiful natural gemstone<br></p>
+            </div>
+        </div>
+
+        <div class="product-detail_block" {{ block.shopify_attributes }}>
+            <span class="product-detail_text">
+                Care Instructions
+            </span>
+
+            <div class="product-detail_subtext rte">
+                <p>✓ Waterproof design<br></p>
+                <p>✓ Rinse with fresh water after salt water<br></p>
+                <p>✓ Clean with soft cloth regularly<br></p>
+                <p>✓ Store in dry place<br></p>
+                <p>✓ Avoid harsh chemicals<br></p>
+                <p>✓ Wear daily or occasionally<br></p>
+            </div>
+        </div>
+    </div>    
+
+    {% if blocks != blank %}
+    <div class="product-detail_panel">
+
+        {% for block in blocks %}
+            <div class="product-detail_block" {{ block.shopify_attributes }}>
+                <span class="product-detail_text">
+                    {{ block.settings.title }}
+                </span>
+
+                <p class="product-detail_subtext"></p>
+                <div class="product-detail_subtext rte">
+                    {{ block.settings.text }}
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+    {% endif %}
+</div>

@@ -1,0 +1,581 @@
+
+.product-container {
+  width: 100%;
+  max-width: var(--limite-max-width-px);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.react-product-main {
+  width: 100%;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between;
+  gap: 40px;
+  padding-bottom: 40px;
+  font-family: 'Lora', serif;
+  color: #25211D;
+  padding: 24px 32px;
+}
+
+.react-gallery {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  
+  @media (min-width: 900px) {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 100px; 
+    height: fit-content; 
+    z-index: 10;
+  }
+}
+
+@media (width > 1504px) {
+  .react-product-main {
+    padding: 24px 0;
+  }
+}
+
+.react-gallery__main-image-wrapper {
+  width: 100%;
+  max-width: 712px; 
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative; 
+}
+
+.react-gallery__main-image {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+  object-position: top center; 
+  display: block;
+}
+
+.react-gallery__thumbnails {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  overflow-x: auto;
+}
+
+.react-gallery__thumbnail {
+  flex-shrink: 0;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.react-gallery__thumbnail:hover,
+.react-gallery__thumbnail.is-active {
+  border: 4px inset var(--color-tertiary-meta);
+}
+
+.react-info-container {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+}
+
+.react-product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 712px;
+}
+
+.react-info__header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.react-info__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1;
+  letter-spacing: -0.96px;
+  color: #25211D;
+  margin: 0;
+}
+
+.react-info__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #7A6F66;
+  margin: 0;
+}
+
+.react-info__price {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: var(--color-tertiary-meta);
+  margin: 0;
+}
+
+.react-features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--color-tertiary-meta);
+  padding: 32px 0;
+  border-top: 1px solid #EBE2E0;
+  border-bottom: 1px solid #EBE2E0;
+}
+
+.react-feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.react-feature-svg {
+  height: 20px;
+  width: 20px;
+  fill: none;
+}
+
+.react-feature-path {
+  stroke: var(--color-tertiary-meta);
+  stroke-width: 1.67;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.react-feature span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #25211D;
+}
+
+.react-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.react-label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #25211D;
+}
+
+.react-select {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color: #25211D;
+  background: #FFFFFF;
+  border: 1px solid #EBE2E0;
+  border-radius: 8px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2325211D%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 12px;
+}
+
+.react-quantity-selector {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.react-quantity-btn {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #25211D;
+  background: #FFFFFF;
+  border: 1px solid #EBE2E0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  padding: 0;
+}
+
+.react-quantity-btn:hover {
+  background: #F9F8F8;
+}
+
+.react-quantity-input {
+  width: 64px;
+  height: 42px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #25211D;
+  background: #FFFFFF;
+  border: 1px solid #EBE2E0;
+  border-radius: 8px;
+  padding: 0;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.react-quantity-input::-webkit-outer-spin-button,
+.react-quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.react-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.react-btn-add {
+  width: 100%;
+  height: 48px;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background: var(--color-tertiary-meta);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-btn-add:hover {
+  background: #4a0ba8;
+}
+
+.shopify-payment-button__button {
+  border-radius: 8px !important;
+  font-family: 'Lora', serif !important;
+}
+
+.react-btn-buy {
+  width: 100%;
+  height: 52px;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-tertiary-meta);
+  background: rgba(255, 255, 255, 0.002);
+  border: 2px solid var(--color-tertiary-meta);
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-btn-buy:hover {
+  background: rgba(95, 9, 210, 0.05);
+}
+
+.react-payment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding-top: 32px;
+  border-top: 1px solid #EBE2E0;
+}
+
+.react-payment-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #7A6F66;
+  margin: 0;
+}
+
+.react-payment-icons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.react-payment-icon {
+  width: 40px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EBE2E0;
+  border-radius: 4px;
+}
+
+.react-payment-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.react-payment-secure {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #7A6F66;
+  margin: 0;
+}
+
+.react-bundle-section {
+  padding: 24px;
+  background: rgba(95, 9, 210, 0.1);
+  border: 1px solid rgba(95, 9, 210, 0.2);
+  border-radius: 8px;
+}
+
+.react-bundle-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.36px;
+  color: #25211D;
+  margin: 0 0 12px 0;
+}
+
+.react-bundle-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7A6F66;
+  margin: 0 0 20px 0;
+}
+
+.react-bundle-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.react-bundle-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px;
+  background: #FFFFFF;
+  outline: 1px solid #EBE2E0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.react-bundle-item:hover {
+  outline-color: rgba(95, 9, 210, 0.3);
+}
+
+.react-bundle-item.is-selected {
+  outline-color: var(--color-tertiary-meta);
+  outline-width: 2px;
+  padding: 12px;
+}
+
+.react-bundle-checkbox {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  cursor: pointer;
+  accent-color: var(--color-tertiary-meta);
+  pointer-events: none;
+}
+
+.react-bundle-image {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.react-bundle-info {
+  flex: 1 1 auto;
+  min-width: 0;     
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.react-bundle-name,
+.react-bundle-desc {
+  min-width: 0;     
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.react-bundle-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #25211D;
+  margin: 0;
+}
+
+.react-bundle-desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7A6F66;
+  margin: 0;
+}
+
+.react-bundle-price {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-tertiary-meta);
+  margin: 0;
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .react-product-main {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0;
+    padding-bottom: 24px;
+  }
+
+  .react-gallery {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .react-gallery__main-image-wrapper {
+    width: 100%;
+    min-width: var(--limite-min-width-px);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .react-gallery__main-image {
+    width: 100%;
+    aspect-ratio: 1/1 !important;
+    object-fit: cover;
+  }
+
+  .react-gallery__thumbnails {
+    overflow-x: auto;
+    height: 79.5px;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 4px;
+  }
+
+  .react-gallery__thumbnail {
+    width: 79.5px;
+    aspect-ratio: 1 / 1;
+    height: auto;          
+    object-fit: cover;     
+    object-position: top center; 
+    display: block;
+  }
+
+
+  .react-product-info {
+    padding: 0;
+    width: 100%;
+    gap: 24px;
+    min-width: 358px;
+    max-width: 100%;
+  }
+  
+  .product-container {
+    padding: 0 16px;
+  }
+}
+
+
+/* Container que segura as duas camadas */
+.payment-overlay-wrapper {
+  position: relative;
+  width: 100%;
+  display: block;
+  /* Garante que o container tenha altura */
+  min-height: 44px; /* Ajuste para a altura do seu botão */
+}
+
+/* Camada 1: Seu Botão Visual */
+.react-btn-buy.visual-only {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1; /* Fica no fundo */
+}
+
+/* Camada 2: O Botão da Shopify (Invisível e por cima) */
+.shopify-payment-hidden-trigger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; /* Fica POR CIMA do visual */
+  opacity: 0 !important; /* Totalmente transparente */
+  cursor: pointer;
+  overflow: hidden;
+  clip-path: inset(0 0 35px 0);
+}
+
+/* Garante que o conteúdo gerado pelo liquid preencha o espaço */
+.shopify-payment-hidden-trigger .shopify-payment-button__button,
+.shopify-payment-hidden-trigger .shopify-payment-button__button--unbranded {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Efeito Hover: Quando passar o mouse no wrapper, muda a cor do botão visual lá no fundo */
+.payment-overlay-wrapper:hover .react-btn-buy.visual-only {
+  background-color: #dcd4d2 !important; /* Cor de hover */
+}
+
+.show-bottom-only {
+  height: 40px !important;
+  min-height: 40px !important;
+  overflow: hidden !important; 
+  display: flex !important;
+  align-items: flex-end !important; 
+  justify-content: center !important;
+}

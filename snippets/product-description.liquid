@@ -1,0 +1,98 @@
+{{ 'styles/product-description.css' | asset_url | stylesheet_tag }}
+
+<style>
+  #description-{{ section_id }} {
+    --font-primary: {{ s.type_main_font.family }}, {{ s.type_main_font.fallback_families }};
+    --font-secondary: {{ s.type_heading_font.family }};
+  }
+</style>
+
+{%- assign description_blocks = blocks | where: 'type', 'description' -%}
+
+{% if s.enable_description_button %}
+  <section id="description-{{ section_id }}" class="container_component">
+    
+    <h2 class="product-description_title" {{ block.shopify_attributes }}>
+        Aesthetic & How to Wear
+    </h2>
+
+    <div class="product-description_container">
+        <div class="product-description_text">
+            <div class="product-description rte">
+            {{ product.description | default: "Description goes here." }}
+            </div>
+        </div>
+
+        {% if s.description_image %}
+            {% assign desc_image = s.description_image %}
+        {% else %}
+            {% assign desc_image = product.media[0] %}
+        {% endif %}
+
+        <img
+            src="{{ desc_image | image_url: width: 712, height: 1276, crop: 'top' }}"
+            width="712"
+            height="1276"
+            loading="lazy"
+            alt="{{ desc_image.alt | default: '' | escape }}"
+            class="product-description_image"
+        >
+    </div>
+
+    <div class="product-description_container invert__modifier short__modifier">
+      <div class="product-description_text">
+          <div class="product-description rte">
+          {{ product.description | default: "Description goes here." }}
+          </div>
+      </div>
+
+      {% if s.description_image %}
+          {% assign desc_image = s.description_image %}
+      {% else %}
+          {% assign desc_image = product.media.last %}
+      {% endif %}
+
+      <img
+          src="{{ desc_image | image_url: width: 712, height: 1276, crop: 'top' }}"
+          width="712"
+          height="1276"
+          loading="lazy"
+          alt="{{ desc_image.alt | default: '' | escape }}"
+          class="product-description_image"
+      >
+    </div>
+
+
+    {% for block in description_blocks %}
+      {%- assign b = block.settings -%}
+
+      {%- assign container_classes = 'product-description_container' -%}
+
+      {%- if b.mod_short -%}
+        {%- assign container_classes = container_classes | append: ' short__modifier' -%}
+      {%- endif -%}
+      {%- if b.mod_inverted -%}
+        {%- assign container_classes = container_classes | append: ' invert__modifier' -%}
+      {%- endif -%}
+
+      <div class="{{ container_classes }}">
+        <div class="product-description_text">
+          <div class="product-description rte">
+            {{ b.content | default: "Description goes here." }}
+          </div>
+        </div>
+
+        {% if b.image != blank %}
+          <img
+            src="{{ b.image | image_url: width: 712, height: 1276, crop: 'top' }}"
+            width="712"
+            height="1276"
+            loading="lazy"
+            alt="{{ b.image.alt | default: '' | escape }}"
+            class="product-description_image"
+          >
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>
+{% endif %}

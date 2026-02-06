@@ -1,0 +1,104 @@
+.product-subscribe_title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    font-family: var(--font-primary);
+    text-align: center;
+}
+
+.product-subscribe_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 256px;
+  background-color: #6009d22b;      
+  padding: 48px;
+  gap: 16px;
+  border-radius: 8px;
+  p {
+    margin: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: var(--font-primary);
+    color: #7A6F66;
+  }
+}
+
+.product-subscribe_form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: nowrap;
+    padding: 0 24px;
+}
+
+.product-subscribe_email {
+    padding: 12px 16px;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    flex: 1;
+    max-width: 400px;
+    border: solid 1px var(--color-tertiary-meta);
+    font-family: var(--font-primary);
+}
+
+.product-subscribe_button {
+    padding: 12px 24px;
+    background-color: var(--color-tertiary-meta);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-family: var(--font-primary);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.product-subscribe {
+    font-size: 16px;
+    font-family: var(--font-primary) !important;
+}
+
+.product-subscribe_subtitle {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: var(--font-primary);
+    color: #7A6F66;
+}
+
+.product-subscribe_image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 8px;
+    max-height: 256px;
+}
+
+@media (max-width: 900px) {
+  .product-subscribe_form {
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .product-subscribe_email {
+        width: auto;
+        height: 36px;
+    }
+
+    .product-subscribe_button {
+        width: 97.5px;
+        height: 36px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
